@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <div class="page-content" role="main">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </div>
+
+    {% assign js_path = "/assets/js/main.js" %}
+    {% for file in site.static_files %}
+      {% if file.path == js_path %}
+        {% assign js_date = file.modified_time %}
+        {% break %}
+      {% endif %}
+    {% endfor %}
+    <script src="{{ js_path | relative_url }}?v={{ js_date | date: "%s" }}"></script>
+
+  </body>
+
+</html>

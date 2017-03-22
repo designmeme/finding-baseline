@@ -1,0 +1,20 @@
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
+
+#kramdown:
+#  auto_ids: true
+
+# Permalinks
+#permalink:        pretty
+
+# Server
+source:           docs
+destination:      _gh_pages
+#host:             0.0.0.0
+#port:             9001
+baseurl:          /finding-cap-height
+url:              https://designmeme.github.io
+encoding:         UTF-8
+exclude:
+  - assets/scss

@@ -1,0 +1,22 @@
+//
+// Utilities
+//
+
+// screen reader only
+.only-sr {
+  overflow: hidden;
+  position: absolute;
+  top: -999999px;
+  width: 0;
+  height: 0;
+  font-size: 0;
+  line-height: 0;
+  visibility: hidden;
+}
+
+.material-icons {
+  visibility: hidden;
+  @at-root .wf-materialicons-n4-active & {
+    visibility: visible;
+  }
+}
