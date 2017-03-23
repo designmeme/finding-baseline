@@ -3,9 +3,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ site.data.global.title | escape }}</title>
-  <meta name="description" content="{{ site.data.global.description }}">
-  <meta name="keywords" content="{{ site.data.global.keywords }}">
+
+  {% seo %}
 
   <!--icons: http://realfavicongenerator.net/-->
   <link rel="apple-touch-icon" sizes="180x180" href="{{ "/assets/image/favicons/apple-touch-icon.png" | relative_url }}?v={{ site.data.global.favicon_version }}">
@@ -24,23 +23,6 @@
     {% endif %}
   {% endfor %}
   <link rel="stylesheet" href="{{ css_path | relative_url }}?v={{ css_date | date: "%s" }}">
-
-  <!--webfont loader-->
-  <script>
-    //test
-    WebFontConfig = {
-      google: {
-        families: ['Roboto:400,700', 'Roboto Mono:400', 'Material Icons'],
-        text: 'abcdefghijklmnopqrstuvwxyz0123456789@|-–_.'
-      }
-    };
-    (function(d) {
-      var wf = d.createElement('script'), s = d.scripts[0];
-      wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js';
-      wf.async = true;
-      s.parentNode.insertBefore(wf, s);
-    })(document);
-  </script>
 
   {% include ga.html %}
 </head>
