@@ -103,6 +103,16 @@ $nav-padding: 15px;
         font-size: 12px;
         @extend .monospace;
       }
+      &:focus {
+        outline: 0;
+        .category {
+          background: $white;
+        }
+        .family,
+        .cap-height {
+          opacity: 1;
+        }
+      }
     }
     li {
       &:hover,

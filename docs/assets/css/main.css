@@ -236,6 +236,19 @@ textarea {
   font-size: 12px;
 }
 
+.site-header .font-list a:focus {
+  outline: 0;
+}
+
+.site-header .font-list a:focus .category {
+  background: #fff;
+}
+
+.site-header .font-list a:focus .family,
+.site-header .font-list a:focus .cap-height {
+  opacity: 1;
+}
+
 .site-header .font-list li:hover .category, .site-header .font-list li.active .category {
   background: #fff;
 }
