@@ -199,7 +199,7 @@
     }
     selectedFont = that.getAttribute('data-family');
     selectedFontCapHeight = that.getAttribute('data-cap-height');
-    defaultFontCapHeight = '.700';
+    defaultFontCapHeight = '0.700';
 
     if (selectedFont == 'Open Sans Condensed') {
       weight = '300';
@@ -213,7 +213,7 @@
         text: testText
       },
       active: function () {
-        var name, active;
+        var name, active, newValue;
 
         // console.log(selectedFont + ' is Loaded!');
         active = that.parentNode.parentNode.querySelector('.active');
@@ -224,7 +224,8 @@
 
         name = document.getElementById('name');
         name.textContent = selectedFont;
-        capHeightPx.textContent = selectedFontCapHeight || defaultFontCapHeight;
+        newValue = selectedFontCapHeight || defaultFontCapHeight;
+        capHeightPx.textContent = newValue.replace('0.', '.');
 
         setMainArea();
       }
@@ -267,7 +268,8 @@
       return false;
     }
 
-    input.textContent = newValue.toFixed(3);
+    newValue = newValue.toFixed(3).replace('0.', '.');
+    input.textContent = newValue;
 
     setMainArea();
   }
