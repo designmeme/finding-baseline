@@ -11,6 +11,8 @@
   var btnBaselineToggle = document.getElementById('btn-baseline-toggle');
   var btnBaselineColor = document.getElementById('btn-baseline-color');
   var btnBaseline = document.querySelectorAll('#baselineBtns .btn-baseline');
+  var gitLink = document.getElementById('gitLink');
+  var donateLink = document.getElementById('donateLink');
 
   /*
    * Search font family
@@ -234,16 +236,6 @@
 
   Array.prototype.forEach.call(fontLink, function(el, i){
     el.addEventListener('click', setFontFamily);
-    el.addEventListener('click', function() {
-      if (typeof ga != 'undefined') {
-        ga('send', {
-          hitType: 'event',
-          eventCategory: 'Font Family',
-          eventAction: 'click',
-          eventLabel: this.getAttribute('data-family')
-        });
-      }
-    });
   });
 
   window.addEventListener('load', function () {
@@ -276,16 +268,6 @@
 
   Array.prototype.forEach.call(btnCapHeight, function(el, i){
     el.addEventListener('click', editCapHeight);
-    el.addEventListener('click', function() {
-      if (typeof ga != 'undefined') {
-        ga('send', {
-          hitType: 'event',
-          eventCategory: 'Cap Height',
-          eventAction: 'click',
-          eventLabel: (this.getAttribute('data-math') == 'plus' ? '+' : '-') + '' + this.getAttribute('data-unit')
-        });
-      }
-    });
   });
 
   /*
@@ -321,17 +303,6 @@
 
   Array.prototype.forEach.call(btnBaseline, function(el, i){
     el.addEventListener('click', setBaseline);
-    el.addEventListener('click', function() {
-      if (typeof ga != 'undefined') {
-        ga('send', {
-          hitType: 'event',
-          eventCategory: 'Baseline',
-          eventAction: 'click',
-          eventLabel: 'number',
-          eventValue: parseInt(this.textContent)
-        });
-      }
-    });
   });
 
   /*
@@ -346,16 +317,6 @@
   }
 
   btnBaselineToggle.addEventListener('click', toggleBaseline);
-  btnBaselineToggle.addEventListener('click', function() {
-    if (typeof ga != 'undefined') {
-      ga('send', {
-        hitType: 'event',
-        eventCategory: 'Baseline',
-        eventAction: 'click',
-        eventLabel: 'toggle'
-      });
-    }
-  });
 
   /*
    * Change type color
@@ -367,15 +328,80 @@
   }
 
   btnBaselineColor.addEventListener('click', changeColor);
-  btnBaselineColor.addEventListener('click', function() {
-    if (typeof ga != 'undefined') {
+
+
+  /*
+   * Google analytics
+   */
+  if (typeof ga != 'undefined') {
+    Array.prototype.forEach.call(fontLink, function(el, i){
+      el.addEventListener('click', function() {
+        ga('send', {
+          hitType: 'event',
+          eventCategory: 'Font Family',
+          eventAction: 'click',
+          eventLabel: this.getAttribute('data-family')
+        });
+      });
+    });
+
+    Array.prototype.forEach.call(btnCapHeight, function(el, i){
+      el.addEventListener('click', function() {
+        ga('send', {
+          hitType: 'event',
+          eventCategory: 'Cap Height',
+          eventAction: 'click',
+          eventLabel: (this.getAttribute('data-math') == 'plus' ? '+' : '-') + '' + this.getAttribute('data-unit')
+        });
+      });
+    });
+
+    Array.prototype.forEach.call(btnBaseline, function(el, i){
+      el.addEventListener('click', function() {
+        ga('send', {
+          hitType: 'event',
+          eventCategory: 'Baseline',
+          eventAction: 'click',
+          eventLabel: parseInt(this.textContent) + 'px'
+        });
+      });
+    });
+
+    btnBaselineToggle.addEventListener('click', function() {
+      ga('send', {
+        hitType: 'event',
+        eventCategory: 'Baseline',
+        eventAction: 'click',
+        eventLabel: 'toggle'
+      });
+    });
+
+    btnBaselineColor.addEventListener('click', function() {
       ga('send', {
         hitType: 'event',
         eventCategory: 'Baseline',
         eventAction: 'click',
         eventLabel: 'color'
       });
-    }
-  });
+    });
+
+    gitLink.addEventListener('click', function() {
+      ga('send', {
+        hitType: 'event',
+        eventCategory: 'Git',
+        eventAction: 'click',
+        eventLabel: 'Veiw on GitHub'
+      });
+    });
+
+    donateLink.addEventListener('click', function() {
+      ga('send', {
+        hitType: 'event',
+        eventCategory: 'Donate',
+        eventAction: 'click',
+        eventLabel: 'default'
+      });
+    });
+  }
 
 })(window);
