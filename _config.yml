@@ -33,4 +33,4 @@ defaults:
       path: ""
     values:
       layout: default
-      image: http://imgur.com/mwjdNIb
+      image: http://imgur.com/mwjdNIb #og_image
