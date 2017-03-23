@@ -20,3 +20,7 @@ https://designmeme.github.io/finding-cap-height/
 ### extra
 - guide vs blog?
 - google font list - save data (node)
+
+## Copyright and license
+
+Code and documentation copyright 2017 designmeme. Code released under the [MIT License](LICENSE).
