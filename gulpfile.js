@@ -28,7 +28,7 @@ const AUTOPREFIXER_BROWSERS = [
 // - minify css
 // - output: *.css, *.min.css
 gulp.task('css', function() {
-  return gulp.src('docs/assets/scss/*.s+(a|c)ss')
+  return gulp.src('assets/scss/*.s+(a|c)ss')
     // .pipe($.sourcemaps.init())
     .pipe($.sass({outputStyle: 'expanded', precision: 10}).on('error', $.sass.logError))
     // .pipe($.sourcemaps.write())  // Write sourcemap inline
@@ -37,10 +37,10 @@ gulp.task('css', function() {
     // .pipe($.size({title: 'sass', showFiles: true}))
     // .pipe($.sourcemaps.write('.'))
     .pipe($.rename({dirname: ''}))
-    .pipe(gulp.dest('docs/assets/css'))
+    .pipe(gulp.dest('assets/css'))
     .pipe($.cssnano())
     .pipe($.rename({suffix: '.min'}))
-    .pipe(gulp.dest('docs/assets/css'));
+    .pipe(gulp.dest('assets/css'));
 });
 
 
@@ -59,7 +59,7 @@ gulp.task('server', ['css'], function () {
     reloadOnRestart: true
   });
 
-  gulp.watch(['docs/assets/scss/*.s+(a|c)ss'], ['css']);
+  gulp.watch(['assets/scss/*.s+(a|c)ss'], ['css']);
 });
 
 // The default task, build and serve

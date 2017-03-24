@@ -9,7 +9,7 @@ highlighter:      rouge
 #permalink:        pretty
 
 # Server
-source:           docs
+source:           ""
 destination:      _gh_pages
 #host:             0.0.0.0
 #port:             9001
@@ -18,6 +18,13 @@ url:              https://designmeme.github.io
 encoding:         UTF-8
 exclude:
   - assets/scss
+  - Gemfile
+  - Gemfile.lock
+  - gulpfile.js
+  - LICENSE
+  - package.json
+  - README.md
+  - node_modules
 
 gems:
  - jekyll-github-metadata
