@@ -36,6 +36,8 @@ title: Finding Cap Height of Google Fonts
 description: Cap height Tester of Google Fonts. The cap height ratio of typepaces can be used to code sass mixins or css for baseline grid and vertical rythm.
 author: Jihye Lee
 logo: http://imgur.com/f3t9TLU
+facebook:
+  app_id: 230206910787694
 
 defaults:
   - scope:
