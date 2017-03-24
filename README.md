@@ -7,8 +7,7 @@ https://designmeme.github.io/finding-cap-height/
 ## todo
 
 ### v1.0.0
-- remove 0.
-- update seo
+- update seo, sitemap, rebots.txt
 - Responsive Web
 - CrossBrowser
 - Readme

@@ -20,10 +20,12 @@ $nav-padding: 15px;
 
   .site-title {
     flex-shrink: 0;
-    display: block;
     height: 110px;
-    padding-top: 15px;
     text-align: center;
+    > a {
+      display: block;
+      padding-top: 15px;
+    }
     .logo {
       display: inline-block;
       width: 215px;

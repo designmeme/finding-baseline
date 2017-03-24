@@ -30,6 +30,7 @@ exclude:
 gems:
  - jekyll-github-metadata
  - jekyll-seo-tag
+ - jekyll-sitemap
 
 title: Finding Cap Height of Google Fonts
 description: Cap height Tester of Google Fonts. The cap height ratio of typepaces can be used to code sass mixins or css for baseline grid and vertical rythm.

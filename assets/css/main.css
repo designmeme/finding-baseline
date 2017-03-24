@@ -116,10 +116,13 @@ textarea {
   -webkit-flex-shrink: 0;
       -ms-flex-negative: 0;
           flex-shrink: 0;
-  display: block;
   height: 110px;
-  padding-top: 15px;
   text-align: center;
+}
+
+.site-header .site-title > a {
+  display: block;
+  padding-top: 15px;
 }
 
 .site-header .site-title .logo {
