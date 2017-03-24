@@ -25,6 +25,7 @@ exclude:
   - package.json
   - README.md
   - node_modules
+  - vendor
 
 gems:
  - jekyll-github-metadata
