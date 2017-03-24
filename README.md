@@ -2,6 +2,8 @@
 
 https://designmeme.github.io/finding-cap-height/
 
+[![Build Status](https://travis-ci.org/designmeme/finding-cap-height.svg?branch=gh-pages)](https://travis-ci.org/designmeme/finding-cap-height)
+
 ## todo
 
 ### v1.0.0
