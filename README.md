@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://designmeme.github.io/finding-cap-height/">
-    <img src="https://github.com/designmeme/finding-cap-height/assets/brand/logo.jpg" width="240" height="240">
+    <img src="https://designmeme.github.io/finding-cap-height/assets/image/brand/logo.jpg" width="240" height="240">
   </a>
 
   <h3 align="center">Finding Cap Height of Google Fonts</h3>
@@ -15,6 +15,7 @@
 </p>
 
 <br>
+
 [![Build Status](https://travis-ci.org/designmeme/finding-cap-height.svg?branch=gh-pages)](https://travis-ci.org/designmeme/finding-cap-height)
 Finding Cap Height website using Github Pages and [jekyll][].
 
