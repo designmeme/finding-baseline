@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://designmeme.github.io/finding-cap-height/">
-    <img src="http://imgur.com/mwjdNIb" width="240" height="240">
+    <img src="https://github.com/designmeme/finding-cap-height/assets/brand/logo.jpg" width="240" height="240">
   </a>
 
   <h3 align="center">Finding Cap Height of Google Fonts</h3>
@@ -11,14 +11,12 @@
     <small>The cap height ratio of typefaces can be used to code sass mixins or css for baseline grid and vertical rhythm.</small>
     <br>
     <a href="https://designmeme.github.io/finding-cap-height/"><strong>Visit Website &raquo;</strong></a>
-    <br>
-    [![Build Status](https://travis-ci.org/designmeme/finding-cap-height.svg?branch=gh-pages)](https://travis-ci.org/designmeme/finding-cap-height)
   </p>
 </p>
 
 <br>
-
-Finding Cap Height website using GitBub Pages and [jekyll][].
+[![Build Status](https://travis-ci.org/designmeme/finding-cap-height.svg?branch=gh-pages)](https://travis-ci.org/designmeme/finding-cap-height)
+Finding Cap Height website using Github Pages and [jekyll][].
 
 ## Building locally
 1. Fork, clone or download this project
@@ -27,7 +25,7 @@ Finding Cap Height website using GitBub Pages and [jekyll][].
 1. Install bundle: `bundle`
 1. Generate the website and watch it: `jekyll build`
 1. Serve with BrowserSync and compile Sass: `gulp`
-1. Preview: localhost:3000
+1. Preview: `localhost:3000`
 
 Read more at Jekyll's [documentation][].
 

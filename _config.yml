@@ -35,7 +35,7 @@ gems:
 title: Finding Cap Height of Google Fonts
 description: Cap height Tester of Google Fonts. The cap height ratio of typefaces can be used to code sass mixins or css for baseline grid and vertical rhythm.
 author: Jihye Lee
-logo: http://imgur.com/f3t9TLU
+logo: https://github.com/designmeme/finding-cap-height/assets/brand/symbol.jpg
 facebook:
   app_id: 230206910787694
 
@@ -44,7 +44,7 @@ defaults:
       path: ""
     values:
       layout: default
-      image: http://imgur.com/mwjdNIb # og_image
+      image: https://github.com/designmeme/finding-cap-height/assets/brand/logo.jpg # og_image
 
 # Custom vars
 favicon_version: 1.0.0
