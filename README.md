@@ -16,8 +16,8 @@
 
 <br>
 
-[![Build Status](https://travis-ci.org/designmeme/finding-cap-height.svg?branch=gh-pages)](https://travis-ci.org/designmeme/finding-cap-height)
 Finding Cap Height website using Github Pages and [jekyll][].
+[![Build Status](https://travis-ci.org/designmeme/finding-cap-height.svg?branch=gh-pages)](https://travis-ci.org/designmeme/finding-cap-height)
 
 ## Building locally
 1. Fork, clone or download this project
