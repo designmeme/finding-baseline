@@ -53,7 +53,7 @@ gulp.task('server', ['css'], function () {
       baseDir: ['_gh_pages'],
       index: ''
     },
-    files: ['_gh_pages/**/*.+(css|js|html)'], // files injected, not reloaded
+    files: ['**/*.+(css|js|html)'], // files injected, not reloaded
     port: 3000,
     open: false,
     reloadOnRestart: true
