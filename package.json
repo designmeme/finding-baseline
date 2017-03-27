@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "scripts": {
     "bundle": "bundle",
-    "jekyll": "jekyll serve --baseurl ''",
+    "jekyll build": "jekyll build --baseurl '' --watch",
+    "jekyll serve": "jekyll serve --baseurl ''",
     "gulp": "gulp",
     "gulp css": "gulp css",
     "Update Github Pages gem": "gem update github-pages"
