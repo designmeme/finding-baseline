@@ -31,6 +31,9 @@ Finding Cap Height website using Github Pages and [jekyll][].
 
 Read more at Jekyll's [documentation][].
 
+## Donate with paypal
+If it is helpful for you, [Please support us!][paypal]
+
 ## Copyright and license
 
 Code and documentation copyright 2017 designmeme. Code released under the [MIT License](LICENSE).
