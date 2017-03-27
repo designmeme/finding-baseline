@@ -182,7 +182,7 @@
     capHeight = parseFloat(capHeightPx.textContent);
     baselineDistance = (lineHeight - capHeight) / 2;
 
-    element.style.fontFamily = selectedFont;
+    element.style.fontFamily = '"' + selectedFont + '"';
     element.style.fontSize = fontSize + 'px';
     element.style.lineHeight = lineHeight;
     element.style.top = baselineDistance + 'em';
