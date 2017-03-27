@@ -152,7 +152,7 @@ $dashboard-height: 50px;
     .btn-group2 {
       width: $dashboard-height/2;
       .btn {
-        color: $brand-primary;
+        color: $white-disabled;
         background-color: $brand-primary;
         &:hover,
         &.active {

@@ -165,6 +165,7 @@ textarea {
   -webkit-flex-shrink: 0;
       -ms-flex-negative: 0;
           flex-shrink: 0;
+  -webkit-appearance: none;
   display: block;
   width: auto;
   height: 50px;
@@ -520,7 +521,7 @@ textarea {
 }
 
 .dashboard .dashboard-baseline .btn-group2 .btn {
-  color: #2962FF;
+  color: rgba(255, 255, 255, 0.5);
   background-color: #2962FF;
 }
 
