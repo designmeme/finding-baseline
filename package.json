@@ -1,7 +1,6 @@
 {
   "name": "finding-cap-height",
   "version": "1.0.0",
-  "private": true,
   "scripts": {
     "bundle": "bundle",
     "jekyll": "jekyll serve --baseurl ''",
