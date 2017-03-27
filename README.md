@@ -1,27 +1,40 @@
-# Finding Cap Height of Google Fonts
+<p align="center">
+  <a href="https://designmeme.github.io/finding-cap-height/">
+    <img src="http://imgur.com/mwjdNIb" width="240" height="240">
+  </a>
 
-https://designmeme.github.io/finding-cap-height/
+  <h3 align="center">Finding Cap Height of Google Fonts</h3>
 
-[![Build Status](https://travis-ci.org/designmeme/finding-cap-height.svg?branch=gh-pages)](https://travis-ci.org/designmeme/finding-cap-height)
+  <p align="center">
+    Cap height Tester of Google Fonts.
+    <br>
+    <small>The cap height ratio of typefaces can be used to code sass mixins or css for baseline grid and vertical rhythm.</small>
+    <br>
+    <a href="https://designmeme.github.io/finding-cap-height/"><strong>Visit Website &raquo;</strong></a>
+    <br>
+    [![Build Status](https://travis-ci.org/designmeme/finding-cap-height.svg?branch=gh-pages)](https://travis-ci.org/designmeme/finding-cap-height)
+  </p>
+</p>
 
-## todo
+<br>
 
-### v1.0.0
-- update seo, sitemap, rebots.txt
-- Responsive Web
-- CrossBrowser
-- Readme
+Finding Cap Height website using GitBub Pages and [jekyll][].
 
-### v1.1.0
-- cap height - button -> shortcut
-- Statistics
-- search - font type
-- update sns meta
+## Building locally
+1. Fork, clone or download this project
+1. [Install][] Jekyll
+1. Install npm: `npm install`
+1. Install bundle: `bundle`
+1. Generate the website and watch it: `jekyll build`
+1. Serve with BrowserSync and compile Sass: `gulp`
+1. Preview: localhost:3000
 
-### extra
-- guide vs blog?
-- google font list - save data (node)
+Read more at Jekyll's [documentation][].
 
 ## Copyright and license
 
 Code and documentation copyright 2017 designmeme. Code released under the [MIT License](LICENSE).
+
+[jekyll]: http://jekyllrb.com/
+[install]: https://jekyllrb.com/docs/installation/
+[documentation]: https://jekyllrb.com/docs/home/
