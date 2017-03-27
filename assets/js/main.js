@@ -338,18 +338,14 @@
    */
   function showHeader (event) {
     event.preventDefault();
-    var header = document.getElementById('header');
-
-    header.classList.add('opened');
+    document.body.classList.add('opened');
   }
   headerOpener.addEventListener('click', showHeader);
   function hideHeader (event) {
     if (event) {
       event.preventDefault();
     }
-    var header = document.getElementById('header');
-
-    header.classList.remove('opened');
+    document.body.classList.remove('opened');
   }
   headerCloser.addEventListener('click', hideHeader);
 

@@ -9,16 +9,21 @@ $nav-padding: 15px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 100vh;
   background: $brand-primary;
   color: $white-primary;
   z-index: $zindex-header;
   position: fixed;
   top: 0;
   left: 0;
+  bottom: 0;
   @include media-breakpoint-down(sm) {
     width: 100%;
-    &:not(.opened) {
+    @at-root body.opened {
+      overflow: hidden;
+      position: fixed;
+      height: 100%;
+    }
+    @at-root body:not(.opened) #{&} {
       display: none;
     }
   }

@@ -103,20 +103,25 @@ textarea {
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  height: 100vh;
   background: #2962FF;
   color: white;
   z-index: 100;
   position: fixed;
   top: 0;
   left: 0;
+  bottom: 0;
 }
 
 @media (max-width: 767px) {
   .site-header {
     width: 100%;
   }
-  .site-header:not(.opened) {
+  body.opened {
+    overflow: hidden;
+    position: fixed;
+    height: 100%;
+  }
+  body:not(.opened) .site-header {
     display: none;
   }
 }
