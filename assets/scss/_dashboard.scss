@@ -4,7 +4,13 @@
 
 $page-padding: 30px;
 .page-content {
-  padding: 0 $page-padding 3rem calc(#{$page-padding} + #{$nav-width});
+  @include media-breakpoint-down(sm) {
+    padding: 0 $page-padding/2 3rem;
+  }
+  @include media-breakpoint-up(md) {
+    padding: 0 $page-padding 3rem calc(#{$page-padding} + #{$nav-width});
+
+  }
 }
 
 $dashboard-height: 50px;
@@ -17,10 +23,11 @@ $dashboard-height: 50px;
   padding: 0 10px;
   background: $brand-primary;
   color: $white-primary;
-
   > * {
     position: relative;
-    width: 33.3333%;
+    @include media-breakpoint-up(lg) {
+      width: 33.3333%;
+    }
   }
   .label {
     position: absolute;
@@ -33,10 +40,35 @@ $dashboard-height: 50px;
   }
 
   .dashboard-family {
+    @include media-breakpoint-down(md) {
+      min-width: calc(100% - 140px);
+    }
     .name {
-      font-size: 32px;
+      font-size: 30px;
       line-height: $dashboard-height;
       white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      @include media-breakpoint-up(md) {
+        font-size: 32px;
+      }
+      a {
+        color: inherit;
+        &:hover {
+          text-decoration: none;
+        }
+      }
+      .material-icons {
+        position: relative;
+        top: -2px;
+        margin-right: 5px;
+        font-size: inherit;
+        font-weight: 400;
+        vertical-align: middle;
+        @include media-breakpoint-up(md) {
+          display: none;
+        }
+      }
     }
   }
 
@@ -81,6 +113,9 @@ $dashboard-height: 50px;
   }
 
   .dashboard-baseline {
+    @include media-breakpoint-down(md) {
+      display: none;
+    }
     .inner {
       position: relative;
       float: right;

@@ -1,6 +1,6 @@
-<header class="site-header">
+<header id="header" class="site-header">
   <h1 class="site-title">
-    <a href="{{ site.baseurl }}/"><span class="logo"><span class="only-sr">{{ site.title }}</span></span></a>
+    <a><span class="logo"><span class="only-sr">{{ site.title }}</span></span></a>
   </h1>
 
   <input type="search" id="search" class="search" placeholder="Search Font Family" autocomplete="off">
@@ -31,6 +31,8 @@
       {% endfor %}
     </ul>
   </nav>
+
+  <a href="#main" id="headerCloser" class="header-closer"><span class="only-sr">close menu</span><i class="material-icons">arrow_back</i></a>
 
   <div class="footer">
     <p class="copyright">&copy; 2017 designmeme</p>

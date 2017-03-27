@@ -103,13 +103,28 @@ textarea {
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 300px;
   height: 100vh;
   background: #2962FF;
   color: white;
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+@media (max-width: 767px) {
+  .site-header {
+    width: 100%;
+  }
+  .site-header:not(.opened) {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .site-header {
+    width: 300px;
+  }
 }
 
 .site-header .site-title {
@@ -266,6 +281,26 @@ textarea {
   background: #304FFE;
 }
 
+.site-header .header-closer {
+  position: absolute;
+  left: 0;
+  top: 30px;
+  width: 50px;
+  height: 50px;
+  color: white;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .site-header .header-closer {
+    display: none;
+  }
+}
+
+.site-header .header-closer .material-icons {
+  line-height: 50px;
+}
+
 .site-header .footer {
   position: relative;
   padding: 1rem 15px;
@@ -291,8 +326,16 @@ textarea {
   color: inherit;
 }
 
-.page-content {
-  padding: 0 30px 3rem calc(30px + 300px);
+@media (max-width: 767px) {
+  .page-content {
+    padding: 0 15px 3rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .page-content {
+    padding: 0 30px 3rem calc(30px + 300px);
+  }
 }
 
 .dashboard {
@@ -318,7 +361,12 @@ textarea {
 
 .dashboard > * {
   position: relative;
-  width: 33.3333%;
+}
+
+@media (min-width: 992px) {
+  .dashboard > * {
+    width: 33.3333%;
+  }
 }
 
 .dashboard .label {
@@ -331,10 +379,47 @@ textarea {
   white-space: nowrap;
 }
 
+@media (max-width: 991px) {
+  .dashboard .dashboard-family {
+    min-width: calc(100% - 140px);
+  }
+}
+
 .dashboard .dashboard-family .name {
-  font-size: 32px;
+  font-size: 30px;
   line-height: 50px;
   white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+@media (min-width: 768px) {
+  .dashboard .dashboard-family .name {
+    font-size: 32px;
+  }
+}
+
+.dashboard .dashboard-family .name a {
+  color: inherit;
+}
+
+.dashboard .dashboard-family .name a:hover {
+  text-decoration: none;
+}
+
+.dashboard .dashboard-family .name .material-icons {
+  position: relative;
+  top: -2px;
+  margin-right: 5px;
+  font-size: inherit;
+  font-weight: 400;
+  vertical-align: middle;
+}
+
+@media (min-width: 768px) {
+  .dashboard .dashboard-family .name .material-icons {
+    display: none;
+  }
 }
 
 .dashboard .dashboard-cap-height .inner {
@@ -377,6 +462,12 @@ textarea {
 
 .dashboard .dashboard-cap-height .btn-group a:hover {
   opacity: 1;
+}
+
+@media (max-width: 991px) {
+  .dashboard .dashboard-baseline {
+    display: none;
+  }
 }
 
 .dashboard .dashboard-baseline .inner {

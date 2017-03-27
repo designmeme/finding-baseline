@@ -74,4 +74,16 @@ $link-hover-decoration: underline;
 // Z-index
 //
 
-$zindex-sidebar: 10;
+$zindex-header: 100;
+
+
+// Grid breakpoints
+//
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+);

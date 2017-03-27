@@ -13,6 +13,8 @@
   var btnBaseline = document.querySelectorAll('#baselineBtns .btn-baseline');
   var gitLink = document.getElementById('gitLink');
   var donateLink = document.getElementById('donateLink');
+  var headerOpener = document.getElementById('headerOpener');
+  var headerCloser = document.getElementById('headerCloser');
 
   /*
    * Search font family
@@ -230,6 +232,8 @@
         capHeightPx.textContent = newValue.replace('0.', '.');
 
         setMainArea();
+        hideHeader();
+        document.body.scrollTop = 0;
       }
     });
   }
@@ -329,6 +333,25 @@
 
   btnBaselineColor.addEventListener('click', changeColor);
 
+  /*
+   * Toggle header
+   */
+  function showHeader (event) {
+    event.preventDefault();
+    var header = document.getElementById('header');
+
+    header.classList.add('opened');
+  }
+  headerOpener.addEventListener('click', showHeader);
+  function hideHeader (event) {
+    if (event) {
+      event.preventDefault();
+    }
+    var header = document.getElementById('header');
+
+    header.classList.remove('opened');
+  }
+  headerCloser.addEventListener('click', hideHeader);
 
   /*
    * Google analytics

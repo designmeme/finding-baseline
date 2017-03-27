@@ -9,14 +9,22 @@ $nav-padding: 15px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: $nav-width;
   height: 100vh;
   background: $brand-primary;
   color: $white-primary;
+  z-index: $zindex-header;
+  position: fixed;
+  top: 0;
+  left: 0;
+  @include media-breakpoint-down(sm) {
+    width: 100%;
+    &:not(.opened) {
+      display: none;
+    }
+  }
+  @include media-breakpoint-up(md) {
+    width: $nav-width;
+  }
 
   .site-title {
     flex-shrink: 0;
@@ -130,6 +138,22 @@ $nav-padding: 15px;
       &.active {
         background: $indigo-a700;
       }
+    }
+  }
+
+  .header-closer {
+    position: absolute;
+    left: 0;
+    top: 30px;
+    width: 50px;
+    height: 50px;
+    color: $white-primary;
+    text-align: center;
+    @include media-breakpoint-up(md) {
+      display: none;
+    }
+    .material-icons {
+      line-height: 50px;
     }
   }
 
