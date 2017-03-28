@@ -23,9 +23,9 @@
           {% endcase %}
           </span>
           <span class="family">{{ font.family }}</span>
-          {% if font.cap-height != 0 %}
+          {% unless font.cap-height == '' %}
             <span class="cap-height">{{ font.cap-height | replace: "0.", "." }}</span>
-          {% endif %}
+          {% endunless %}
         </a>
       </li>
       {% endfor %}
