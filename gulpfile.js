@@ -43,7 +43,6 @@ gulp.task('css', function() {
     .pipe(gulp.dest('assets/css'));
 });
 
-
 // Serve and watch
 // - run browser sync server
 // - watch files
@@ -53,13 +52,12 @@ gulp.task('server', ['css'], function () {
       baseDir: ['_gh_pages'],
       index: ''
     },
-    files: ['**/*.+(css|js|html)'], // files injected, not reloaded
+    // files: ['_gh_pages/**/*.(js|min.css|html)'], // files injected, not reloaded
     port: 3000,
-    open: false,
-    reloadOnRestart: true
+    open: false
   });
-
   gulp.watch(['assets/scss/*.s+(a|c)ss'], ['css']);
+  // gulp.watch("_gh_pages/*.*").on('change', browserSync.reload);
 });
 
 // The default task, build and serve
