@@ -1,0 +1,53 @@
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
+
+#kramdown:
+#  auto_ids: true
+
+# Permalinks
+permalink:        pretty
+
+# Server
+source:           ""
+destination:      _gh_pages
+#host:             0.0.0.0
+#port:             9001
+baseurl:          /finding-cap-height
+url:              https://designmeme.github.io
+encoding:         UTF-8
+timezone:         GMT
+exclude:
+  - assets/scss
+  - Gemfile
+  - Gemfile.lock
+  - gulpfile.js
+  - LICENSE
+  - package.json
+  - README.md
+  - node_modules
+  - vendor
+
+gems:
+ - jekyll-github-metadata
+ - jekyll-seo-tag
+ - jekyll-sitemap
+ - octopress-minify-html
+
+title: Finding Cap Height of Google Fonts
+description: Cap height Tester of Google Fonts. The cap height ratio of typefaces can be used to code sass mixins or css for baseline grid and vertical rhythm.
+author: Jihye Lee
+logo: https://designmeme.github.io/finding-cap-height/assets/image/brand/symbole.jpg
+facebook:
+  app_id: 230206910787694
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+      image: https://designmeme.github.io/finding-cap-height/assets/image/brand/logo.jpg # og_image
+
+# Custom vars
+favicon_version: 1.0.0
+paypal: "https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=AKTGBZD4YZWGG&lc=GA&item_name=designmeme&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted"

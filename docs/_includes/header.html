@@ -1,0 +1,44 @@
+<header id="header" class="site-header">
+  <h1 class="site-title">
+    <a><span class="logo"><span class="only-sr">{{ site.title }}</span></span></a>
+  </h1>
+
+  <input type="search" id="search" class="search" placeholder="Search Font Family" autocomplete="off">
+  <nav class="site-nav">
+    <ul id="fontList" class="font-list">
+      {% for font in site.data.fonts %}
+      <li>
+        <a tabindex="0" data-family="{{ font.family }}" {% if font.cap-height != 0 %}data-cap-height="{{ font.cap-height }}" {% endif %}data-category="{{ font.category }}">
+          {% assign category = font.category | downcase %}
+          <span class="category" title="{{ category }}">
+          {% case category %}
+            {% when 'sans-serif' %}
+              SS
+            {% when 'serif' %}
+              S
+            {% when 'monospace' %}
+              M
+            {% else %}
+              H
+          {% endcase %}
+          </span>
+          <span class="family">{{ font.family }}</span>
+          {% unless font.cap-height == '' %}
+            <span class="cap-height">{{ font.cap-height | replace: "0.", "." }}</span>
+          {% endunless %}
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </nav>
+
+  <a href="#main" id="headerCloser" class="header-closer"><span class="only-sr">close menu</span><i class="material-icons">arrow_back</i></a>
+
+  <div class="footer">
+    <p class="copyright">&copy; 2017 designmeme</p>
+    <nav class="extra-links">
+      <a id="gitLink" href="{{ site.github.repository_url }}" target="_blank">View on GitHub</a> |
+      <a id="donateLink" href="{{ site.paypal }}" target="_blank">Donate with Paypal</a>
+    </nav>
+  </div>
+</header>
