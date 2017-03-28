@@ -2,7 +2,7 @@
   "name": "finding-cap-height-docs",
   "version": "1.0.0",
   "scripts": {
-    "jekyll build": "bundle exec jekyll build --baseurl ''",
+    "jekyll build": "bundle exec jekyll build --baseurl '' --watch --incremental --profile",
     "jekyll serve": "bundle exec jekyll serve --baseurl ''",
     "gulp": "gulp",
     "gulp css": "gulp css",
