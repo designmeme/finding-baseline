@@ -15,6 +15,7 @@
   var donateLink = document.getElementById('donateLink');
   var headerOpener = document.getElementById('headerOpener');
   var headerCloser = document.getElementById('headerCloser');
+  var isMs = navigator.userAgent.match(/Edge\/\d+/) || navigator.userAgent.match(/(?:MSIE |Trident.+?; rv:)(\d+)/);
 
   /*
    * Search font family
@@ -106,7 +107,8 @@
     // inner.style.height = lineHeight + 'px';
 
     outer = document.createElement('div');
-    outer.classList.add('outer', 'baseline');
+    outer.classList.add('outer');
+    outer.classList.add('baseline');
     outer.setAttribute('data-min', min);
     outer.setAttribute('data-max', max);
     outer.setAttribute('data-lh', lineHeight);
@@ -214,7 +216,10 @@
     WebFont.load({
       google: {
         families: [selectedFont + ':' + weight],
-        text: testText
+        text: isMs ? '' : testText // not working in edge, ie11
+      },
+      inactive: function () {
+        // console.log('inactive');
       },
       active: function () {
         var name, active, newValue;
