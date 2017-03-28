@@ -16,6 +16,7 @@ destination:      _gh_pages
 baseurl:          /finding-cap-height
 url:              https://designmeme.github.io
 encoding:         UTF-8
+timezone:         GMT
 exclude:
   - assets/scss
   - Gemfile
