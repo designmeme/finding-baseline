@@ -215,7 +215,10 @@ textarea {
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
   height: 100%;
-  padding-bottom: 2rem;
+}
+
+.site-header .font-list {
+  margin-bottom: 2rem;
 }
 
 .site-header .font-list a, .site-header .font-list a:hover {
