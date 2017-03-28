@@ -28,7 +28,7 @@
     ul = document.getElementById('fontList');
     li = ul.getElementsByTagName('li');
 
-    Array.prototype.forEach.call(li, function(el, i){
+    Array.prototype.forEach.call(li, function(el){
       a = el.getElementsByTagName('a')[0];
       if (a.getAttribute('data-family').toUpperCase().indexOf(filter) > -1) {
         el.style.display = '';
@@ -138,18 +138,18 @@
 
     outer = document.querySelectorAll('.metrics .outer');
 
-    Array.prototype.forEach.call(outer, function(el, i){
+    Array.prototype.forEach.call(outer, function(el){
       min = el.getAttribute('data-min');
       max = el.getAttribute('data-max');
       lineHeight = Math.ceil(max / baseline) * 1 * baseline;
       el.setAttribute('data-lh', lineHeight);
 
       inner = el.querySelectorAll('.inner');
-      Array.prototype.forEach.call(inner, function(el, i){
+      Array.prototype.forEach.call(inner, function(el){
         el.style.paddingBottom = baseline + 'px';
 
         type = el.querySelectorAll('.type');
-        Array.prototype.forEach.call(type, function(el, i){
+        Array.prototype.forEach.call(type, function(el){
           onBaseline(el);
         });
       });
@@ -161,15 +161,15 @@
   // for horizontal scroll
   function setInnerWidth (){
     var inner = document.querySelectorAll('.metrics .inner');
-    Array.prototype.forEach.call(inner, function(el, i){
+    Array.prototype.forEach.call(inner, function(el){
       var width = 0;
       var type = el.querySelectorAll('.type');
 
-      Array.prototype.forEach.call(type, function(el, i){
+      Array.prototype.forEach.call(type, function(el){
         width += el.offsetWidth;
       });
 
-      el.style.width = width + 2 + 'px';
+      el.style.width = width + 10 + 'px';
     });
   }
 
@@ -196,9 +196,9 @@
    * Set Font Family: Click Event of Font List
    */
   function setFontFamily (index) {
-    var that, selectedFontCapHeight, defaultFontCapHeight, weight;
+    var that, selectedFontCapHeight, defaultFontCapHeight, family;
 
-    if (typeof index == 'number') {
+    if (typeof index === 'number') {
       that = fontLink[index];
     } else {
       that = this;
@@ -207,15 +207,21 @@
     selectedFontCapHeight = that.getAttribute('data-cap-height');
     defaultFontCapHeight = '0.700';
 
-    if (selectedFont == 'Open Sans Condensed') {
-      weight = '300';
+    if (selectedFont === 'Open Sans Condensed'
+      || selectedFont === 'Buda'
+      || selectedFont === 'UnifrakturCook'
+      || selectedFont === 'Coda Caption'
+    ) {
+      family = selectedFont;
+    } else if (selectedFont === 'Molle') {
+      family = selectedFont + ':400i';
     } else {
-      weight = '400'
+      family = selectedFont + ':400';
     }
 
     WebFont.load({
       google: {
-        families: [selectedFont + ':' + weight],
+        families: [family],
         text: isMs ? '' : testText // not working in edge, ie11
       },
       inactive: function () {
@@ -243,7 +249,7 @@
     });
   }
 
-  Array.prototype.forEach.call(fontLink, function(el, i){
+  Array.prototype.forEach.call(fontLink, function(el){
     el.addEventListener('click', setFontFamily);
   });
 
@@ -263,7 +269,7 @@
     unit = parseFloat(this.getAttribute('data-unit'));
     math = this.getAttribute('data-math');
 
-    newValue =  math == 'plus' ? value + unit : value - unit;
+    newValue =  math === 'plus' ? value + unit : value - unit;
 
     if (newValue < input.getAttribute('data-min') || newValue > input.getAttribute('data-max')) {
       return false;
@@ -275,7 +281,7 @@
     setMainArea();
   }
 
-  Array.prototype.forEach.call(btnCapHeight, function(el, i){
+  Array.prototype.forEach.call(btnCapHeight, function(el){
     el.addEventListener('click', editCapHeight);
   });
 
@@ -288,7 +294,7 @@
     className = 'active';
 
     // change baseline value
-    if (event.type == 'click') {
+    if (event.type === 'click') {
       button = this;
 
       if (button.classList.contains(className)) {
@@ -302,7 +308,7 @@
 
     // set ruler background size to baseline
     metrics = document.querySelectorAll('.metrics');
-    Array.prototype.forEach.call(metrics, function(el, i){
+    Array.prototype.forEach.call(metrics, function(el){
       el.style.backgroundSize = '100% ' + baseline + 'px';
     });
 
@@ -310,7 +316,7 @@
   }
   window.addEventListener('load', setBaseline);
 
-  Array.prototype.forEach.call(btnBaseline, function(el, i){
+  Array.prototype.forEach.call(btnBaseline, function(el){
     el.addEventListener('click', setBaseline);
   });
 
@@ -320,7 +326,7 @@
   function toggleBaseline () {
     var baseline = document.querySelectorAll('.baseline');
 
-    Array.prototype.forEach.call(baseline, function(el, i){
+    Array.prototype.forEach.call(baseline, function(el){
       el.classList.toggle('baseline-none');
     });
   }
@@ -358,7 +364,7 @@
    * Google analytics
    */
   if (typeof ga != 'undefined') {
-    Array.prototype.forEach.call(fontLink, function(el, i){
+    Array.prototype.forEach.call(fontLink, function(el){
       el.addEventListener('click', function() {
         ga('send', {
           hitType: 'event',
@@ -369,18 +375,18 @@
       });
     });
 
-    Array.prototype.forEach.call(btnCapHeight, function(el, i){
+    Array.prototype.forEach.call(btnCapHeight, function(el){
       el.addEventListener('click', function() {
         ga('send', {
           hitType: 'event',
           eventCategory: 'Cap Height',
           eventAction: 'click',
-          eventLabel: (this.getAttribute('data-math') == 'plus' ? '+' : '-') + '' + this.getAttribute('data-unit')
+          eventLabel: (this.getAttribute('data-math') === 'plus' ? '+' : '-') + '' + this.getAttribute('data-unit')
         });
       });
     });
 
-    Array.prototype.forEach.call(btnBaseline, function(el, i){
+    Array.prototype.forEach.call(btnBaseline, function(el){
       el.addEventListener('click', function() {
         ga('send', {
           hitType: 'event',
