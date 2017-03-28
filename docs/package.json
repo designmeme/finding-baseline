@@ -1,8 +1,8 @@
 {
-  "name": "finding-cap-height",
+  "name": "finding-cap-height-docs",
   "version": "1.0.0",
   "scripts": {
-    "jekyll build": "bundle exec jekyll build --baseurl '' --watch",
+    "jekyll build": "bundle exec jekyll build --baseurl ''",
     "jekyll serve": "bundle exec jekyll serve --baseurl ''",
     "gulp": "gulp",
     "gulp css": "gulp css",

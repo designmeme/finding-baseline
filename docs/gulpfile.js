@@ -28,7 +28,7 @@ const AUTOPREFIXER_BROWSERS = [
 // - minify css
 // - output: *.css, *.min.css
 gulp.task('css', function() {
-  return gulp.src('docs/assets/scss/*.s+(a|c)ss')
+  return gulp.src('assets/scss/*.s+(a|c)ss')
     // .pipe($.sourcemaps.init())
     .pipe($.sass({outputStyle: 'expanded', precision: 10}).on('error', $.sass.logError))
     // .pipe($.sourcemaps.write())  // Write sourcemap inline
@@ -37,10 +37,10 @@ gulp.task('css', function() {
     // .pipe($.size({title: 'sass', showFiles: true}))
     // .pipe($.sourcemaps.write('.'))
     .pipe($.rename({dirname: ''}))
-    .pipe(gulp.dest('docs/assets/css'))
+    .pipe(gulp.dest('assets/css'))
     .pipe($.cssnano())
     .pipe($.rename({suffix: '.min'}))
-    .pipe(gulp.dest('docs/assets/css'));
+    .pipe(gulp.dest('assets/css'));
 });
 
 // Serve and watch
@@ -49,14 +49,14 @@ gulp.task('css', function() {
 gulp.task('server', ['css'], function () {
   browserSync.init({
     server: {
-      baseDir: ['docs/_gh_pages'],
+      baseDir: ['_gh_pages'],
       index: ''
     },
-    // files: ['docs/_gh_pages/**/*.(js|min.css|html)'], // files injected, not reloaded
+    // files: ['_gh_pages/**/*.(js|min.css|html)'], // files injected, not reloaded
     port: 3000,
     open: false
   });
-  gulp.watch(['docs/assets/scss/*.s+(a|c)ss'], ['css']);
+  gulp.watch(['assets/scss/*.s+(a|c)ss'], ['css']);
   // gulp.watch("_gh_pages/*.*").on('change', browserSync.reload);
 });
 
