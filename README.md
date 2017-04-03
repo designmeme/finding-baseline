@@ -1,30 +1,28 @@
 <p align="center">
-  <a href="https://designmeme.github.io/finding-cap-height/">
-    <img src="https://designmeme.github.io/finding-cap-height/assets/image/brand/logo.jpg" width="240" height="240">
+  <a href="https://designmeme.github.io/finding-baseline-ratio/">
+    <img src="https://designmeme.github.io/finding-baseline-ratio/assets/image/brand/logo.jpg" width="240" height="240">
   </a>
 
-  <h3 align="center">Finding Cap Height of Google Fonts</h3>
+  <h3 align="center">Finding Baseline Ratio of Google Fonts</h3>
 
   <p align="center">
-    Cap height Tester of Google Fonts.
+    Baseline Ratio Database of Google Fonts.
     <br>
-    <small>The cap height ratio of typefaces can be used to code sass mixins or css for baseline grid and vertical rhythm.</small>
+    The baseline ratio of fonts can be used for sass mixins or css to build baseline grid and vertical rythm.
     <br>
-    <a href="https://designmeme.github.io/finding-cap-height/"><strong>Visit Website &raquo;</strong></a>
+    <a href="https://designmeme.github.io/finding-baseline-ratio/"><strong>Visit Website &raquo;</strong></a>
   </p>
 </p>
 
 <br>
 
-Finding Cap Height website using Github Pages and [jekyll][].
+Finding Baseline Ratio website using Github Pages and [jekyll][].
 
-[![Build Status](https://travis-ci.org/designmeme/finding-cap-height.svg?branch=master)](https://travis-ci.org/designmeme/finding-cap-height)
+[![Build Status](https://travis-ci.org/designmeme/finding-baseline-ratio.svg?branch=master)](https://travis-ci.org/designmeme/finding-baseline-ratio)
 
-## Cap Height Ratio Data
-There is Cap height ratio data of 818 google fonts. Feel free to use it anyway.  
+## Baseline Ratio Database
+There is baseline ratio data of 818 google fonts. Feel free to use it.  
 data file format: *.yml, *.json, *.sass
-
-**All of google fonts cap height value will be updated soon.**
 
 ## Building site locally
 1. Fork, clone or download this project

@@ -1,5 +1,5 @@
 {
-  "name": "finding-cap-height-docs",
+  "name": "finding-baseline-ratio-docs",
   "version": "1.0.0",
   "scripts": {
     "jekyll build": "bundle exec jekyll build --baseurl '' --watch --incremental --profile",
