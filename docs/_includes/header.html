@@ -8,7 +8,7 @@
     <ul id="fontList" class="font-list">
       {% for font in site.data.fonts %}
       <li>
-        <a tabindex="0" data-family="{{ font.family }}" {% if font.cap-height != 0 %}data-cap-height="{{ font.cap-height }}" {% endif %}data-category="{{ font.category }}">
+        <a tabindex="0" data-family="{{ font.family }}" data-baseline-ratio="{{ font.baseline-ratio }}" data-category="{{ font.category }}">
           {% assign category = font.category | downcase %}
           <span class="category" title="{{ category }}">
           {% case category %}
@@ -25,8 +25,8 @@
           {% endcase %}
           </span>
           <span class="family">{{ font.family }}</span>
-          {% unless font.cap-height == '' %}
-            <span class="cap-height">{{ font.cap-height | replace: "0.", "." }}</span>
+          {% unless font.baseline-ratio == '' %}
+            <span class="baseline-ratio">{{ font.baseline-ratio | replace: "0.", "." }}</span>
           {% endunless %}
         </a>
       </li>

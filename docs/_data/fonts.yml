@@ -2,3273 +2,3273 @@
 
 - family: Roboto
   category: sans-serif
-  cap-height: '0.682'
+  baseline-ratio: '0.159'
 
 - family: Open Sans
   category: sans-serif
-  cap-height: '0.775'
+  baseline-ratio: '0.112'
 
 - family: Lato
   category: sans-serif
-  cap-height: '0.775'
+  baseline-ratio: '0.112'
 
 - family: Slabo 27px
   category: serif
-  cap-height: '0.628'
+  baseline-ratio: '0.186'
 
 - family: Roboto Condensed
   category: sans-serif
-  cap-height: '0.680'
+  baseline-ratio: '0.160'
 
 - family: Oswald
   category: sans-serif
-  cap-height: '0.901'
+  baseline-ratio: '0.049'
 
 - family: Source Sans Pro
   category: sans-serif
-  cap-height: '0.710'
+  baseline-ratio: '0.145'
 
 - family: Montserrat
   category: sans-serif
-  cap-height: '0.715'
+  baseline-ratio: '0.143'
 
 - family: Raleway
   category: sans-serif
-  cap-height: '0.705'
+  baseline-ratio: '0.148'
 
 - family: PT Sans
   category: sans-serif
-  cap-height: '0.740'
+  baseline-ratio: '0.130'
 
 - family: Merriweather
   category: serif
-  cap-height: '0.708'
+  baseline-ratio: '0.146'
 
 - family: Roboto Slab
   category: serif
-  cap-height: '0.775'
+  baseline-ratio: '0.112'
 
 - family: Open Sans Condensed
   category: sans-serif
-  cap-height: '0.775'
+  baseline-ratio: '0.112'
 
 - family: Droid Sans
   category: sans-serif
-  cap-height: '0.690'
+  baseline-ratio: '0.155'
 
 - family: Lora
   category: serif
-  cap-height: '0.674'
+  baseline-ratio: '0.163'
 
 - family: Ubuntu
   category: sans-serif
-  cap-height: '0.742'
+  baseline-ratio: '0.129'
 
 - family: Droid Serif
   category: serif
-  cap-height: '0.690'
+  baseline-ratio: '0.155'
 
 - family: Arimo
   category: sans-serif
-  cap-height: '0.692'
+  baseline-ratio: '0.154'
 
 - family: Playfair Display
   category: serif
-  cap-height: '0.830'
+  baseline-ratio: '0.085'
 
 - family: PT Serif
   category: serif
-  cap-height: '0.752'
+  baseline-ratio: '0.124'
 
 - family: Noto Sans
   category: sans-serif
-  cap-height: '0.775'
+  baseline-ratio: '0.112'
 
 - family: Titillium Web
   category: sans-serif
-  cap-height: '0.745'
+  baseline-ratio: '0.128'
 
 - family: PT Sans Narrow
   category: sans-serif
-  cap-height: '0.742'
+  baseline-ratio: '0.129'
 
 - family: Muli
   category: sans-serif
-  cap-height: '0.752'
+  baseline-ratio: '0.124'
 
 - family: Indie Flower
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Bitter
   category: serif
-  cap-height: '0.668'
+  baseline-ratio: '0.166'
 
 - family: Poppins
   category: sans-serif
-  cap-height: '0.588'
+  baseline-ratio: '0.206'
 
 - family: Hind
   category: sans-serif
-  cap-height: '0.508'
+  baseline-ratio: '0.246'
 
 - family: Dosis
   category: sans-serif
-  cap-height: '0.788'
+  baseline-ratio: '0.106'
 
 - family: Inconsolata
   category: monospace
-  cap-height: '0.668'
+  baseline-ratio: '0.166'
 
 - family: Fjalla One
   category: sans-serif
-  cap-height: '0.754'
+  baseline-ratio: '0.123'
 
 - family: Oxygen
   category: sans-serif
-  cap-height: '0.790'
+  baseline-ratio: '0.105'
 
 - family: Anton
   category: sans-serif
-  cap-height: '0.806'
+  baseline-ratio: '0.097'
 
 - family: Cabin
   category: sans-serif
-  cap-height: '0.715'
+  baseline-ratio: '0.143'
 
 - family: Noto Serif
   category: serif
-  cap-height: '0.774'
+  baseline-ratio: '0.113'
 
 - family: Arvo
   category: serif
-  cap-height: '0.712'
+  baseline-ratio: '0.144'
 
 - family: Lobster
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Crimson Text
   category: serif
-  cap-height: '0.448'
+  baseline-ratio: '0.276'
 
 - family: Merriweather Sans
   category: sans-serif
-  cap-height: '0.708'
+  baseline-ratio: '0.146'
 
 - family: Nunito
   category: sans-serif
-  cap-height: '0.658'
+  baseline-ratio: '0.171'
 
 - family: Libre Baskerville
   category: serif
-  cap-height: '0.700'
+  baseline-ratio: '0.150'
 
 - family: Yanone Kaffeesatz
   category: sans-serif
-  cap-height: '0.536'
+  baseline-ratio: '0.232'
 
 - family: Bree Serif
   category: serif
-  cap-height: '0.796'
+  baseline-ratio: '0.102'
 
 - family: Josefin Sans
   category: sans-serif
-  cap-height: '0.496'
+  baseline-ratio: '0.252'
 
 - family: Exo 2
   category: sans-serif
-  cap-height: '0.790'
+  baseline-ratio: '0.105'
 
 - family: Catamaran
   category: sans-serif
-  cap-height: '0.558'
+  baseline-ratio: '0.221'
 
 - family: Fira Sans
   category: sans-serif
-  cap-height: '0.668'
+  baseline-ratio: '0.166'
 
 - family: Abel
   category: sans-serif
-  cap-height: '0.684'
+  baseline-ratio: '0.158'
 
 - family: Gloria Hallelujah
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Abril Fatface
   category: display
-  cap-height: '0.766'
+  baseline-ratio: '0.117'
 
 - family: Pacifico
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Varela Round
   category: sans-serif
-  cap-height: '0.630'
+  baseline-ratio: '0.185'
 
 - family: Roboto Mono
   category: monospace
-  cap-height: '0.680'
+  baseline-ratio: '0.160'
 
 - family: Quicksand
   category: sans-serif
-  cap-height: '0.742'
+  baseline-ratio: '0.129'
 
 - family: Ubuntu Condensed
   category: sans-serif
-  cap-height: '0.742'
+  baseline-ratio: '0.129'
 
 - family: Asap
   category: sans-serif
-  cap-height: '0.722'
+  baseline-ratio: '0.139'
 
 - family: Karla
   category: sans-serif
-  cap-height: '0.664'
+  baseline-ratio: '0.168'
 
 - family: Shadows Into Light
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Amatic SC
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Questrial
   category: sans-serif
-  cap-height: '0.608'
+  baseline-ratio: '0.196'
 
 - family: Signika
   category: sans-serif
-  cap-height: '0.648'
+  baseline-ratio: '0.176'
 
 - family: Play
   category: sans-serif
-  cap-height: '0.716'
+  baseline-ratio: '0.142'
 
 - family: Rubik
   category: sans-serif
-  cap-height: '0.686'
+  baseline-ratio: '0.157'
 
 - family: Archivo Narrow
   category: sans-serif
-  cap-height: '0.722'
+  baseline-ratio: '0.139'
 
 - family: Cuprum
   category: sans-serif
-  cap-height: '0.634'
+  baseline-ratio: '0.183'
 
 - family: Dancing Script
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Alegreya
   category: serif
-  cap-height: '0.668'
+  baseline-ratio: '0.166'
 
 - family: Work Sans
   category: sans-serif
-  cap-height: '0.686'
+  baseline-ratio: '0.157'
 
 - family: PT Sans Caption
   category: sans-serif
-  cap-height: '0.740'
+  baseline-ratio: '0.130'
 
 - family: Francois One
   category: sans-serif
-  cap-height: '0.760'
+  baseline-ratio: '0.120'
 
 - family: Vollkorn
   category: serif
-  cap-height: '0.510'
+  baseline-ratio: '0.245'
 
 - family: Rokkitt
   category: serif
-  cap-height: '0.496'
+  baseline-ratio: '0.252'
 
 - family: Exo
   category: sans-serif
-  cap-height: '0.674'
+  baseline-ratio: '0.163'
 
 - family: Orbitron
   category: sans-serif
-  cap-height: '0.496'
+  baseline-ratio: '0.252'
 
 - family: Maven Pro
   category: sans-serif
-  cap-height: '0.756'
+  baseline-ratio: '0.122'
 
 - family: Acme
   category: sans-serif
-  cap-height: '0.650'
+  baseline-ratio: '0.175'
 
 - family: Source Code Pro
   category: monospace
-  cap-height: '0.710'
+  baseline-ratio: '0.145'
 
 - family: EB Garamond
   category: serif
-  cap-height: '0.704'
+  baseline-ratio: '0.148'
 
 - family: Pathway Gothic One
   category: sans-serif
-  cap-height: '0.756'
+  baseline-ratio: '0.122'
 
 - family: Ropa Sans
   category: sans-serif
-  cap-height: '0.610'
+  baseline-ratio: '0.195'
 
 - family: Patua One
   category: display
-  cap-height: '0.724'
+  baseline-ratio: '0.138'
 
 - family: Architects Daughter
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Cinzel
   category: serif
-  cap-height: '0.600'
+  baseline-ratio: '0.200'
 
 - family: Crete Round
   category: serif
-  cap-height: '0.704'
+  baseline-ratio: '0.148'
 
 - family: Josefin Slab
   category: serif
-  cap-height: '0.496'
+  baseline-ratio: '0.252'
 
 - family: Lobster Two
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Libre Franklin
   category: sans-serif
-  cap-height: '0.718'
+  baseline-ratio: '0.141'
 
 - family: Comfortaa
   category: display
-  cap-height: '0.644'
+  baseline-ratio: '0.178'
 
 - family: Source Serif Pro
   category: serif
-  cap-height: '0.698'
+  baseline-ratio: '0.151'
 
 - family: Kanit
   category: sans-serif
-  cap-height: '0.704'
+  baseline-ratio: '0.148'
 
 - family: Noticia Text
   category: serif
-  cap-height: '0.784'
+  baseline-ratio: '0.108'
 
 - family: Passion One
   category: display
-  cap-height: '0.570'
+  baseline-ratio: '0.215'
 
 - family: Russo One
   category: sans-serif
-  cap-height: '0.646'
+  baseline-ratio: '0.177'
 
 - family: News Cycle
   category: sans-serif
-  cap-height: '0.868'
+  baseline-ratio: '0.066'
 
 - family: ABeeZee
   category: sans-serif
-  cap-height: '0.658'
+  baseline-ratio: '0.171'
 
 - family: Alegreya Sans
   category: sans-serif
-  cap-height: '0.598'
+  baseline-ratio: '0.201'
 
 - family: Yantramanav
   category: sans-serif
-  cap-height: '0.582'
+  baseline-ratio: '0.209'
 
 - family: Satisfy
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Quattrocento Sans
   category: sans-serif
-  cap-height: '0.588'
+  baseline-ratio: '0.206'
 
 - family: BenchNine
   category: sans-serif
-  cap-height: '0.634'
+  baseline-ratio: '0.183'
 
 - family: Monda
   category: sans-serif
-  cap-height: '0.774'
+  baseline-ratio: '0.113'
 
 - family: Yellowtail
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Poiret One
   category: display
-  cap-height: '0.754'
+  baseline-ratio: '0.123'
 
 - family: Righteous
   category: display
-  cap-height: '0.728'
+  baseline-ratio: '0.136'
 
 - family: Hammersmith One
   category: sans-serif
-  cap-height: '0.552'
+  baseline-ratio: '0.224'
 
 - family: Domine
   category: serif
-  cap-height: '0.660'
+  baseline-ratio: '0.170'
 
 - family: Kaushan Script
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Old Standard TT
   category: serif
-  cap-height: '0.526'
+  baseline-ratio: '0.237'
 
 - family: Sanchez
   category: serif
-  cap-height: '0.728'
+  baseline-ratio: '0.136'
 
 - family: Arapey
   category: serif
-  cap-height: '0.640'
+  baseline-ratio: '0.180'
 
 - family: Courgette
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Pontano Sans
   category: sans-serif
-  cap-height: '0.696'
+  baseline-ratio: '0.152'
 
 - family: Quattrocento
   category: serif
-  cap-height: '0.588'
+  baseline-ratio: '0.206'
 
 - family: Cantarell
   category: sans-serif
-  cap-height: '0.772'
+  baseline-ratio: '0.114'
 
 - family: Archivo Black
   category: sans-serif
-  cap-height: '0.792'
+  baseline-ratio: '0.104'
 
 - family: Istok Web
   category: sans-serif
-  cap-height: '0.568'
+  baseline-ratio: '0.216'
 
 - family: Gudea
   category: sans-serif
-  cap-height: '0.708'
+  baseline-ratio: '0.146'
 
 - family: Kalam
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Permanent Marker
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Armata
   category: sans-serif
-  cap-height: '0.704'
+  baseline-ratio: '0.148'
 
 - family: Playfair Display SC
   category: serif
-  cap-height: '0.830'
+  baseline-ratio: '0.085'
 
 - family: Cookie
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Tinos
   category: serif
-  cap-height: '0.674'
+  baseline-ratio: '0.163'
 
 - family: Economica
   category: sans-serif
-  cap-height: '0.748'
+  baseline-ratio: '0.126'
 
 - family: Cardo
   category: serif
-  cap-height: '0.626'
+  baseline-ratio: '0.187'
 
 - family: Handlee
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Teko
   category: sans-serif
-  cap-height: '0.480'
+  baseline-ratio: '0.260'
 
 - family: Chewy
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Baloo Bhaina
   category: display
-  cap-height: '0.358'
+  baseline-ratio: '0.321'
 
 - family: Philosopher
   category: sans-serif
-  cap-height: '0.680'
+  baseline-ratio: '0.160'
 
 - family: Rajdhani
   category: sans-serif
-  cap-height: '0.582'
+  baseline-ratio: '0.209'
 
 - family: Cabin Condensed
   category: sans-serif
-  cap-height: '0.716'
+  baseline-ratio: '0.142'
 
 - family: Cormorant Garamond
   category: serif
-  cap-height: '0.636'
+  baseline-ratio: '0.182'
 
 - family: Antic Slab
   category: serif
-  cap-height: '0.690'
+  baseline-ratio: '0.155'
 
 - family: Coming Soon
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Ruda
   category: sans-serif
-  cap-height: '0.626'
+  baseline-ratio: '0.187'
 
 - family: Audiowide
   category: display
-  cap-height: '0.704'
+  baseline-ratio: '0.148'
 
 - family: Days One
   category: sans-serif
-  cap-height: '0.714'
+  baseline-ratio: '0.143'
 
 - family: Alfa Slab One
   category: display
-  cap-height: '0.704'
+  baseline-ratio: '0.148'
 
 - family: Oleo Script
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Great Vibes
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Tangerine
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Vidaloka
   category: serif
-  cap-height: '0.664'
+  baseline-ratio: '0.168'
 
 - family: Boogaloo
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Bevan
   category: display
-  cap-height: '0.704'
+  baseline-ratio: '0.148'
 
 - family: Droid Sans Mono
   category: monospace
-  cap-height: '0.784'
+  baseline-ratio: '0.108'
 
 - family: Amiri
   category: serif
-  cap-height: '0.488'
+  baseline-ratio: '0.256'
 
 - family: Ek Mukta
   category: sans-serif
-  cap-height: '0.598'
+  baseline-ratio: '0.201'
 
 - family: Playball
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Didact Gothic
   category: sans-serif
-  cap-height: '0.780'
+  baseline-ratio: '0.110'
 
 - family: Copse
   category: serif
-  cap-height: '0.734'
+  baseline-ratio: '0.133'
 
 - family: Changa One
   category: display
-  cap-height: '0.702'
+  baseline-ratio: '0.149'
 
 - family: Neuton
   category: serif
-  cap-height: '0.790'
+  baseline-ratio: '0.105'
 
 - family: Bad Script
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Kreon
   category: serif
-  cap-height: '0.686'
+  baseline-ratio: '0.157'
 
 - family: Heebo
   category: sans-serif
-  cap-height: '0.626'
+  baseline-ratio: '0.187'
 
 - family: Gentium Basic
   category: serif
-  cap-height: '0.590'
+  baseline-ratio: '0.205'
 
 - family: Khand
   category: sans-serif
-  cap-height: '0.570'
+  baseline-ratio: '0.215'
 
 - family: Sorts Mill Goudy
   category: serif
-  cap-height: '0.480'
+  baseline-ratio: '0.260'
 
 - family: Volkhov
   category: serif
-  cap-height: '0.652'
+  baseline-ratio: '0.174'
 
 - family: Neucha
   category: handwriting
-  cap-height: '0.484'
+  baseline-ratio: '0.258'
 
 - family: Julius Sans One
   category: sans-serif
-  cap-height: '0.634'
+  baseline-ratio: '0.183'
 
 - family: Fredoka One
   category: display
-  cap-height: '0.738'
+  baseline-ratio: '0.131'
 
 - family: Shadows Into Light Two
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Rochester
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Rock Salt
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Voltaire
   category: sans-serif
-  cap-height: '0.728'
+  baseline-ratio: '0.136'
 
 - family: Coda
   category: display
-  cap-height: '0.652'
+  baseline-ratio: '0.174'
 
 - family: Glegoo
   category: serif
-  cap-height: '0.738'
+  baseline-ratio: '0.131'
 
 - family: Shrikhand
   category: display
-  cap-height: '0.594'
+  baseline-ratio: '0.203'
 
 - family: Patrick Hand
   category: handwriting
-  cap-height: '0.730'
+  baseline-ratio: '0.135'
 
 - family: Sintony
   category: sans-serif
-  cap-height: '0.682'
+  baseline-ratio: '0.159'
 
 - family: Rambla
   category: sans-serif
-  cap-height: '0.632'
+  baseline-ratio: '0.184'
 
 - family: Gentium Book Basic
   category: serif
-  cap-height: '0.590'
+  baseline-ratio: '0.205'
 
 - family: Sacramento
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Carme
   category: sans-serif
-  cap-height: '0.698'
+  baseline-ratio: '0.151'
 
 - family: Amaranth
   category: sans-serif
-  cap-height: '0.738'
+  baseline-ratio: '0.131'
 
 - family: Damion
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Actor
   category: sans-serif
-  cap-height: '0.678'
+  baseline-ratio: '0.161'
 
 - family: Marck Script
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Bangers
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Paytone One
   category: sans-serif
-  cap-height: '0.828'
+  baseline-ratio: '0.086'
 
 - family: Adamina
   category: serif
-  cap-height: '0.782'
+  baseline-ratio: '0.109'
 
 - family: Covered By Your Grace
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Squada One
   category: display
-  cap-height: '0.662'
+  baseline-ratio: '0.169'
 
 - family: Nobile
   category: sans-serif
-  cap-height: '0.560'
+  baseline-ratio: '0.220'
 
 - family: Alice
   category: serif
-  cap-height: '0.674'
+  baseline-ratio: '0.163'
 
 - family: Rancho
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Homemade Apple
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Luckiest Guy
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Signika Negative
   category: sans-serif
-  cap-height: '0.648'
+  baseline-ratio: '0.176'
 
 - family: Jura
   category: sans-serif
-  cap-height: '0.746'
+  baseline-ratio: '0.127'
 
 - family: Varela
   category: sans-serif
-  cap-height: '0.730'
+  baseline-ratio: '0.135'
 
 - family: Cantata One
   category: serif
-  cap-height: '0.716'
+  baseline-ratio: '0.142'
 
 - family: Pinyon Script
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: VT323
   category: monospace
-  cap-height: '0.598'
+  baseline-ratio: '0.201'
 
 - family: Special Elite
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Sarala
   category: sans-serif
-  cap-height: '0.712'
+  baseline-ratio: '0.144'
 
 - family: Nothing You Could Do
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Frank Ruhl Libre
   category: sans-serif
-  cap-height: '0.620'
+  baseline-ratio: '0.190'
 
 - family: Sigmar One
   category: display
-  cap-height: '0.704'
+  baseline-ratio: '0.148'
 
 - family: Unica One
   category: display
-  cap-height: '0.652'
+  baseline-ratio: '0.174'
 
 - family: Alex Brush
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Molengo
   category: sans-serif
-  cap-height: '0.688'
+  baseline-ratio: '0.156'
 
 - family: Gochi Hand
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Scada
   category: sans-serif
-  cap-height: '0.664'
+  baseline-ratio: '0.168'
 
 - family: Kameron
   category: serif
-  cap-height: '0.592'
+  baseline-ratio: '0.204'
 
 - family: Homenaje
   category: sans-serif
-  cap-height: '0.688'
+  baseline-ratio: '0.156'
 
 - family: Electrolize
   category: sans-serif
-  cap-height: '0.634'
+  baseline-ratio: '0.183'
 
 - family: Lusitana
   category: serif
-  cap-height: '0.614'
+  baseline-ratio: '0.193'
 
 - family: Antic
   category: sans-serif
-  cap-height: '0.688'
+  baseline-ratio: '0.156'
 
 - family: Prata
   category: serif
-  cap-height: '0.628'
+  baseline-ratio: '0.186'
 
 - family: Cousine
   category: monospace
-  cap-height: '0.532'
+  baseline-ratio: '0.234'
 
 - family: Enriqueta
   category: serif
-  cap-height: '0.816'
+  baseline-ratio: '0.092'
 
 - family: Martel
   category: serif
-  cap-height: '0.556'
+  baseline-ratio: '0.222'
 
 - family: Yesteryear
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: PT Mono
   category: monospace
-  cap-height: '0.650'
+  baseline-ratio: '0.175'
 
 - family: Clicker Script
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Just Another Hand
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Ultra
   category: serif
-  cap-height: '0.728'
+  baseline-ratio: '0.136'
 
 - family: Share
   category: display
-  cap-height: '0.644'
+  baseline-ratio: '0.178'
 
 - family: Alegreya Sans SC
   category: sans-serif
-  cap-height: '0.598'
+  baseline-ratio: '0.201'
 
 - family: PT Serif Caption
   category: serif
-  cap-height: '0.752'
+  baseline-ratio: '0.124'
 
 - family: Cherry Cream Soda
   category: display
-  cap-height: '0.740'
+  baseline-ratio: '0.130'
 
 - family: Hind Siliguri
   category: sans-serif
-  cap-height: '0.612'
+  baseline-ratio: '0.194'
 
 - family: Calligraffitti
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Basic
   category: sans-serif
-  cap-height: '0.752'
+  baseline-ratio: '0.124'
 
 - family: Ubuntu Mono
   category: monospace
-  cap-height: '0.660'
+  baseline-ratio: '0.170'
 
 - family: Advent Pro
   category: sans-serif
-  cap-height: '0.730'
+  baseline-ratio: '0.135'
 
 - family: Aldrich
   category: sans-serif
-  cap-height: '0.512'
+  baseline-ratio: '0.244'
 
 - family: Caveat
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Monoton
   category: display
-  cap-height: '0.752'
+  baseline-ratio: '0.124'
 
 - family: Cairo
   category: sans-serif
-  cap-height: '0.732'
+  baseline-ratio: '0.134'
 
 - family: Black Ops One
   category: display
-  cap-height: '0.576'
+  baseline-ratio: '0.212'
 
 - family: Allura
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Alef
   category: sans-serif
-  cap-height: '0.656'
+  baseline-ratio: '0.172'
 
 - family: Reenie Beanie
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Candal
   category: sans-serif
-  cap-height: '0.876'
+  baseline-ratio: '0.062'
 
 - family: Overlock
   category: display
-  cap-height: '0.710'
+  baseline-ratio: '0.145'
 
 - family: Syncopate
   category: sans-serif
-  cap-height: '0.550'
+  baseline-ratio: '0.225'
 
 - family: Ruslan Display
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Concert One
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Pragati Narrow
   category: sans-serif
-  cap-height: '0.622'
+  baseline-ratio: '0.189'
 
 - family: Carter One
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Lustria
   category: serif
-  cap-height: '0.628'
+  baseline-ratio: '0.186'
 
 - family: Ceviche One
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Freckle Face
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Jockey One
   category: sans-serif
-  cap-height: '0.758'
+  baseline-ratio: '0.121'
 
 - family: Marmelad
   category: sans-serif
-  cap-height: '0.752'
+  baseline-ratio: '0.124'
 
 - family: Viga
   category: sans-serif
-  cap-height: '0.684'
+  baseline-ratio: '0.158'
 
 - family: Michroma
   category: sans-serif
-  cap-height: '0.890'
+  baseline-ratio: '0.055'
 
 - family: Allerta Stencil
   category: sans-serif
-  cap-height: '0.786'
+  baseline-ratio: '0.107'
 
 - family: Fauna One
   category: serif
-  cap-height: '0.744'
+  baseline-ratio: '0.128'
 
 - family: Convergence
   category: sans-serif
-  cap-height: '0.712'
+  baseline-ratio: '0.144'
 
 - family: Fanwood Text
   category: serif
-  cap-height: '0.526'
+  baseline-ratio: '0.237'
 
 - family: Chivo
   category: sans-serif
-  cap-height: '0.690'
+  baseline-ratio: '0.155'
 
 - family: Bubblegum Sans
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Spinnaker
   category: sans-serif
-  cap-height: '0.700'
+  baseline-ratio: '0.150'
 
 - family: Marvel
   category: sans-serif
-  cap-height: '0.692'
+  baseline-ratio: '0.154'
 
 - family: Niconne
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Fugaz One
   category: display
-  cap-height: '0.624'
+  baseline-ratio: '0.188'
 
 - family: Hind Vadodara
   category: sans-serif
-  cap-height: '0.748'
+  baseline-ratio: '0.126'
 
 - family: Limelight
   category: display
-  cap-height: '0.602'
+  baseline-ratio: '0.199'
 
 - family: Caveat Brush
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Cabin Sketch
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Arbutus Slab
   category: serif
-  cap-height: '0.712'
+  baseline-ratio: '0.144'
 
 - family: Telex
   category: sans-serif
-  cap-height: '0.684'
+  baseline-ratio: '0.158'
 
 - family: Grand Hotel
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Marcellus
   category: serif
-  cap-height: '0.694'
+  baseline-ratio: '0.153'
 
 - family: Montserrat Alternates
   category: sans-serif
-  cap-height: '0.716'
+  baseline-ratio: '0.142'
 
 - family: Allerta
   category: sans-serif
-  cap-height: '0.786'
+  baseline-ratio: '0.107'
 
 - family: Nixie One
   category: display
-  cap-height: '0.714'
+  baseline-ratio: '0.143'
 
 - family: Hanuman
   category: serif
-  cap-height: '0.484'
+  baseline-ratio: '0.258'
 
 - family: Sue Ellen Francisco
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Average
   category: serif
-  cap-height: '0.688'
+  baseline-ratio: '0.156'
 
 - family: Coustard
   category: serif
-  cap-height: '0.640'
+  baseline-ratio: '0.180'
 
 - family: Nunito Sans
   category: sans-serif
-  cap-height: '0.658'
+  baseline-ratio: '0.171'
 
 - family: Oranienbaum
   category: serif
-  cap-height: '0.634'
+  baseline-ratio: '0.183'
 
 - family: Parisienne
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Goudy Bookletter 1911
   category: serif
-  cap-height: '0.650'
+  baseline-ratio: '0.175'
 
 - family: Contrail One
   category: display
-  cap-height: '0.642'
+  baseline-ratio: '0.179'
 
 - family: Marcellus SC
   category: serif
-  cap-height: '0.694'
+  baseline-ratio: '0.153'
 
 - family: Walter Turncoat
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Puritan
   category: sans-serif
-  cap-height: '0.612'
+  baseline-ratio: '0.194'
 
 - family: Halant
   category: serif
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Khula
   category: sans-serif
-  cap-height: '0.386'
+  baseline-ratio: '0.307'
 
 - family: Quantico
   category: sans-serif
-  cap-height: '0.696'
+  baseline-ratio: '0.152'
 
 - family: Reem Kufi
   category: sans-serif
-  cap-height: '0.698'
+  baseline-ratio: '0.151'
 
 - family: Slabo 13px
   category: serif
-  cap-height: '0.612'
+  baseline-ratio: '0.194'
 
 - family: Cambay
   category: sans-serif
-  cap-height: '0.362'
+  baseline-ratio: '0.319'
 
 - family: Radley
   category: serif
-  cap-height: '0.662'
+  baseline-ratio: '0.169'
 
 - family: Crafty Girls
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Rufina
   category: serif
-  cap-height: '0.654'
+  baseline-ratio: '0.173'
 
 - family: Fredericka the Great
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Merienda
   category: handwriting
-  cap-height: '0.758'
+  baseline-ratio: '0.121'
 
 - family: Annie Use Your Telescope
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Average Sans
   category: sans-serif
-  cap-height: '0.758'
+  baseline-ratio: '0.121'
 
 - family: Prompt
   category: sans-serif
-  cap-height: '0.668'
+  baseline-ratio: '0.166'
 
 - family: Doppio One
   category: sans-serif
-  cap-height: '0.756'
+  baseline-ratio: '0.122'
 
 - family: Carrois Gothic
   category: sans-serif
-  cap-height: '0.652'
+  baseline-ratio: '0.174'
 
 - family: Leckerli One
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Cutive
   category: serif
-  cap-height: '0.440'
+  baseline-ratio: '0.280'
 
 - family: Tauri
   category: sans-serif
-  cap-height: '0.738'
+  baseline-ratio: '0.131'
 
 - family: Arima Madurai
   category: display
-  cap-height: '0.512'
+  baseline-ratio: '0.244'
 
 - family: Graduate
   category: display
-  cap-height: '0.766'
+  baseline-ratio: '0.117'
 
 - family: Alegreya SC
   category: serif
-  cap-height: '0.668'
+  baseline-ratio: '0.166'
 
 - family: Press Start 2P
   category: display
-  cap-height: '0.750'
+  baseline-ratio: '0.125'
 
 - family: Schoolbell
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Aclonica
   category: sans-serif
-  cap-height: '0.564'
+  baseline-ratio: '0.218'
 
 - family: Assistant
   category: sans-serif
-  cap-height: '0.734'
+  baseline-ratio: '0.133'
 
 - family: Eczar
   category: serif
-  cap-height: '0.510'
+  baseline-ratio: '0.245'
 
 - family: Cinzel Decorative
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Italianno
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Fontdiner Swanky
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Rosario
   category: sans-serif
-  cap-height: '0.742'
+  baseline-ratio: '0.129'
 
 - family: Magra
   category: sans-serif
-  cap-height: '0.722'
+  baseline-ratio: '0.139'
 
 - family: Waiting for the Sunrise
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Hind Guntur
   category: sans-serif
-  cap-height: '0.342'
+  baseline-ratio: '0.329'
 
 - family: Lateef
   category: handwriting
-  cap-height: '0.446'
+  baseline-ratio: '0.277'
 
 - family: Racing Sans One
   category: display
-  cap-height: '0.690'
+  baseline-ratio: '0.155'
 
 - family: Six Caps
   category: sans-serif
-  cap-height: '0.890'
+  baseline-ratio: '0.055'
 
 - family: Forum
   category: display
-  cap-height: '0.606'
+  baseline-ratio: '0.197'
 
 - family: Lalezar
   category: display
-  cap-height: '0.390'
+  baseline-ratio: '0.305'
 
 - family: Port Lligat Slab
   category: serif
-  cap-height: '0.648'
+  baseline-ratio: '0.176'
 
 - family: Jaldi
   category: sans-serif
-  cap-height: '0.604'
+  baseline-ratio: '0.198'
 
 - family: Oregano
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Mr Dafoe
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Anonymous Pro
   category: monospace
-  cap-height: '0.636'
+  baseline-ratio: '0.182'
 
 - family: Metrophobic
   category: sans-serif
-  cap-height: '0.776'
+  baseline-ratio: '0.112'
 
 - family: Caudex
   category: serif
-  cap-height: '0.694'
+  baseline-ratio: '0.153'
 
 - family: Give You Glory
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Berkshire Swash
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Iceland
   category: display
-  cap-height: '0.528'
+  baseline-ratio: '0.236'
 
 - family: Gilda Display
   category: serif
-  cap-height: '0.606'
+  baseline-ratio: '0.197'
 
 - family: Martel Sans
   category: sans-serif
-  cap-height: '0.474'
+  baseline-ratio: '0.263'
 
 - family: Karma
   category: serif
-  cap-height: '0.436'
+  baseline-ratio: '0.282'
 
 - family: Inder
   category: sans-serif
-  cap-height: '0.738'
+  baseline-ratio: '0.131'
 
 - family: Belleza
   category: sans-serif
-  cap-height: '0.702'
+  baseline-ratio: '0.149'
 
 - family: Love Ya Like A Sister
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Gruppo
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Changa
   category: sans-serif
-  cap-height: '0.646'
+  baseline-ratio: '0.177'
 
 - family: Slackey
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Petit Formal Script
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Capriola
   category: sans-serif
-  cap-height: '0.696'
+  baseline-ratio: '0.152'
 
 - family: Quando
   category: serif
-  cap-height: '0.732'
+  baseline-ratio: '0.134'
 
 - family: Happy Monkey
   category: display
-  cap-height: '0.696'
+  baseline-ratio: '0.152'
 
 - family: Trocchi
   category: serif
-  cap-height: '0.736'
+  baseline-ratio: '0.132'
 
 - family: Allan
   category: display
-  cap-height: '0.740'
+  baseline-ratio: '0.130'
 
 - family: Kelly Slab
   category: display
-  cap-height: '0.712'
+  baseline-ratio: '0.144'
 
 - family: Andika
   category: sans-serif
-  cap-height: '0.830'
+  baseline-ratio: '0.085'
 
 - family: Averia Serif Libre
   category: display
-  cap-height: '0.664'
+  baseline-ratio: '0.168'
 
 - family: Anaheim
   category: sans-serif
-  cap-height: '0.632'
+  baseline-ratio: '0.184'
 
 - family: Duru Sans
   category: sans-serif
-  cap-height: '0.724'
+  baseline-ratio: '0.138'
 
 - family: Montez
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: GFS Didot
   category: serif
-  cap-height: '0.668'
+  baseline-ratio: '0.166'
 
 - family: The Girl Next Door
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Lilita One
   category: display
-  cap-height: '0.702'
+  baseline-ratio: '0.149'
 
 - family: Trirong
   category: serif
-  cap-height: '0.664'
+  baseline-ratio: '0.168'
 
 - family: Wire One
   category: sans-serif
-  cap-height: '0.678'
+  baseline-ratio: '0.161'
 
 - family: Lekton
   category: sans-serif
-  cap-height: '0.496'
+  baseline-ratio: '0.252'
 
 - family: Chelsea Market
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Mako
   category: sans-serif
-  cap-height: '0.782'
+  baseline-ratio: '0.109'
 
 - family: Rammetto One
   category: display
-  cap-height: '0.690'
+  baseline-ratio: '0.155'
 
 - family: Bowlby One SC
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: IM Fell Double Pica
   category: serif
-  cap-height: '0.624'
+  baseline-ratio: '0.188'
 
 - family: Tenor Sans
   category: sans-serif
-  cap-height: '0.670'
+  baseline-ratio: '0.165'
 
 - family: Brawler
   category: serif
-  cap-height: '0.724'
+  baseline-ratio: '0.138'
 
 - family: Kranky
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Just Me Again Down Here
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Diplomata SC
   category: display
-  cap-height: '0.640'
+  baseline-ratio: '0.180'
 
 - family: Fira Sans Condensed
   category: sans-serif
-  cap-height: '0.668'
+  baseline-ratio: '0.166'
 
 - family: Merienda One
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Crushed
   category: display
-  cap-height: '0.652'
+  baseline-ratio: '0.174'
 
 - family: Unkempt
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Alike
   category: serif
-  cap-height: '0.714'
+  baseline-ratio: '0.143'
 
 - family: Londrina Solid
   category: display
-  cap-height: '0.708'
+  baseline-ratio: '0.146'
 
 - family: Expletus Sans
   category: display
-  cap-height: '0.496'
+  baseline-ratio: '0.252'
 
 - family: Prosto One
   category: display
-  cap-height: '0.644'
+  baseline-ratio: '0.178'
 
 - family: Delius
   category: handwriting
-  cap-height: '0.716'
+  baseline-ratio: '0.142'
 
 - family: Judson
   category: serif
-  cap-height: '0.652'
+  baseline-ratio: '0.174'
 
 - family: Federo
   category: sans-serif
-  cap-height: '0.660'
+  baseline-ratio: '0.170'
 
 - family: Knewave
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Aladin
   category: handwriting
-  cap-height: '0.582'
+  baseline-ratio: '0.209'
 
 - family: Mr De Haviland
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Herr Von Muellerhoff
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Gravitas One
   category: display
-  cap-height: '0.620'
+  baseline-ratio: '0.190'
 
 - family: Mate
   category: serif
-  cap-height: '0.696'
+  baseline-ratio: '0.152'
 
 - family: Belgrano
   category: serif
-  cap-height: '0.712'
+  baseline-ratio: '0.144'
 
 - family: Pompiere
   category: display
-  cap-height: '0.672'
+  baseline-ratio: '0.164'
 
 - family: Sansita
   category: sans-serif
-  cap-height: '0.840'
+  baseline-ratio: '0.080'
 
 - family: Nova Square
   category: display
-  cap-height: '0.712'
+  baseline-ratio: '0.144'
 
 - family: Strait
   category: sans-serif
-  cap-height: '0.704'
+  baseline-ratio: '0.148'
 
 - family: Abhaya Libre
   category: serif
-  cap-height: '0.496'
+  baseline-ratio: '0.252'
 
 - family: Loved by the King
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Headland One
   category: serif
-  cap-height: '0.736'
+  baseline-ratio: '0.132'
 
 - family: Fenix
   category: serif
-  cap-height: '0.640'
+  baseline-ratio: '0.180'
 
 - family: Oxygen Mono
   category: monospace
-  cap-height: '0.652'
+  baseline-ratio: '0.174'
 
 - family: Mouse Memoirs
   category: sans-serif
-  cap-height: '0.728'
+  baseline-ratio: '0.136'
 
 - family: Poly
   category: serif
-  cap-height: '0.740'
+  baseline-ratio: '0.130'
 
 - family: IM Fell English
   category: serif
-  cap-height: '0.540'
+  baseline-ratio: '0.230'
 
 - family: Bentham
   category: serif
-  cap-height: '0.604'
+  baseline-ratio: '0.198'
 
 - family: Carrois Gothic SC
   category: sans-serif
-  cap-height: '0.652'
+  baseline-ratio: '0.174'
 
 - family: Qwigley
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Itim
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Gafata
   category: sans-serif
-  cap-height: '0.718'
+  baseline-ratio: '0.141'
 
 - family: Orienta
   category: sans-serif
-  cap-height: '0.724'
+  baseline-ratio: '0.138'
 
 - family: Bowlby One
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Zeyada
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Cambo
   category: serif
-  cap-height: '0.636'
+  baseline-ratio: '0.182'
 
 - family: Andada
   category: serif
-  cap-height: '0.758'
+  baseline-ratio: '0.121'
 
 - family: Baumans
   category: display
-  cap-height: '0.702'
+  baseline-ratio: '0.149'
 
 - family: Ramabhadra
   category: sans-serif
-  cap-height: '0.754'
+  baseline-ratio: '0.123'
 
 - family: Short Stack
   category: handwriting
-  cap-height: '0.634'
+  baseline-ratio: '0.183'
 
 - family: La Belle Aurore
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Arizonia
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Shojumaru
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Prociono
   category: serif
-  cap-height: '0.790'
+  baseline-ratio: '0.105'
 
 - family: Share Tech Mono
   category: monospace
-  cap-height: '0.644'
+  baseline-ratio: '0.178'
 
 - family: Lemon
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Oleo Script Swash Caps
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Yeseva One
   category: display
-  cap-height: '0.674'
+  baseline-ratio: '0.163'
 
 - family: Megrim
   category: display
-  cap-height: '0.678'
+  baseline-ratio: '0.161'
 
 - family: Bungee Inline
   category: display
-  cap-height: '0.720'
+  baseline-ratio: '0.140'
 
 - family: Biryani
   category: sans-serif
-  cap-height: '0.452'
+  baseline-ratio: '0.274'
 
 - family: Titan One
   category: display
-  cap-height: '0.794'
+  baseline-ratio: '0.103'
 
 - family: Ovo
   category: serif
-  cap-height: '0.604'
+  baseline-ratio: '0.198'
 
 - family: Mallanna
   category: sans-serif
-  cap-height: '0.692'
+  baseline-ratio: '0.154'
 
 - family: Mountains of Christmas
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Gabriela
   category: serif
-  cap-height: '0.692'
+  baseline-ratio: '0.154'
 
 - family: Unna
   category: serif
-  cap-height: '0.612'
+  baseline-ratio: '0.194'
 
 - family: UnifrakturMaguntia
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Delius Unicase
   category: handwriting
-  cap-height: '0.780'
+  baseline-ratio: '0.110'
 
 - family: Baloo Paaji
   category: display
-  cap-height: '0.550'
+  baseline-ratio: '0.225'
 
 - family: Skranji
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Scheherazade
   category: serif
-  cap-height: '0.334'
+  baseline-ratio: '0.333'
 
 - family: Seaweed Script
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Kurale
   category: serif
-  cap-height: '0.712'
+  baseline-ratio: '0.144'
 
 - family: Voces
   category: display
-  cap-height: '0.676'
+  baseline-ratio: '0.162'
 
 - family: Lily Script One
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Cutive Mono
   category: monospace
-  cap-height: '0.556'
+  baseline-ratio: '0.222'
 
 - family: Vast Shadow
   category: display
-  cap-height: '0.702'
+  baseline-ratio: '0.149'
 
 - family: Athiti
   category: sans-serif
-  cap-height: '0.698'
+  baseline-ratio: '0.151'
 
 - family: Corben
   category: display
-  cap-height: '0.904'
+  baseline-ratio: '0.048'
 
 - family: Kristi
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Imprima
   category: sans-serif
-  cap-height: '0.678'
+  baseline-ratio: '0.161'
 
 - family: Holtwood One SC
   category: serif
-  cap-height: '0.770'
+  baseline-ratio: '0.115'
 
 - family: Londrina Outline
   category: display
-  cap-height: '0.708'
+  baseline-ratio: '0.146'
 
 - family: Kotta One
   category: serif
-  cap-height: '0.626'
+  baseline-ratio: '0.187'
 
 - family: Fondamento
   category: handwriting
-  cap-height: '0.624'
+  baseline-ratio: '0.188'
 
 - family: Euphoria Script
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Cherry Swash
   category: display
-  cap-height: '0.724'
+  baseline-ratio: '0.138'
 
 - family: Bilbo Swash Caps
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Ranga
   category: display
-  cap-height: '0.528'
+  baseline-ratio: '0.236'
 
 - family: Harmattan
   category: sans-serif
-  cap-height: '0.392'
+  baseline-ratio: '0.304'
 
 - family: Lemonada
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Over the Rainbow
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Norican
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Palanquin
   category: sans-serif
-  cap-height: '0.826'
+  baseline-ratio: '0.087'
 
 - family: IM Fell English SC
   category: serif
-  cap-height: '0.538'
+  baseline-ratio: '0.231'
 
 - family: Patrick Hand SC
   category: handwriting
-  cap-height: '0.730'
+  baseline-ratio: '0.135'
 
 - family: Simonetta
   category: display
-  cap-height: '0.674'
+  baseline-ratio: '0.163'
 
 - family: Finger Paint
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: IM Fell DW Pica
   category: serif
-  cap-height: '0.572'
+  baseline-ratio: '0.214'
 
 - family: Fira Sans Extra Condensed
   category: sans-serif
-  cap-height: '0.668'
+  baseline-ratio: '0.166'
 
 - family: Chonburi
   category: display
-  cap-height: '0.700'
+  baseline-ratio: '0.150'
 
 - family: Rouge Script
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Chau Philomene One
   category: sans-serif
-  cap-height: '0.696'
+  baseline-ratio: '0.152'
 
 - family: Stardos Stencil
   category: display
-  cap-height: '0.566'
+  baseline-ratio: '0.217'
 
 - family: Amethysta
   category: serif
-  cap-height: '0.712'
+  baseline-ratio: '0.144'
 
 - family: Khmer
   category: display
-  cap-height: '0.534'
+  baseline-ratio: '0.233'
 
 - family: Fira Mono
   category: monospace
-  cap-height: '0.668'
+  baseline-ratio: '0.166'
 
 - family: Stalemate
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Rubik Mono One
   category: sans-serif
-  cap-height: '0.624'
+  baseline-ratio: '0.188'
 
 - family: Sniglet
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Geo
   category: sans-serif
-  cap-height: '0.582'
+  baseline-ratio: '0.209'
 
 - family: Frijole
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Meddon
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Salsa
   category: display
-  cap-height: '0.722'
+  baseline-ratio: '0.139'
 
 - family: Delius Swash Caps
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Griffy
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Dorsa
   category: sans-serif
-  cap-height: '0.656'
+  baseline-ratio: '0.172'
 
 - family: Alike Angular
   category: serif
-  cap-height: '0.714'
+  baseline-ratio: '0.143'
 
 - family: Podkova
   category: serif
-  cap-height: '0.610'
+  baseline-ratio: '0.195'
 
 - family: Shanti
   category: sans-serif
-  cap-height: '0.688'
+  baseline-ratio: '0.156'
 
 - family: Nova Oval
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Engagement
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Ledger
   category: serif
-  cap-height: '0.734'
+  baseline-ratio: '0.133'
 
 - family: Sofia
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Dawning of a New Day
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Raleway Dots
   category: display
-  cap-height: '0.704'
+  baseline-ratio: '0.148'
 
 - family: Italiana
   category: serif
-  cap-height: '0.678'
+  baseline-ratio: '0.161'
 
 - family: Suranna
   category: serif
-  cap-height: '0.632'
+  baseline-ratio: '0.184'
 
 - family: Wendy One
   category: sans-serif
-  cap-height: '0.584'
+  baseline-ratio: '0.208'
 
 - family: Tienne
   category: serif
-  cap-height: '0.638'
+  baseline-ratio: '0.181'
 
 - family: Poller One
   category: display
-  cap-height: '0.684'
+  baseline-ratio: '0.158'
 
 - family: Nova Mono
   category: monospace
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Life Savers
   category: display
-  cap-height: '0.722'
+  baseline-ratio: '0.139'
 
 - family: Rationale
   category: sans-serif
-  cap-height: '0.654'
+  baseline-ratio: '0.173'
 
 - family: Denk One
   category: sans-serif
-  cap-height: '0.818'
+  baseline-ratio: '0.091'
 
 - family: Averia Sans Libre
   category: display
-  cap-height: '0.746'
+  baseline-ratio: '0.127'
 
 - family: Medula One
   category: display
-  cap-height: '0.682'
+  baseline-ratio: '0.159'
 
 - family: Englebert
   category: sans-serif
-  cap-height: '0.312'
+  baseline-ratio: '0.344'
 
 - family: Cedarville Cursive
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Sail
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Aguafina Script
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Sunshiney
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Balthazar
   category: serif
-  cap-height: '0.572'
+  baseline-ratio: '0.214'
 
 - family: Julee
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Taviraj
   category: serif
-  cap-height: '0.638'
+  baseline-ratio: '0.181'
 
 - family: Pridi
   category: serif
-  cap-height: '0.650'
+  baseline-ratio: '0.175'
 
 - family: Habibi
   category: serif
-  cap-height: '0.702'
+  baseline-ratio: '0.149'
 
 - family: Codystar
   category: display
-  cap-height: '0.682'
+  baseline-ratio: '0.159'
 
 - family: Jim Nightshade
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Mystery Quest
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Rosarivo
   category: serif
-  cap-height: '0.552'
+  baseline-ratio: '0.224'
 
 - family: Vesper Libre
   category: serif
-  cap-height: '0.380'
+  baseline-ratio: '0.310'
 
 - family: Kite One
   category: sans-serif
-  cap-height: '0.742'
+  baseline-ratio: '0.129'
 
 - family: Mitr
   category: sans-serif
-  cap-height: '0.730'
+  baseline-ratio: '0.135'
 
 - family: McLaren
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Dynalight
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Arsenal
   category: sans-serif
-  cap-height: '0.738'
+  baseline-ratio: '0.131'
 
 - family: Metamorphous
   category: display
-  cap-height: '0.676'
+  baseline-ratio: '0.162'
 
 - family: Mate SC
   category: serif
-  cap-height: '0.696'
+  baseline-ratio: '0.152'
 
 - family: Inika
   category: serif
-  cap-height: '0.704'
+  baseline-ratio: '0.148'
 
 - family: Donegal One
   category: serif
-  cap-height: '0.704'
+  baseline-ratio: '0.148'
 
 - family: Kadwa
   category: serif
-  cap-height: '0.618'
+  baseline-ratio: '0.191'
 
 - family: Rye
   category: display
-  cap-height: '0.724'
+  baseline-ratio: '0.138'
 
 - family: Buenard
   category: serif
-  cap-height: '0.762'
+  baseline-ratio: '0.119'
 
 - family: NTR
   category: sans-serif
-  cap-height: '0.406'
+  baseline-ratio: '0.297'
 
 - family: Palanquin Dark
   category: sans-serif
-  cap-height: '0.826'
+  baseline-ratio: '0.087'
 
 - family: Fjord One
   category: serif
-  cap-height: '0.644'
+  baseline-ratio: '0.178'
 
 - family: Flamenco
   category: display
-  cap-height: '0.566'
+  baseline-ratio: '0.217'
 
 - family: Quintessential
   category: handwriting
-  cap-height: '0.752'
+  baseline-ratio: '0.124'
 
 - family: Vampiro One
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Rozha One
   category: serif
-  cap-height: '0.568'
+  baseline-ratio: '0.216'
 
 - family: Aref Ruqaa
   category: serif
-  cap-height: '0.974'
+  baseline-ratio: '0.013'
 
 - family: Sumana
   category: serif
-  cap-height: '0.912'
+  baseline-ratio: '0.044'
 
 - family: Share Tech
   category: sans-serif
-  cap-height: '0.644'
+  baseline-ratio: '0.178'
 
 - family: Gurajada
   category: serif
-  cap-height: '0.452'
+  baseline-ratio: '0.274'
 
 - family: Angkor
   category: display
-  cap-height: '0.634'
+  baseline-ratio: '0.183'
 
 - family: Cantora One
   category: sans-serif
-  cap-height: '0.742'
+  baseline-ratio: '0.129'
 
 - family: Baloo
   category: display
-  cap-height: '0.526'
+  baseline-ratio: '0.237'
 
 - family: Artifika
   category: serif
-  cap-height: '0.718'
+  baseline-ratio: '0.141'
 
 - family: Maitree
   category: serif
-  cap-height: '0.650'
+  baseline-ratio: '0.175'
 
 - family: Esteban
   category: serif
-  cap-height: '0.694'
+  baseline-ratio: '0.153'
 
 - family: Amarante
   category: display
-  cap-height: '0.724'
+  baseline-ratio: '0.138'
 
 - family: Coda Caption
   category: sans-serif
-  cap-height: '0.814'
+  baseline-ratio: '0.093'
 
 - family: Sarpanch
   category: sans-serif
-  cap-height: '0.698'
+  baseline-ratio: '0.151'
 
 - family: Text Me One
   category: sans-serif
-  cap-height: '0.684'
+  baseline-ratio: '0.158'
 
 - family: Cormorant
   category: serif
-  cap-height: '0.636'
+  baseline-ratio: '0.182'
 
 - family: Creepster
   category: display
-  cap-height: '0.730'
+  baseline-ratio: '0.135'
 
 - family: IM Fell DW Pica SC
   category: serif
-  cap-height: '0.572'
+  baseline-ratio: '0.214'
 
 - family: Numans
   category: sans-serif
-  cap-height: '0.632'
+  baseline-ratio: '0.184'
 
 - family: Miriam Libre
   category: sans-serif
-  cap-height: '0.624'
+  baseline-ratio: '0.188'
 
 - family: Milonga
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Battambang
   category: display
-  cap-height: '0.634'
+  baseline-ratio: '0.183'
 
 - family: Amiko
   category: sans-serif
-  cap-height: '0.522'
+  baseline-ratio: '0.239'
 
 - family: Mandali
   category: sans-serif
-  cap-height: '0.774'
+  baseline-ratio: '0.113'
 
 - family: New Rocker
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Maiden Orange
   category: display
-  cap-height: '0.408'
+  baseline-ratio: '0.296'
 
 - family: Condiment
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Suez One
   category: serif
-  cap-height: '0.667'
+  baseline-ratio: '0.166'
 
 - family: Stint Ultra Expanded
   category: display
-  cap-height: '0.668'
+  baseline-ratio: '0.166'
 
 - family: Wallpoet
   category: display
-  cap-height: '0.610'
+  baseline-ratio: '0.195'
 
 - family: IM Fell French Canon
   category: serif
-  cap-height: '0.652'
+  baseline-ratio: '0.174'
 
 - family: Montserrat Subrayada
   category: sans-serif
-  cap-height: '0.716'
+  baseline-ratio: '0.142'
 
 - family: Secular One
   category: sans-serif
-  cap-height: '0.588'
+  baseline-ratio: '0.206'
 
 - family: Vibur
   category: handwriting
-  cap-height: '0.572'
+  baseline-ratio: '0.214'
 
 - family: Averia Libre
   category: display
-  cap-height: '0.712'
+  baseline-ratio: '0.144'
 
 - family: Chicle
   category: display
-  cap-height: '0.620'
+  baseline-ratio: '0.190'
 
 - family: Stoke
   category: serif
-  cap-height: '0.732'
+  baseline-ratio: '0.134'
 
 - family: Baloo Tamma
   category: display
-  cap-height: '0.378'
+  baseline-ratio: '0.311'
 
 - family: Revalia
   category: display
-  cap-height: '1.233'
+  baseline-ratio: '-0.117'
 
 - family: Odor Mean Chey
   category: display
-  cap-height: '0.634'
+  baseline-ratio: '0.183'
 
 - family: Nokora
   category: serif
-  cap-height: '0.538'
+  baseline-ratio: '0.231'
 
 - family: Bungee Shade
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: IM Fell Great Primer
   category: serif
-  cap-height: '0.672'
+  baseline-ratio: '0.164'
 
 - family: Junge
   category: serif
-  cap-height: '0.640'
+  baseline-ratio: '0.180'
 
 # not latin
 #- family: Suwannaphum
 #  category: display
-#  cap-height: ''
+#  baseline-ratio: ''
 
 - family: Miniver
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: David Libre
   category: serif
-  cap-height: '0.526'
+  baseline-ratio: '0.237'
 
 - family: Mada
   category: sans-serif
-  cap-height: '0.598'
+  baseline-ratio: '0.201'
 
 - family: Antic Didone
   category: serif
-  cap-height: '0.690'
+  baseline-ratio: '0.155'
 
 - family: Krona One
   category: sans-serif
-  cap-height: '0.732'
+  baseline-ratio: '0.134'
 
 - family: Buda
   category: display
-  cap-height: '0.544'
+  baseline-ratio: '0.228'
 
 - family: League Script
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Tulpen One
   category: display
-  cap-height: '0.634'
+  baseline-ratio: '0.183'
 
 - family: Ribeye
   category: display
-  cap-height: '0.714'
+  baseline-ratio: '0.143'
 
 - family: Yrsa
   category: serif
-  cap-height: '0.454'
+  baseline-ratio: '0.273'
 
 - family: Bilbo
   category: handwriting
-  cap-height: '0.448'
+  baseline-ratio: '0.276'
 
 - family: Asul
   category: sans-serif
-  cap-height: '0.684'
+  baseline-ratio: '0.158'
 
 - family: Stint Ultra Condensed
   category: display
-  cap-height: '0.658'
+  baseline-ratio: '0.171'
 
 - family: IM Fell Double Pica SC
   category: serif
-  cap-height: '0.624'
+  baseline-ratio: '0.188'
 
 - family: Ruluko
   category: sans-serif
-  cap-height: '0.674'
+  baseline-ratio: '0.163'
 
 - family: Mrs Saint Delafield
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Paprika
   category: display
-  cap-height: '0.870'
+  baseline-ratio: '0.065'
 
 - family: IM Fell French Canon SC
   category: serif
-  cap-height: '0.652'
+  baseline-ratio: '0.174'
 
 - family: Elsie
   category: display
-  cap-height: '0.604'
+  baseline-ratio: '0.198'
 
 - family: Faster One
   category: display
-  cap-height: '0.732'
+  baseline-ratio: '0.134'
 
 - family: Amatica SC
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Linden Hill
   category: serif
-  cap-height: '0.426'
+  baseline-ratio: '0.287'
 
 - family: Kavoon
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Gidugu
   category: sans-serif
-  cap-height: '0.446'
+  baseline-ratio: '0.277'
 
 - family: Swanky and Moo Moo
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Galindo
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Nova Round
   category: display
-  cap-height: '0.712'
+  baseline-ratio: '0.144'
 
 - family: Sonsie One
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Sancreek
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Port Lligat Sans
   category: sans-serif
-  cap-height: '0.650'
+  baseline-ratio: '0.175'
 
 - family: Bigshot One
   category: display
-  cap-height: '0.690'
+  baseline-ratio: '0.155'
 
 - family: Glass Antiqua
   category: display
-  cap-height: '0.634'
+  baseline-ratio: '0.183'
 
 - family: Pattaya
   category: sans-serif
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Dekko
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: MedievalSharp
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Fascinate Inline
   category: display
-  cap-height: '0.748'
+  baseline-ratio: '0.126'
 
 - family: Bokor
   category: display
-  cap-height: '0.634'
+  baseline-ratio: '0.183'
 
 - family: Sriracha
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Nosifer
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Overlock SC
   category: display
-  cap-height: '0.710'
+  baseline-ratio: '0.145'
 
 - family: Almendra
   category: serif
-  cap-height: '0.606'
+  baseline-ratio: '0.197'
 
 - family: Sarina
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Offside
   category: display
-  cap-height: '0.726'
+  baseline-ratio: '0.137'
 
 - family: Cagliostro
   category: sans-serif
-  cap-height: '0.636'
+  baseline-ratio: '0.182'
 
 - family: IM Fell Great Primer SC
   category: serif
-  cap-height: '0.672'
+  baseline-ratio: '0.164'
 
 - family: Akronim
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: GFS Neohellenic
   category: sans-serif
-  cap-height: '0.628'
+  baseline-ratio: '0.186'
 
 - family: Iceberg
   category: display
-  cap-height: '0.650'
+  baseline-ratio: '0.175'
 
 - family: Bungee
   category: display
-  cap-height: '0.720'
+  baseline-ratio: '0.140'
 
 - family: Emilys Candy
   category: display
-  cap-height: '0.690'
+  baseline-ratio: '0.155'
 
 - family: El Messiri
   category: sans-serif
-  cap-height: '0.474'
+  baseline-ratio: '0.263'
 
 - family: Trade Winds
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Della Respira
   category: serif
-  cap-height: '0.776'
+  baseline-ratio: '0.112'
 
 - family: Ruthie
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Ramaraja
   category: serif
-  cap-height: '0.262'
+  baseline-ratio: '0.369'
 
 - family: Meie Script
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Peralta
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Henny Penny
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Pangolin
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Koulen
   category: display
-  cap-height: '0.634'
+  baseline-ratio: '0.183'
 
 - family: Oldenburg
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Trykker
   category: serif
-  cap-height: '0.724'
+  baseline-ratio: '0.138'
 
 - family: Overpass
   category: sans-serif
-  cap-height: '0.496'
+  baseline-ratio: '0.252'
 
 - family: Moul
   category: display
-  cap-height: '0.634'
+  baseline-ratio: '0.183'
 
 - family: Monsieur La Doulaise
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: UnifrakturCook
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Chango
   category: display
-  cap-height: '0.774'
+  baseline-ratio: '0.113'
 
 - family: Germania One
   category: display
-  cap-height: '0.662'
+  baseline-ratio: '0.169'
 
 - family: Autour One
   category: display
-  cap-height: '0.712'
+  baseline-ratio: '0.144'
 
 - family: Pirata One
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Bubbler One
   category: sans-serif
-  cap-height: '0.634'
+  baseline-ratio: '0.183'
 
 - family: Nova Slim
   category: display
-  cap-height: '0.712'
+  baseline-ratio: '0.144'
 
 - family: Croissant One
   category: display
-  cap-height: '0.726'
+  baseline-ratio: '0.137'
 
 - family: Lovers Quarrel
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Space Mono
   category: monospace
-  cap-height: '0.756'
+  baseline-ratio: '0.122'
 
 - family: Scope One
   category: serif
-  cap-height: '0.472'
+  baseline-ratio: '0.264'
 
 - family: Hind Madurai
   category: sans-serif
-  cap-height: '0.584'
+  baseline-ratio: '0.208'
 
 - family: Montaga
   category: serif
-  cap-height: '0.724'
+  baseline-ratio: '0.138'
 
 - family: Proza Libre
   category: sans-serif
-  cap-height: '0.582'
+  baseline-ratio: '0.209'
 
 - family: Redressed
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Joti One
   category: display
-  cap-height: '0.670'
+  baseline-ratio: '0.165'
 
 - family: Arya
   category: sans-serif
-  cap-height: '0.722'
+  baseline-ratio: '0.139'
 
 - family: Laila
   category: serif
-  cap-height: '0.646'
+  baseline-ratio: '0.177'
 
 - family: Jacques Francois
   category: serif
-  cap-height: '0.724'
+  baseline-ratio: '0.138'
 
 - family: Snippet
   category: sans-serif
-  cap-height: '0.628'
+  baseline-ratio: '0.186'
 
 - family: Monofett
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Irish Grover
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Kenia
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Jomhuria
   category: display
-  cap-height: '0.228'
+  baseline-ratio: '0.386'
 
 - family: Eagle Lake
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Purple Purse
   category: display
-  cap-height: '0.576'
+  baseline-ratio: '0.212'
 
 - family: Cormorant Infant
   category: serif
-  cap-height: '0.636'
+  baseline-ratio: '0.182'
 
 - family: Asset
   category: display
-  cap-height: '0.674'
+  baseline-ratio: '0.163'
 
 - family: Jolly Lodger
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Wellfleet
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Baloo Thambi
   category: display
-  cap-height: '0.563'
+  baseline-ratio: '0.219'
 
 - family: Petrona
   category: serif
-  cap-height: '0.586'
+  baseline-ratio: '0.207'
 
 - family: Fresca
   category: sans-serif
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Nova Cut
   category: display
-  cap-height: '0.712'
+  baseline-ratio: '0.144'
 
 - family: Sura
   category: serif
-  cap-height: '0.724'
+  baseline-ratio: '0.138'
 
 - family: Content
   category: display
-  cap-height: '0.650'
+  baseline-ratio: '0.175'
 
 - family: Spicy Rice
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Freehand
   category: display
-  cap-height: '0.634'
+  baseline-ratio: '0.183'
 
 - family: Snowburst One
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Nova Flat
   category: display
-  cap-height: '0.712'
+  baseline-ratio: '0.144'
 
 - family: Galdeano
   category: sans-serif
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Rum Raisin
   category: sans-serif
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Modern Antiqua
   category: display
-  cap-height: '0.636'
+  baseline-ratio: '0.182'
 
 - family: Lancelot
   category: display
-  cap-height: '0.450'
+  baseline-ratio: '0.275'
 
 - family: Gorditas
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Ranchers
   category: display
-  cap-height: '0.840'
+  baseline-ratio: '0.080'
 
 - family: Piedra
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Rhodium Libre
   category: serif
-  cap-height: '0.488'
+  baseline-ratio: '0.256'
 
 - family: Mukta Vaani
   category: sans-serif
-  cap-height: '0.598'
+  baseline-ratio: '0.201'
 
 - family: Trochut
   category: display
-  cap-height: '0.756'
+  baseline-ratio: '0.122'
 
 - family: Margarine
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Astloch
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Averia Gruesa Libre
   category: display
-  cap-height: '0.712'
+  baseline-ratio: '0.144'
 
 - family: Sahitya
   category: serif
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Timmana
   category: sans-serif
-  cap-height: '0.152'
+  baseline-ratio: '0.424'
 
 - family: Keania One
   category: display
-  cap-height: '0.760'
+  baseline-ratio: '0.120'
 
 - family: Ewert
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Smythe
   category: display
-  cap-height: '0.684'
+  baseline-ratio: '0.158'
 
 - family: Mirza
   category: display
-  cap-height: '0.096'
+  baseline-ratio: '0.452'
 
 - family: Uncial Antiqua
   category: display
-  cap-height: '0.652'
+  baseline-ratio: '0.174'
 
 - family: Molle
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Miltonian Tattoo
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Amita
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Caesar Dressing
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Plaster
   category: display
-  cap-height: '0.704'
+  baseline-ratio: '0.148'
 
 - family: Original Surfer
   category: display
-  cap-height: '0.736'
+  baseline-ratio: '0.132'
 
 - family: Dr Sugiyama
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Ravi Prakash
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Pavanam
   category: sans-serif
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Farsan
   category: display
-  cap-height: '0.612'
+  baseline-ratio: '0.194'
 
 - family: Cormorant SC
   category: serif
-  cap-height: '0.636'
+  baseline-ratio: '0.182'
 
 - family: Almendra SC
   category: serif
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Jacques Francois Shadow
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Mogra
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Diplomata
   category: display
-  cap-height: '0.640'
+  baseline-ratio: '0.180'
 
 - family: Elsie Swash Caps
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Passero One
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Ribeye Marrow
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Atomic Age
   category: display
-  cap-height: '0.700'
+  baseline-ratio: '0.150'
 
 - family: Galada
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Princess Sofia
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Baloo Chettan
   category: display
-  cap-height: '0.660'
+  baseline-ratio: '0.170'
 
 - family: Kdam Thmor
   category: display
-  cap-height: '0.634'
+  baseline-ratio: '0.183'
 
 - family: Rakkas
   category: display
-  cap-height: '0.602'
+  baseline-ratio: '0.199'
 
 - family: Londrina Shadow
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Underdog
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Felipa
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Seymour One
   category: sans-serif
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Fascinate
   category: display
-  cap-height: '0.748'
+  baseline-ratio: '0.126'
 
 - family: Cormorant Upright
   category: serif
-  cap-height: '0.636'
+  baseline-ratio: '0.182'
 
 - family: Yatra One
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Metal
   category: display
-  cap-height: '0.488'
+  baseline-ratio: '0.256'
 
 - family: Mrs Sheppards
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Miltonian
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Nova Script
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Sirin Stencil
   category: display
-  cap-height: '0.866'
+  baseline-ratio: '0.067'
 
 - family: Siemreap
   category: display
-  cap-height: '0.634'
+  baseline-ratio: '0.183'
 
 - family: Baloo Bhai
   category: display
-  cap-height: '0.502'
+  baseline-ratio: '0.249'
 
 - family: Macondo Swash Caps
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Goblin One
   category: display
-  cap-height: '0.622'
+  baseline-ratio: '0.189'
 
 - family: Londrina Sketch
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Tillana
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Romanesco
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Marko One
   category: serif
-  cap-height: '0.628'
+  baseline-ratio: '0.186'
 
 - family: Supermercado One
   category: display
-  cap-height: '0.684'
+  baseline-ratio: '0.158'
 
 - family: Atma
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Sofadi One
   category: display
-  cap-height: '0.546'
+  baseline-ratio: '0.227'
 
 - family: Sree Krushnadevaraya
   category: serif
-  cap-height: '1.002'
+  baseline-ratio: '-0.001'
 
 - family: Kumar One
   category: display
-  cap-height: '0.496'
+  baseline-ratio: '0.252'
 
 - family: Geostar Fill
   category: display
-  cap-height: '0.694'
+  baseline-ratio: '0.153'
 
 - family: Devonshire
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Miss Fajardose
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Warnes
   category: display
-  cap-height: '0.682'
+  baseline-ratio: '0.159'
 
 - family: Inknut Antiqua
   category: serif
-  cap-height: '0.826'
+  baseline-ratio: '0.087'
 
 - family: Spirax
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Bayon
   category: display
-  cap-height: '0.634'
+  baseline-ratio: '0.183'
 
 - family: Modak
   category: display
-  cap-height: '0.478'
+  baseline-ratio: '0.261'
 
 - family: Metal Mania
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Combo
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Smokum
   category: display
-  cap-height: '0.720'
+  baseline-ratio: '0.140'
 
 - family: Taprom
   category: display
-  cap-height: '0.632'
+  baseline-ratio: '0.184'
 
 - family: Macondo
   category: display
-  cap-height: '0.596'
+  baseline-ratio: '0.202'
 
 - family: Arbutus
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Geostar
   category: display
-  cap-height: '0.694'
+  baseline-ratio: '0.153'
 
 - family: Rasa
   category: serif
-  cap-height: '0.454'
+  baseline-ratio: '0.273'
 
 - family: Butterfly Kids
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: BioRhyme
   category: serif
-  cap-height: '0.706'
+  baseline-ratio: '0.147'
 
 - family: Aubrey
   category: display
-  cap-height: '0.618'
+  baseline-ratio: '0.191'
 
 - family: Coiny
   category: display
-  cap-height: '0.764'
+  baseline-ratio: '0.118'
 
 - family: Bigelow Rules
   category: display
-  cap-height: '0.656'
+  baseline-ratio: '0.172'
 
 - family: Erica One
   category: display
-  cap-height: '0.812'
+  baseline-ratio: '0.094'
 
 - family: Chathura
   category: sans-serif
-  cap-height: '0.418'
+  baseline-ratio: '0.291'
 
 - family: Sevillana
   category: display
-  cap-height: '0.650'
+  baseline-ratio: '0.175'
 
 - family: Dangrek
   category: display
-  cap-height: '0.634'
+  baseline-ratio: '0.183'
 
 - family: Risque
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Almendra Display
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Federant
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Bonbon
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Barrio
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Preahvihear
   category: display
-  cap-height: '0.634'
+  baseline-ratio: '0.183'
 
 - family: Fruktur
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Stalinist One
   category: display
-  cap-height: '0.598'
+  baseline-ratio: '0.201'
 
 - family: Chela One
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Unlock
   category: display
-  cap-height: '0.678'
+  baseline-ratio: '0.161'
 
 - family: Flavors
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Mr Bedfort
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Eater
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Fasthand
   category: serif
-  cap-height: '0.634'
+  baseline-ratio: '0.183'
 
 - family: Asar
   category: serif
-  cap-height: '0.638'
+  baseline-ratio: '0.181'
 
 - family: Butcherman
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Ruge Boogie
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Lakki Reddy
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Tenali Ramakrishna
   category: sans-serif
-  cap-height: '0.200'
+  baseline-ratio: '0.400'
 
 - family: Chenla
   category: display
-  cap-height: '0.634'
+  baseline-ratio: '0.183'
 
 - family: Emblema One
   category: display
-  cap-height: '0.658'
+  baseline-ratio: '0.171'
 
 - family: Kantumruy
   category: sans-serif
-  cap-height: '0.634'
+  baseline-ratio: '0.183'
 
 - family: Baloo Da
   category: display
-  cap-height: '0.506'
+  baseline-ratio: '0.247'
 
 - family: Padauk
   category: sans-serif
-  cap-height: '0.494'
+  baseline-ratio: '0.253'
 
 - family: Katibeh
   category: display
-  cap-height: '0.000'
+  baseline-ratio: ''
 
 - family: Moulpali
   category: display
-  cap-height: '0.634'
+  baseline-ratio: '0.183'
 
 - family: Cormorant Unicase
   category: serif
-  cap-height: '0.636'
+  baseline-ratio: '0.182'
 
 - family: Overpass Mono
   category: monospace
-  cap-height: '0.496'
+  baseline-ratio: '0.252'
 
 - family: Meera Inimai
   category: sans-serif
-  cap-height: '0.598'
+  baseline-ratio: '0.201'
 
 - family: Bahiana
   category: display
-  cap-height: '0.650'
+  baseline-ratio: '0.175'
 
 - family: Bungee Hairline
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Peddana
   category: serif
-  cap-height: '0.246'
+  baseline-ratio: '0.377'
 
 - family: Hanalei Fill
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Dhurjati
   category: sans-serif
-  cap-height: '0.678'
+  baseline-ratio: '0.161'
 
 - family: Suravaram
   category: serif
-  cap-height: '0.510'
+  baseline-ratio: '0.245'
 
 - family: Hanalei
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Kavivanar
   category: handwriting
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Bungee Outline
   category: display
-  cap-height: ''
+  baseline-ratio: ''
 
 - family: Kumar One Outline
   category: display
-  cap-height: '0.496'
+  baseline-ratio: '0.252'
 
 - family: BioRhyme Expanded
   category: serif
-  cap-height: '0.706'
+  baseline-ratio: '0.147'

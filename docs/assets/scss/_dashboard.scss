@@ -72,13 +72,13 @@ $dashboard-height: 50px;
     }
   }
 
-  .dashboard-cap-height {
+  .dashboard-baseline-ratio {
     .inner {
       position: relative;
       width: 140px;
       margin: 0 auto;
     }
-    .cap-height-input {
+    .baseline-ratio-input {
       @extend .monospace;
       width: 100%;
       text-align: right;

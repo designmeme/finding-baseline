@@ -66,7 +66,7 @@ textarea {
       touch-action: manipulation;
 }
 
-.monospace, .site-header .font-list a .category, .site-header .font-list a .cap-height, .dashboard .dashboard-cap-height .cap-height-input {
+.monospace, .site-header .font-list a .category, .site-header .font-list a .baseline-ratio, .dashboard .dashboard-baseline-ratio .baseline-ratio-input {
   font-family: "Roboto Mono", monospace;
 }
 
@@ -258,7 +258,7 @@ textarea {
   opacity: .7;
 }
 
-.site-header .font-list a .cap-height {
+.site-header .font-list a .baseline-ratio {
   float: right;
   opacity: .3;
   font-size: 12px;
@@ -273,7 +273,7 @@ textarea {
 }
 
 .site-header .font-list a:focus .family,
-.site-header .font-list a:focus .cap-height {
+.site-header .font-list a:focus .baseline-ratio {
   opacity: 1;
 }
 
@@ -282,8 +282,8 @@ textarea {
 }
 
 .site-header .font-list li:hover .family,
-.site-header .font-list li:hover .cap-height, .site-header .font-list li.active .family,
-.site-header .font-list li.active .cap-height {
+.site-header .font-list li:hover .baseline-ratio, .site-header .font-list li.active .family,
+.site-header .font-list li.active .baseline-ratio {
   opacity: 1;
 }
 
@@ -432,13 +432,13 @@ textarea {
   }
 }
 
-.dashboard .dashboard-cap-height .inner {
+.dashboard .dashboard-baseline-ratio .inner {
   position: relative;
   width: 140px;
   margin: 0 auto;
 }
 
-.dashboard .dashboard-cap-height .cap-height-input {
+.dashboard .dashboard-baseline-ratio .baseline-ratio-input {
   width: 100%;
   text-align: right;
   font-size: 26px;
@@ -446,7 +446,7 @@ textarea {
   line-height: 50px;
 }
 
-.dashboard .dashboard-cap-height .btn-group a {
+.dashboard .dashboard-baseline-ratio .btn-group a {
   position: absolute;
   width: 24px;
   height: 24px;
@@ -454,23 +454,23 @@ textarea {
   opacity: .5;
 }
 
-.dashboard .dashboard-cap-height .btn-group a[data-math="plus"] {
+.dashboard .dashboard-baseline-ratio .btn-group a[data-math="plus"] {
   bottom: 100%;
 }
 
-.dashboard .dashboard-cap-height .btn-group a[data-math="minus"] {
+.dashboard .dashboard-baseline-ratio .btn-group a[data-math="minus"] {
   top: 100%;
 }
 
-.dashboard .dashboard-cap-height .btn-group a[data-unit="0.01"] {
+.dashboard .dashboard-baseline-ratio .btn-group a[data-unit="0.01"] {
   right: 31px;
 }
 
-.dashboard .dashboard-cap-height .btn-group a[data-unit="0.001"] {
+.dashboard .dashboard-baseline-ratio .btn-group a[data-unit="0.001"] {
   right: 5px;
 }
 
-.dashboard .dashboard-cap-height .btn-group a:hover {
+.dashboard .dashboard-baseline-ratio .btn-group a:hover {
   opacity: 1;
 }
 

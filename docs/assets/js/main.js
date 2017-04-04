@@ -6,8 +6,8 @@
   var testText = 'L';
   var search = document.getElementById('search');
   var fontLink = document.querySelectorAll('#fontList li a');
-  var capHeightPx = document.getElementById('capHeightPx');
-  var btnCapHeight = document.querySelectorAll('.btn-cap-height');
+  var baselineRatioInput = document.getElementById('baselineRatioInput');
+  var btnBaselineRatio = document.querySelectorAll('.btn-baseline-ratio');
   var btnBaselineToggle = document.getElementById('btn-baseline-toggle');
   var btnBaselineColor = document.getElementById('btn-baseline-color');
   var btnBaseline = document.querySelectorAll('#baselineBtns .btn-baseline');
@@ -177,12 +177,12 @@
    * Set Type on Baseline
    */
   function onBaseline (element) {
-    var fontSize, lineHeight, capHeight, baselineDistance;
+    var fontSize, lineHeight, baselineRatio, baselineDistance;
 
     fontSize = element.getAttribute('data-size');
     lineHeight = element.parentNode.parentNode.getAttribute('data-lh') / fontSize;  // line-height px to unitless
-    capHeight = parseFloat(capHeightPx.textContent);
-    baselineDistance = (lineHeight - capHeight) / 2;
+    baselineRatio = parseFloat(baselineRatioInput.textContent);
+    baselineDistance = (lineHeight - 1)/2 + baselineRatio;
 
     element.style.fontFamily = '"' + selectedFont + '"';
     element.style.fontSize = fontSize + 'px';
@@ -196,7 +196,7 @@
    * Set Font Family: Click Event of Font List
    */
   function setFontFamily (index) {
-    var that, selectedFontCapHeight, defaultFontCapHeight, family;
+    var that, selectedFontBaselineRatio, defaultFontBaselineRatio, family;
 
     if (typeof index === 'number') {
       that = fontLink[index];
@@ -204,8 +204,8 @@
       that = this;
     }
     selectedFont = that.getAttribute('data-family');
-    selectedFontCapHeight = that.getAttribute('data-cap-height');
-    defaultFontCapHeight = '0.700';
+    selectedFontBaselineRatio = that.getAttribute('data-baseline-ratio');
+    defaultFontBaselineRatio = '0.150';
 
     if (selectedFont === 'Open Sans Condensed'
       || selectedFont === 'Buda'
@@ -239,8 +239,8 @@
 
         name = document.getElementById('name');
         name.textContent = selectedFont;
-        newValue = selectedFontCapHeight || defaultFontCapHeight;
-        capHeightPx.textContent = newValue.replace('0.', '.');
+        newValue = selectedFontBaselineRatio || defaultFontBaselineRatio;
+        baselineRatioInput.textContent = newValue.replace('0.', '.');
 
         setMainArea();
         hideHeader();
@@ -259,12 +259,12 @@
   });
 
   /*
-   * Edit Cap Height Input Value
+   * Edit Baseline Ratio Input Value
    */
-  function editCapHeight () {
+  function editBaselineRatio () {
     var input, value, unit, math, newValue;
 
-    input = capHeightPx;
+    input = baselineRatioInput;
     value = parseFloat(input.textContent);
     unit = parseFloat(this.getAttribute('data-unit'));
     math = this.getAttribute('data-math');
@@ -281,8 +281,8 @@
     setMainArea();
   }
 
-  Array.prototype.forEach.call(btnCapHeight, function(el){
-    el.addEventListener('click', editCapHeight);
+  Array.prototype.forEach.call(btnBaselineRatio, function(el){
+    el.addEventListener('click', editBaselineRatio);
   });
 
   /*
@@ -375,11 +375,11 @@
       });
     });
 
-    Array.prototype.forEach.call(btnCapHeight, function(el){
+    Array.prototype.forEach.call(btnBaselineRatio, function(el){
       el.addEventListener('click', function() {
         ga('send', {
           hitType: 'event',
-          eventCategory: 'Cap Height',
+          eventCategory: 'Baseline Ratio',
           eventAction: 'click',
           eventLabel: (this.getAttribute('data-math') === 'plus' ? '+' : '-') + '' + this.getAttribute('data-unit')
         });
