@@ -48,6 +48,6 @@ defaults:
       image: https://designmeme.github.io/finding-baseline/assets/image/brand/logo.jpg # og_image
 
 # Custom vars
-favicon_version: 1.1.0
+favicon_version: 1.1.1
 repo: https://github.com/designmeme/finding-baseline
 paypal: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=AKTGBZD4YZWGG&lc=GA&item_name=designmeme&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted
