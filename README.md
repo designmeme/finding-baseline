@@ -1,24 +1,24 @@
 <p align="center">
-  <a href="https://designmeme.github.io/finding-baseline-ratio/">
-    <img src="https://designmeme.github.io/finding-baseline-ratio/assets/image/brand/logo.jpg" width="240" height="240">
+  <a href="https://designmeme.github.io/finding-baseline/">
+    <img src="https://designmeme.github.io/finding-baseline/assets/image/brand/logo.jpg" width="240" height="240">
   </a>
 
-  <h3 align="center">Finding Baseline Ratio of Google Fonts</h3>
+  <h3 align="center">Finding Baseline of Google Fonts</h3>
 
   <p align="center">
     Baseline Ratio Database of Google Fonts.
     <br>
     The baseline ratio of fonts can be used for sass mixins or css to build baseline grid and vertical rythm.
     <br>
-    <a href="https://designmeme.github.io/finding-baseline-ratio/"><strong>Visit Website &raquo;</strong></a>
+    <a href="https://designmeme.github.io/finding-baseline/"><strong>Visit Website &raquo;</strong></a>
   </p>
 </p>
 
 <br>
 
-Finding Baseline Ratio website using Github Pages and [jekyll][].
+Finding Baseline website using Github Pages and [jekyll][].
 
-[![Build Status](https://travis-ci.org/designmeme/finding-baseline-ratio.svg?branch=master)](https://travis-ci.org/designmeme/finding-baseline-ratio)
+[![Build Status](https://travis-ci.org/designmeme/finding-baseline.svg?branch=master)](https://travis-ci.org/designmeme/finding-baseline)
 
 ## Baseline Ratio Database
 There is baseline ratio data of 818 google fonts. Feel free to use it.  
