@@ -41,9 +41,9 @@ $nav-padding: 15px;
     }
     .logo {
       display: inline-block;
-      width: 215px;
+      width: 203px;
       height: 84px;
-      background: url('../image/logo.png') no-repeat;
+      background: url('../image/logo.png') 50% 50% no-repeat;
       background-size: contain;
       @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
         background-image: url('../image/logo@2x.png');

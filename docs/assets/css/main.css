@@ -147,9 +147,9 @@ textarea {
 
 .site-header .site-title .logo {
   display: inline-block;
-  width: 215px;
+  width: 203px;
   height: 84px;
-  background: url("../image/logo.png") no-repeat;
+  background: url("../image/logo.png") 50% 50% no-repeat;
   -webkit-background-size: contain;
           background-size: contain;
 }
