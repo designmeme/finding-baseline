@@ -30,7 +30,6 @@ exclude:
 
 gems:
  - jekyll-seo-tag
- - jekyll-sitemap
  - octopress-minify-html
 
 title: Finding Baseline of Google Fonts
