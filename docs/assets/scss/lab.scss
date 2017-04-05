@@ -1,0 +1,237 @@
+@charset "utf-8";
+/*!
+ * Lab - Finding Baseline of Google Fonts
+ * Copyright 2017 Jihye Lee, designmeme.
+ */
+
+// Core variables and mixins
+@import "variables";
+@import "mixins";
+
+// Core CSS
+@import "reboot";
+
+// Page style
+html {
+  min-width: 768px;
+}
+
+body {
+  max-width: 640px;
+  margin: 50px auto;
+  background: $brand-primary;
+}
+
+h1, h2 {
+  color: $white-primary;
+}
+
+h2 {
+  margin: 2rem 0 1rem;
+}
+
+.row {
+  @include clearfix();
+  margin: 0 -10px;
+  > * {
+    float: left;
+    padding: 0 10px;
+  }
+}
+.col2 > * {
+  width: 50%;
+}
+.col3 > * {
+  width: 33.33333%;
+}
+
+.caption {
+  background: rgba($white,.8);
+  text-align: center;
+  font-size: $font-size-xs;
+  @extend .monospace;
+  > div {
+    padding: 10px 0;
+  }
+  .common {
+    background: rgba($white,.5);
+  }
+  .diff {
+    padding: 10px 50px;
+    > div {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+}
+
+.guide-line {
+  display: block;
+  position: absolute;
+  padding: 2px;
+  text-align: right;
+  font-size: 11px;
+  line-height: 1;
+  @extend .monospace;
+}
+.baseline-grid:before {
+  @extend .guide-line;
+  content: 'baseline grid';
+  border-top: 1px solid $pink-a400;
+  @at-root .test1 & {
+    top: 20%;
+  }
+  @at-root .test5 & {
+    top: 100%;
+  }
+}
+.center-line:before {
+  @extend .guide-line;
+  content: 'center line';
+  top: 50%;
+  border-top: 1px dashed $indigo-700;
+}
+.baseline-grid:before,
+.center-line:before {
+  left: -30px;
+  right: -150px;
+  color: $white-secondary;
+}
+.line-grid {
+  box-shadow: 0 -1px 0 rgba($black,.2), 0 1px 0 rgba($black,.2);
+}
+
+.test {
+  padding: 50px;
+  background: $white;
+  .inner {
+    position: relative;
+  }
+  .row p {
+    position: relative;
+    span {
+      z-index: 1;
+      position: relative;
+    }
+  }
+  &:not(.test1) {
+    .row p {
+      @extend .line-grid;
+    }
+  }
+}
+
+.test1 .row p {
+  overflow: hidden;
+  max-height: 24px * 5;
+}
+
+.leading {
+  @extend .guide-line;
+  left: 0;
+  right: 0;
+  background: $yellow-a700;
+}
+.test3-2:before,
+.test3-3:before,
+.test4 .row-wrapper:before,
+.test7 .row p:before {
+  @extend .leading;
+  content: 'top leading';
+  top: 0;
+}
+.test3-2:after,
+.test3-3:after,
+.test4 .row-wrapper:after,
+.test5-2:after,
+.test7 .row p:after {
+  @extend .leading;
+  content: 'bottom leading';
+  bottom: 0;
+}
+.test3-2:before,
+.test3-2:after {
+  height: 20px;
+  line-height: 20px;
+}
+.test3-3:before,
+.test3-3:after {
+  height: 40px;
+  line-height: 40px;
+}
+.test4 .row-wrapper .row {
+  position: relative;
+  z-index: 1;
+}
+.test4 .row-wrapper:after,
+.test4 .row-wrapper:before {
+  content: '';
+  left: -10px;
+  right: -10px;
+  height: (80px - 56px) / 2;
+  line-height: (80px - 56px) / 2;
+}
+.test7 .row p:before,
+.test7 .row p:after {
+  content: '';
+  height: 20px;
+  line-height: 20px;
+}
+
+.baseline {
+  @extend .guide-line;
+  content: 'baseline';
+  left: 5px;
+  right: 5px;
+  border-top: 1px dotted $pink-a400;
+}
+.test2 .row p:before,
+.test4 .row p:before,
+.test5-1:before {
+  @extend .baseline;
+}
+.test2-1:before {
+  top: 45px;
+}
+.test2-2:before {
+  top: 52px;
+}
+.test2-3:before {
+  top: 59px;
+}
+.test4-1:before {
+  top: 54px;
+}
+.test4-2:before {
+  top: 59px;
+}
+.test4-3:before {
+  top: 62px;
+}
+.test5-1:before {
+  top: 81px;
+}
+
+.test5-2:before,
+.test5-2:after {
+  @extend .guide-line;
+  left: 0;
+  right: 0;
+}
+.test5-2:before {
+  content: 'baseline height';
+  z-index: 1;
+  height: calc(0.155 * 60px);
+  bottom: 30px;
+  background: $pink-a400;
+}
+.test5-2:after {
+  height: 30px;
+  line-height: 30px;
+}
+
+.test6, .test7 {
+  .row p span {
+    background: rgba($black, .2);
+  }
+}

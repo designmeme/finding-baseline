@@ -1,6 +1,6 @@
 {
   "name": "finding-baseline-docs",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "scripts": {
     "jekyll build": "bundle exec jekyll build --baseurl '' --watch --incremental --profile",
     "jekyll serve": "bundle exec jekyll serve --baseurl ''",

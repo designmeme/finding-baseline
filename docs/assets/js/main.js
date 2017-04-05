@@ -11,6 +11,7 @@
   var btnBaselineToggle = document.getElementById('btn-baseline-toggle');
   var btnBaselineColor = document.getElementById('btn-baseline-color');
   var btnBaseline = document.querySelectorAll('#baselineBtns .btn-baseline');
+  var labLink = document.getElementById('labLink');
   var gitLink = document.getElementById('gitLink');
   var donateLink = document.getElementById('donateLink');
   var headerOpener = document.getElementById('headerOpener');
@@ -415,21 +416,30 @@
       });
     });
 
+    labLink.addEventListener('click', function() {
+      ga('send', {
+        hitType: 'event',
+        eventCategory: 'Link',
+        eventAction: 'click',
+        eventLabel: 'Lab'
+      });
+    });
+
     gitLink.addEventListener('click', function() {
       ga('send', {
         hitType: 'event',
-        eventCategory: 'Git',
+        eventCategory: 'Link',
         eventAction: 'click',
-        eventLabel: 'Veiw on GitHub'
+        eventLabel: 'Git'
       });
     });
 
     donateLink.addEventListener('click', function() {
       ga('send', {
         hitType: 'event',
-        eventCategory: 'Donate',
+        eventCategory: 'Link',
         eventAction: 'click',
-        eventLabel: 'default'
+        eventLabel: 'Donate'
       });
     });
   }

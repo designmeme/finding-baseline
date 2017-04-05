@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  {% include head.html css="lab.min.css" %}
+
+  <body>
+
+    <div id="main" class="lab-content" role="main">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </div>
+
+    {% include webfont.html families="['Josefin Slab:400', 'Roboto:400', 'Roboto mono:400', 'Roboto Slab:400', 'Droid Serif:400', 'Englebert:400']" %}
+
+  </body>
+
+</html>
