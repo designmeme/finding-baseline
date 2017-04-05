@@ -18,8 +18,6 @@
 
 Finding Baseline website using Github Pages and [jekyll][].
 
-[![Build Status](https://travis-ci.org/designmeme/finding-baseline.svg?branch=master)](https://travis-ci.org/designmeme/finding-baseline)
-
 ## Baseline Ratio Database
 There is baseline ratio data of 818 google fonts. Feel free to use it.  
 data file format: *.yml, *.json, *.sass
