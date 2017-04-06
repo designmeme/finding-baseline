@@ -1,20 +1,33 @@
-# Dependencies
-markdown:         kramdown
-highlighter:      rouge
+# Site settings
+title:        Finding Baseline of Google Fonts
+description:  >
+  Baseline Ratio Database of Google Fonts.
+  The baseline ratio of fonts can be used for sass mixins
+  or css to build baseline grid and vertical rhythm.
+baseurl:      /finding-baseline
+url:          https://designmeme.github.io
+author:       Jihye Lee
+logo:         https://designmeme.github.io/finding-baseline/assets/image/brand/symbole.jpg # og_image
+facebook:
+  app_id:     230206910787694
 
-#kramdown:
-#  auto_ids: true
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+      image: https://designmeme.github.io/finding-baseline/assets/image/brand/logo.jpg # og_image
 
-# Permalinks
-permalink:        pretty
+# Custom vars
+google_analytics: UA-93339811-1
+favicon_version: 1.1.1
+repo: https://github.com/designmeme/finding-baseline
+paypal: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=AKTGBZD4YZWGG&lc=GA&item_name=designmeme&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted
 
-# Server
+# Build settings
 source:           ""
 destination:      _gh_pages
-#host:             0.0.0.0
-#port:             9001
-baseurl:          /finding-baseline
-url:              https://designmeme.github.io
+permalink:        pretty
 encoding:         UTF-8
 timezone:         GMT
 exclude:
@@ -27,26 +40,10 @@ exclude:
   - README.md
   - node_modules
   - vendor
-
 gems:
  - jekyll-seo-tag
  - octopress-minify-html
-
-title: Finding Baseline of Google Fonts
-description: Baseline Ratio Database of Google Fonts. The baseline ratio of fonts can be used for sass mixins or css to build baseline grid and vertical rythm.
-author: Jihye Lee
-logo: https://designmeme.github.io/finding-baseline/assets/image/brand/symbole.jpg
-facebook:
-  app_id: 230206910787694
-
-defaults:
-  - scope:
-      path: ""
-    values:
-      layout: default
-      image: https://designmeme.github.io/finding-baseline/assets/image/brand/logo.jpg # og_image
-
-# Custom vars
-favicon_version: 1.1.1
-repo: https://github.com/designmeme/finding-baseline
-paypal: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=AKTGBZD4YZWGG&lc=GA&item_name=designmeme&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted
+markdown:         kramdown
+highlighter:      rouge
+#kramdown:
+#  auto_ids: true

@@ -17,5 +17,7 @@
   <!--styles-->
   <link rel="stylesheet" href="{{ include.css | prepend: '/assets/css/' | relative_url }}?v={{ site.time | date: "%s" }}">
 
-  {% include ga.html %}
+  {% if jekyll.environment == 'production' and site.google_analytics %}
+  {% include google-analytics.html %}
+  {% endif %}
 </head>
