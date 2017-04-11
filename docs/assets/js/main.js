@@ -210,10 +210,12 @@
 
     if (selectedFont === 'Open Sans Condensed'
       || selectedFont === 'Buda'
-      || selectedFont === 'UnifrakturCook'
-      || selectedFont === 'Coda Caption'
     ) {
-      family = selectedFont;
+      family = selectedFont + ':300';
+    } else if (selectedFont === 'UnifrakturCook') {
+      family = selectedFont + ':700';
+    } else if (selectedFont === 'Coda Caption') {
+      family = selectedFont + ':800';
     } else if (selectedFont === 'Molle') {
       family = selectedFont + ':400i';
     } else {
