@@ -22,10 +22,14 @@ fs.readFile(dataFontsOriginal, 'utf8', function (err, data) {
   baseline = JSON.parse(fs.readFileSync(dataBaselineOriginal, 'utf8'));
 
   data.forEach(function (val, index) {
-    fonts[index] = {
-      'family': val.family,
-      'category': val.category,
-      'baseline-ratio': baseline[val.family]
+    if (val.subsets.toString().indexOf('latin') > -1) {
+      fonts.push({
+        'family': val.family,
+        'category': val.category,
+        'baseline-ratio': baseline[val.family]
+      });
+    } else {
+      // console.log('not latin', val.family);
     }
   });
 

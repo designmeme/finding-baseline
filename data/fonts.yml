@@ -1,11 +1,15 @@
 -
+    family: Roboto
+    category: sans-serif
+    baseline-ratio: '0.159'
+-
     family: 'Open Sans'
     category: sans-serif
     baseline-ratio: '0.113'
 -
-    family: Roboto
+    family: Lato
     category: sans-serif
-    baseline-ratio: '0.159'
+    baseline-ratio: '0.114'
 -
     family: 'Slabo 27px'
     category: serif
@@ -15,9 +19,9 @@
     category: sans-serif
     baseline-ratio: '0.049'
 -
-    family: Lato
+    family: 'Roboto Condensed'
     category: sans-serif
-    baseline-ratio: '0.114'
+    baseline-ratio: '0.159'
 -
     family: 'Source Sans Pro'
     category: sans-serif
@@ -35,9 +39,13 @@
     category: sans-serif
     baseline-ratio: '0.130'
 -
-    family: 'Roboto Condensed'
-    category: sans-serif
-    baseline-ratio: '0.159'
+    family: Merriweather
+    category: serif
+    baseline-ratio: '0.147'
+-
+    family: 'Roboto Slab'
+    category: serif
+    baseline-ratio: '0.113'
 -
     family: 'Open Sans Condensed'
     category: sans-serif
@@ -55,16 +63,24 @@
     category: sans-serif
     baseline-ratio: '0.130'
 -
-    family: Merriweather
-    category: serif
-    baseline-ratio: '0.147'
--
     family: 'Droid Serif'
     category: serif
     baseline-ratio: '0.156'
 -
-    family: 'Roboto Slab'
+    family: 'Playfair Display'
     category: serif
+    baseline-ratio: '0.086'
+-
+    family: Arimo
+    category: sans-serif
+    baseline-ratio: '0.155'
+-
+    family: 'PT Serif'
+    category: serif
+    baseline-ratio: '0.125'
+-
+    family: 'Noto Sans'
+    category: sans-serif
     baseline-ratio: '0.113'
 -
     family: 'Titillium Web'
@@ -75,81 +91,13 @@
     category: sans-serif
     baseline-ratio: '0.130'
 -
-    family: 'Indie Flower'
-    category: handwriting
-    baseline-ratio: '0.259'
--
-    family: 'Fjalla One'
-    category: sans-serif
-    baseline-ratio: '0.121'
--
-    family: Oxygen
-    category: sans-serif
-    baseline-ratio: '0.106'
--
-    family: Anton
-    category: sans-serif
-    baseline-ratio: '0.096'
--
-    family: Arvo
-    category: serif
-    baseline-ratio: '0.144'
--
-    family: 'Playfair Display'
-    category: serif
-    baseline-ratio: '0.086'
--
-    family: Lobster
-    category: display
-    baseline-ratio: '0.130'
--
-    family: Arimo
-    category: sans-serif
-    baseline-ratio: '0.155'
--
-    family: Nunito
-    category: sans-serif
-    baseline-ratio: '0.172'
--
-    family: 'Libre Baskerville'
-    category: serif
-    baseline-ratio: '0.151'
--
-    family: 'PT Serif'
-    category: serif
-    baseline-ratio: '0.125'
--
-    family: 'Bree Serif'
-    category: serif
-    baseline-ratio: '0.102'
--
-    family: 'Noto Sans'
-    category: sans-serif
-    baseline-ratio: '0.113'
--
-    family: 'Josefin Sans'
-    category: sans-serif
-    baseline-ratio: '0.248'
--
-    family: 'Merriweather Sans'
-    category: sans-serif
-    baseline-ratio: '0.147'
--
-    family: 'Abril Fatface'
-    category: display
-    baseline-ratio: '0.118'
--
     family: Muli
     category: sans-serif
     baseline-ratio: '0.121'
 -
-    family: 'Gloria Hallelujah'
+    family: 'Indie Flower'
     category: handwriting
-    baseline-ratio: '0.087'
--
-    family: Abel
-    category: sans-serif
-    baseline-ratio: '0.159'
+    baseline-ratio: '0.259'
 -
     family: Poppins
     category: sans-serif
@@ -159,21 +107,109 @@
     category: serif
     baseline-ratio: '0.166'
 -
-    family: 'Roboto Mono'
-    category: monospace
-    baseline-ratio: '0.159'
--
     family: Inconsolata
     category: monospace
     baseline-ratio: '0.168'
 -
-    family: 'Ubuntu Condensed'
-    category: sans-serif
-    baseline-ratio: '0.130'
--
     family: Dosis
     category: sans-serif
     baseline-ratio: '0.107'
+-
+    family: 'Fjalla One'
+    category: sans-serif
+    baseline-ratio: '0.121'
+-
+    family: Hind
+    category: sans-serif
+    baseline-ratio: '0.247'
+-
+    family: Oxygen
+    category: sans-serif
+    baseline-ratio: '0.106'
+-
+    family: Cabin
+    category: sans-serif
+    baseline-ratio: '0.142'
+-
+    family: Anton
+    category: sans-serif
+    baseline-ratio: '0.096'
+-
+    family: 'Noto Serif'
+    category: serif
+    baseline-ratio: '0.113'
+-
+    family: Arvo
+    category: serif
+    baseline-ratio: '0.144'
+-
+    family: 'Crimson Text'
+    category: serif
+    baseline-ratio: '0.272'
+-
+    family: Lobster
+    category: display
+    baseline-ratio: '0.130'
+-
+    family: Nunito
+    category: sans-serif
+    baseline-ratio: '0.172'
+-
+    family: 'Fira Sans'
+    category: sans-serif
+    baseline-ratio: '0.166'
+-
+    family: Catamaran
+    category: sans-serif
+    baseline-ratio: '0.222'
+-
+    family: 'Libre Baskerville'
+    category: serif
+    baseline-ratio: '0.151'
+-
+    family: 'Yanone Kaffeesatz'
+    category: sans-serif
+    baseline-ratio: '0.233'
+-
+    family: 'Bree Serif'
+    category: serif
+    baseline-ratio: '0.102'
+-
+    family: 'Josefin Sans'
+    category: sans-serif
+    baseline-ratio: '0.248'
+-
+    family: 'Merriweather Sans'
+    category: sans-serif
+    baseline-ratio: '0.147'
+-
+    family: 'Exo 2'
+    category: sans-serif
+    baseline-ratio: '0.107'
+-
+    family: 'Abril Fatface'
+    category: display
+    baseline-ratio: '0.118'
+-
+    family: 'Gloria Hallelujah'
+    category: handwriting
+    baseline-ratio: '0.087'
+-
+    family: Abel
+    category: sans-serif
+    baseline-ratio: '0.159'
+-
+    family: 'Roboto Mono'
+    category: monospace
+    baseline-ratio: '0.159'
+-
+    family: Asap
+    category: sans-serif
+    baseline-ratio: '0.141'
+-
+    family: 'Ubuntu Condensed'
+    category: sans-serif
+    baseline-ratio: '0.130'
 -
     family: Pacifico
     category: handwriting
@@ -183,9 +219,9 @@
     category: sans-serif
     baseline-ratio: '0.130'
 -
-    family: Hind
+    family: 'Varela Round'
     category: sans-serif
-    baseline-ratio: '0.247'
+    baseline-ratio: '0.186'
 -
     family: Karla
     category: sans-serif
@@ -199,9 +235,9 @@
     category: handwriting
     baseline-ratio: '0.115'
 -
-    family: Cabin
+    family: Play
     category: sans-serif
-    baseline-ratio: '0.142'
+    baseline-ratio: '0.143'
 -
     family: 'Dancing Script'
     category: handwriting
@@ -211,21 +247,17 @@
     category: sans-serif
     baseline-ratio: '0.139'
 -
-    family: 'Noto Serif'
-    category: serif
-    baseline-ratio: '0.113'
--
     family: Signika
     category: sans-serif
     baseline-ratio: '0.177'
 -
-    family: 'Crimson Text'
-    category: serif
-    baseline-ratio: '0.272'
--
     family: Questrial
     category: sans-serif
     baseline-ratio: '0.197'
+-
+    family: 'Shadows Into Light'
+    category: handwriting
+    baseline-ratio: '0.129'
 -
     family: Cuprum
     category: sans-serif
@@ -235,10 +267,6 @@
     category: sans-serif
     baseline-ratio: '0.158'
 -
-    family: 'Fira Sans'
-    category: sans-serif
-    baseline-ratio: '0.166'
--
     family: 'Francois One'
     category: sans-serif
     baseline-ratio: '0.121'
@@ -247,9 +275,9 @@
     category: serif
     baseline-ratio: '0.165'
 -
-    family: Catamaran
+    family: 'PT Sans Caption'
     category: sans-serif
-    baseline-ratio: '0.222'
+    baseline-ratio: '0.130'
 -
     family: Vollkorn
     category: serif
@@ -259,9 +287,9 @@
     category: sans-serif
     baseline-ratio: '0.160'
 -
-    family: 'Yanone Kaffeesatz'
-    category: sans-serif
-    baseline-ratio: '0.233'
+    family: Rokkitt
+    category: serif
+    baseline-ratio: '0.253'
 -
     family: 'Pathway Gothic One'
     category: sans-serif
@@ -275,10 +303,6 @@
     category: sans-serif
     baseline-ratio: '0.124'
 -
-    family: 'Exo 2'
-    category: sans-serif
-    baseline-ratio: '0.107'
--
     family: 'Source Code Pro'
     category: monospace
     baseline-ratio: '0.147'
@@ -291,21 +315,29 @@
     category: sans-serif
     baseline-ratio: '0.175'
 -
+    family: 'Patua One'
+    category: display
+    baseline-ratio: '0.138'
+-
     family: 'Ropa Sans'
     category: sans-serif
     baseline-ratio: '0.197'
+-
+    family: 'Crete Round'
+    category: serif
+    baseline-ratio: '0.150'
 -
     family: 'Josefin Slab'
     category: serif
     baseline-ratio: '0.248'
 -
-    family: Asap
-    category: sans-serif
-    baseline-ratio: '0.141'
--
     family: Satisfy
     category: handwriting
     baseline-ratio: '0.279'
+-
+    family: 'News Cycle'
+    category: sans-serif
+    baseline-ratio: '0.067'
 -
     family: 'Russo One'
     category: sans-serif
@@ -323,10 +355,6 @@
     category: serif
     baseline-ratio: '0.201'
 -
-    family: 'Varela Round'
-    category: sans-serif
-    baseline-ratio: '0.186'
--
     family: 'Architects Daughter'
     category: handwriting
     baseline-ratio: '0.209'
@@ -335,13 +363,13 @@
     category: display
     baseline-ratio: '0.177'
 -
-    family: Play
-    category: sans-serif
-    baseline-ratio: '0.143'
--
     family: Righteous
     category: display
     baseline-ratio: '0.137'
+-
+    family: 'Lobster Two'
+    category: display
+    baseline-ratio: '0.130'
 -
     family: 'Libre Franklin'
     category: sans-serif
@@ -363,13 +391,25 @@
     category: sans-serif
     baseline-ratio: '0.114'
 -
-    family: 'Shadows Into Light'
-    category: handwriting
-    baseline-ratio: '0.129'
+    family: ABeeZee
+    category: sans-serif
+    baseline-ratio: '0.172'
+-
+    family: 'Passion One'
+    category: display
+    baseline-ratio: '0.217'
 -
     family: Sanchez
     category: serif
     baseline-ratio: '0.134'
+-
+    family: Domine
+    category: serif
+    baseline-ratio: '0.171'
+-
+    family: 'Archivo Black'
+    category: sans-serif
+    baseline-ratio: '0.105'
 -
     family: 'Hammersmith One'
     category: sans-serif
@@ -379,13 +419,21 @@
     category: handwriting
     baseline-ratio: '0.143'
 -
-    family: 'PT Sans Caption'
+    family: Gudea
     category: sans-serif
-    baseline-ratio: '0.130'
+    baseline-ratio: '0.147'
 -
     family: Rajdhani
     category: sans-serif
     baseline-ratio: '0.208'
+-
+    family: 'Cabin Condensed'
+    category: sans-serif
+    baseline-ratio: '0.142'
+-
+    family: 'Poiret One'
+    category: display
+    baseline-ratio: '0.124'
 -
     family: Courgette
     category: handwriting
@@ -394,10 +442,6 @@
     family: Quattrocento
     category: serif
     baseline-ratio: '0.207'
--
-    family: Rokkitt
-    category: serif
-    baseline-ratio: '0.253'
 -
     family: Yellowtail
     category: handwriting
@@ -415,6 +459,10 @@
     category: sans-serif
     baseline-ratio: '0.149'
 -
+    family: 'Cormorant Garamond'
+    category: serif
+    baseline-ratio: '0.183'
+-
     family: BenchNine
     category: sans-serif
     baseline-ratio: '0.184'
@@ -431,17 +479,17 @@
     category: serif
     baseline-ratio: '0.181'
 -
-    family: 'Patua One'
-    category: display
-    baseline-ratio: '0.138'
+    family: Economica
+    category: sans-serif
+    baseline-ratio: '0.126'
+-
+    family: Cookie
+    category: handwriting
+    baseline-ratio: '0.266'
 -
     family: Tinos
     category: serif
     baseline-ratio: '0.164'
--
-    family: 'Crete Round'
-    category: serif
-    baseline-ratio: '0.150'
 -
     family: Philosopher
     category: sans-serif
@@ -459,9 +507,13 @@
     category: sans-serif
     baseline-ratio: '0.208'
 -
-    family: 'News Cycle'
+    family: Shrikhand
+    category: display
+    baseline-ratio: '0.248'
+-
+    family: Ruda
     category: sans-serif
-    baseline-ratio: '0.067'
+    baseline-ratio: '0.188'
 -
     family: Teko
     category: sans-serif
@@ -483,6 +535,14 @@
     category: sans-serif
     baseline-ratio: '0.115'
 -
+    family: Handlee
+    category: handwriting
+    baseline-ratio: '0.235'
+-
+    family: 'Droid Sans Mono'
+    category: monospace
+    baseline-ratio: '0.109'
+-
     family: 'Antic Slab'
     category: serif
     baseline-ratio: '0.155'
@@ -490,6 +550,10 @@
     family: 'Great Vibes'
     category: handwriting
     baseline-ratio: '0.276'
+-
+    family: Tangerine
+    category: handwriting
+    baseline-ratio: '0.248'
 -
     family: 'Alfa Slab One'
     category: display
@@ -499,21 +563,37 @@
     category: display
     baseline-ratio: '0.150'
 -
-    family: 'Lobster Two'
-    category: display
-    baseline-ratio: '0.130'
--
     family: Amiri
     category: serif
     baseline-ratio: '0.257'
+-
+    family: 'Ek Mukta'
+    category: sans-serif
+    baseline-ratio: '0.202'
 -
     family: 'Coming Soon'
     category: handwriting
     baseline-ratio: '0.231'
 -
+    family: Boogaloo
+    category: display
+    baseline-ratio: '0.152'
+-
+    family: Vidaloka
+    category: serif
+    baseline-ratio: '0.248'
+-
+    family: 'Shadows Into Light Two'
+    category: handwriting
+    baseline-ratio: '0.107'
+-
     family: 'Baloo Bhaina'
     category: display
     baseline-ratio: '0.322'
+-
+    family: Neuton
+    category: serif
+    baseline-ratio: '0.106'
 -
     family: Bevan
     category: display
@@ -523,9 +603,9 @@
     category: display
     baseline-ratio: '0.176'
 -
-    family: ABeeZee
+    family: Sintony
     category: sans-serif
-    baseline-ratio: '0.172'
+    baseline-ratio: '0.160'
 -
     family: 'Didact Gothic'
     category: sans-serif
@@ -535,9 +615,17 @@
     category: serif
     baseline-ratio: '0.157'
 -
-    family: 'Passion One'
+    family: Volkhov
+    category: serif
+    baseline-ratio: '0.175'
+-
+    family: 'Patrick Hand'
+    category: handwriting
+    baseline-ratio: '0.136'
+-
+    family: 'Fredoka One'
     category: display
-    baseline-ratio: '0.217'
+    baseline-ratio: '0.132'
 -
     family: 'Concert One'
     category: display
@@ -547,14 +635,6 @@
     category: handwriting
     baseline-ratio: '0.164'
 -
-    family: Domine
-    category: serif
-    baseline-ratio: '0.171'
--
-    family: 'Archivo Black'
-    category: sans-serif
-    baseline-ratio: '0.105'
--
     family: 'Sigmar One'
     category: display
     baseline-ratio: '0.149'
@@ -562,6 +642,14 @@
     family: Voltaire
     category: sans-serif
     baseline-ratio: '0.138'
+-
+    family: Coda
+    category: display
+    baseline-ratio: '0.174'
+-
+    family: 'Marck Script'
+    category: handwriting
+    baseline-ratio: '0.262'
 -
     family: 'Rock Salt'
     category: handwriting
@@ -571,10 +659,6 @@
     category: handwriting
     baseline-ratio: '0.178'
 -
-    family: Gudea
-    category: sans-serif
-    baseline-ratio: '0.147'
--
     family: Rochester
     category: handwriting
     baseline-ratio: '0.115'
@@ -583,21 +667,21 @@
     category: sans-serif
     baseline-ratio: '0.145'
 -
-    family: 'Cabin Condensed'
-    category: sans-serif
-    baseline-ratio: '0.142'
+    family: 'Sorts Mill Goudy'
+    category: serif
+    baseline-ratio: '0.260'
 -
     family: Glegoo
     category: serif
     baseline-ratio: '0.130'
 -
+    family: 'Gentium Book Basic'
+    category: serif
+    baseline-ratio: '0.206'
+-
     family: 'Julius Sans One'
     category: sans-serif
     baseline-ratio: '0.183'
--
-    family: 'Poiret One'
-    category: display
-    baseline-ratio: '0.124'
 -
     family: Copse
     category: serif
@@ -611,6 +695,14 @@
     category: sans-serif
     baseline-ratio: '0.131'
 -
+    family: 'Covered By Your Grace'
+    category: handwriting
+    baseline-ratio: '0.202'
+-
+    family: Sacramento
+    category: handwriting
+    baseline-ratio: '0.301'
+-
     family: Heebo
     category: sans-serif
     baseline-ratio: '0.248'
@@ -619,21 +711,41 @@
     category: display
     baseline-ratio: '0.150'
 -
+    family: Jura
+    category: sans-serif
+    baseline-ratio: '0.128'
+-
+    family: Varela
+    category: sans-serif
+    baseline-ratio: '0.135'
+-
     family: Sarala
     category: sans-serif
     baseline-ratio: '0.145'
--
-    family: 'Cormorant Garamond'
-    category: serif
-    baseline-ratio: '0.183'
 -
     family: 'Oleo Script'
     category: display
     baseline-ratio: '0.186'
 -
+    family: Alice
+    category: serif
+    baseline-ratio: '0.164'
+-
     family: 'Changa One'
     category: display
     baseline-ratio: '0.151'
+-
+    family: 'Nothing You Could Do'
+    category: handwriting
+    baseline-ratio: '0.231'
+-
+    family: Adamina
+    category: serif
+    baseline-ratio: '0.110'
+-
+    family: 'Paytone One'
+    category: sans-serif
+    baseline-ratio: '0.086'
 -
     family: 'Luckiest Guy'
     category: display
@@ -643,29 +755,41 @@
     category: serif
     baseline-ratio: '0.193'
 -
+    family: 'Homemade Apple'
+    category: handwriting
+    baseline-ratio: '0.276'
+-
     family: 'Hind Siliguri'
     category: sans-serif
     baseline-ratio: '0.195'
 -
-    family: Economica
-    category: sans-serif
-    baseline-ratio: '0.126'
+    family: 'Gentium Basic'
+    category: serif
+    baseline-ratio: '0.206'
 -
     family: 'Signika Negative'
     category: sans-serif
     baseline-ratio: '0.177'
 -
-    family: Cookie
-    category: handwriting
-    baseline-ratio: '0.266'
--
     family: Nobile
     category: sans-serif
     baseline-ratio: '0.219'
 -
+    family: Scada
+    category: sans-serif
+    baseline-ratio: '0.168'
+-
+    family: Rambla
+    category: sans-serif
+    baseline-ratio: '0.184'
+-
     family: Antic
     category: sans-serif
     baseline-ratio: '0.158'
+-
+    family: Martel
+    category: serif
+    baseline-ratio: '0.220'
 -
     family: 'Frank Ruhl Libre'
     category: sans-serif
@@ -683,17 +807,9 @@
     category: display
     baseline-ratio: '0.179'
 -
-    family: Shrikhand
-    category: display
-    baseline-ratio: '0.248'
--
     family: 'Alegreya Sans SC'
     category: sans-serif
     baseline-ratio: '0.200'
--
-    family: Ruda
-    category: sans-serif
-    baseline-ratio: '0.188'
 -
     family: Parisienne
     category: handwriting
@@ -703,21 +819,29 @@
     category: display
     baseline-ratio: '0.293'
 -
+    family: 'Squada One'
+    category: display
+    baseline-ratio: '0.169'
+-
     family: 'Cantata One'
     category: serif
     baseline-ratio: '0.144'
+-
+    family: 'Alex Brush'
+    category: handwriting
+    baseline-ratio: '0.302'
 -
     family: Rancho
     category: handwriting
     baseline-ratio: '0.213'
 -
+    family: Enriqueta
+    category: serif
+    baseline-ratio: '0.092'
+-
     family: 'Unica One'
     category: display
     baseline-ratio: '0.175'
--
-    family: Handlee
-    category: handwriting
-    baseline-ratio: '0.235'
 -
     family: Syncopate
     category: sans-serif
@@ -727,10 +851,6 @@
     category: sans-serif
     baseline-ratio: '0.248'
 -
-    family: 'Droid Sans Mono'
-    category: monospace
-    baseline-ratio: '0.109'
--
     family: 'PT Mono'
     category: monospace
     baseline-ratio: '0.175'
@@ -739,33 +859,49 @@
     category: handwriting
     baseline-ratio: '0.259'
 -
-    family: Tangerine
-    category: handwriting
-    baseline-ratio: '0.248'
+    family: Prata
+    category: serif
+    baseline-ratio: '0.187'
+-
+    family: Molengo
+    category: sans-serif
+    baseline-ratio: '0.158'
 -
     family: VT323
     category: monospace
     baseline-ratio: '0.198'
 -
+    family: Kameron
+    category: serif
+    baseline-ratio: '0.204'
+-
+    family: Electrolize
+    category: sans-serif
+    baseline-ratio: '0.183'
+-
+    family: Ultra
+    category: serif
+    baseline-ratio: '0.133'
+-
+    family: 'Just Another Hand'
+    category: handwriting
+    baseline-ratio: '0.293'
+-
     family: Cousine
     category: monospace
     baseline-ratio: '0.236'
+-
+    family: 'PT Serif Caption'
+    category: serif
+    baseline-ratio: '0.125'
 -
     family: Basic
     category: sans-serif
     baseline-ratio: '0.121'
 -
-    family: 'Ek Mukta'
-    category: sans-serif
-    baseline-ratio: '0.202'
--
     family: Limelight
     category: display
     baseline-ratio: '0.199'
--
-    family: Boogaloo
-    category: display
-    baseline-ratio: '0.152'
 -
     family: Caveat
     category: handwriting
@@ -775,45 +911,61 @@
     category: sans-serif
     baseline-ratio: '0.189'
 -
-    family: Vidaloka
-    category: serif
-    baseline-ratio: '0.248'
--
     family: Aldrich
     category: sans-serif
     baseline-ratio: '0.247'
--
-    family: 'Shadows Into Light Two'
-    category: handwriting
-    baseline-ratio: '0.107'
 -
     family: Graduate
     category: display
     baseline-ratio: '0.117'
 -
+    family: 'Pinyon Script'
+    category: handwriting
+    baseline-ratio: '0.261'
+-
+    family: Cambay
+    category: sans-serif
+    baseline-ratio: '0.320'
+-
+    family: Calligraffitti
+    category: handwriting
+    baseline-ratio: '0.316'
+-
+    family: Carme
+    category: sans-serif
+    baseline-ratio: '0.152'
+-
     family: Allura
     category: handwriting
     baseline-ratio: '0.327'
--
-    family: Neuton
-    category: serif
-    baseline-ratio: '0.106'
 -
     family: 'Ubuntu Mono'
     category: monospace
     baseline-ratio: '0.167'
 -
+    family: 'Fugaz One'
+    category: display
+    baseline-ratio: '0.189'
+-
     family: 'Ceviche One'
     category: display
     baseline-ratio: '0.217'
+-
+    family: Average
+    category: serif
+    baseline-ratio: '0.156'
 -
     family: 'Contrail One'
     category: display
     baseline-ratio: '0.180'
 -
-    family: Sintony
-    category: sans-serif
-    baseline-ratio: '0.160'
+    family: 'Cherry Cream Soda'
+    category: display
+    baseline-ratio: '0.131'
+-
+    family: Niconne
+    category: handwriting
+    baseline-ratio: '0.180'
 -
     family: Jaldi
     category: sans-serif
@@ -827,25 +979,25 @@
     category: display
     baseline-ratio: '0.124'
 -
-    family: Volkhov
-    category: serif
-    baseline-ratio: '0.175'
--
     family: 'Nunito Sans'
     category: sans-serif
     baseline-ratio: '0.172'
 -
-    family: 'Patrick Hand'
-    category: handwriting
-    baseline-ratio: '0.136'
+    family: Allerta
+    category: sans-serif
+    baseline-ratio: '0.108'
 -
-    family: 'Fredoka One'
-    category: display
-    baseline-ratio: '0.132'
+    family: 'Marcellus SC'
+    category: serif
+    baseline-ratio: '0.154'
 -
     family: Viga
     category: sans-serif
     baseline-ratio: '0.157'
+-
+    family: Michroma
+    category: sans-serif
+    baseline-ratio: '0.056'
 -
     family: 'Freckle Face'
     category: display
@@ -855,6 +1007,10 @@
     category: display
     baseline-ratio: '0.000'
 -
+    family: Convergence
+    category: sans-serif
+    baseline-ratio: '0.145'
+-
     family: Forum
     category: display
     baseline-ratio: '0.197'
@@ -863,17 +1019,17 @@
     category: sans-serif
     baseline-ratio: '0.127'
 -
-    family: Coda
-    category: display
-    baseline-ratio: '0.174'
+    family: Chivo
+    category: sans-serif
+    baseline-ratio: '0.155'
 -
     family: Palanquin
     category: sans-serif
     baseline-ratio: '0.087'
 -
-    family: 'Marck Script'
-    category: handwriting
-    baseline-ratio: '0.262'
+    family: 'Advent Pro'
+    category: sans-serif
+    baseline-ratio: '0.135'
 -
     family: Spinnaker
     category: sans-serif
@@ -882,6 +1038,22 @@
     family: 'Nixie One'
     category: display
     baseline-ratio: '0.143'
+-
+    family: Alef
+    category: sans-serif
+    baseline-ratio: '0.172'
+-
+    family: 'Fauna One'
+    category: serif
+    baseline-ratio: '0.130'
+-
+    family: 'Bubblegum Sans'
+    category: display
+    baseline-ratio: '0.231'
+-
+    family: 'Palanquin Dark'
+    category: sans-serif
+    baseline-ratio: '0.087'
 -
     family: Khula
     category: sans-serif
@@ -899,17 +1071,13 @@
     category: display
     baseline-ratio: '0.145'
 -
-    family: 'Sorts Mill Goudy'
-    category: serif
-    baseline-ratio: '0.260'
+    family: 'Allerta Stencil'
+    category: sans-serif
+    baseline-ratio: '0.108'
 -
     family: Marvel
     category: sans-serif
     baseline-ratio: '0.155'
--
-    family: 'Gentium Book Basic'
-    category: serif
-    baseline-ratio: '0.206'
 -
     family: Telex
     category: sans-serif
@@ -919,9 +1087,21 @@
     category: serif
     baseline-ratio: '0.154'
 -
+    family: 'Fontdiner Swanky'
+    category: display
+    baseline-ratio: '0.237'
+-
     family: 'Average Sans'
     category: sans-serif
     baseline-ratio: '0.122'
+-
+    family: 'Fanwood Text'
+    category: serif
+    baseline-ratio: '0.238'
+-
+    family: Oranienbaum
+    category: serif
+    baseline-ratio: '0.184'
 -
     family: 'Black Ops One'
     category: display
@@ -931,21 +1111,17 @@
     category: serif
     baseline-ratio: '0.174'
 -
-    family: 'Covered By Your Grace'
-    category: handwriting
-    baseline-ratio: '0.202'
--
     family: 'Montserrat Alternates'
     category: sans-serif
     baseline-ratio: '0.144'
 -
+    family: 'Arbutus Slab'
+    category: serif
+    baseline-ratio: '0.145'
+-
     family: 'Cabin Sketch'
     category: display
     baseline-ratio: '0.214'
--
-    family: Sacramento
-    category: handwriting
-    baseline-ratio: '0.301'
 -
     family: Lustria
     category: serif
@@ -959,17 +1135,21 @@
     category: serif
     baseline-ratio: '0.199'
 -
-    family: Jura
+    family: Yesteryear
+    category: handwriting
+    baseline-ratio: '0.258'
+-
+    family: Prompt
     category: sans-serif
-    baseline-ratio: '0.128'
+    baseline-ratio: '0.248'
+-
+    family: 'Ruslan Display'
+    category: display
+    baseline-ratio: '0.356'
 -
     family: 'Jockey One'
     category: sans-serif
     baseline-ratio: '0.121'
--
-    family: Varela
-    category: sans-serif
-    baseline-ratio: '0.135'
 -
     family: Homenaje
     category: sans-serif
@@ -979,37 +1159,37 @@
     category: display
     baseline-ratio: '0.154'
 -
-    family: Alice
-    category: serif
-    baseline-ratio: '0.164'
+    family: 'Fira Sans Condensed'
+    category: sans-serif
+    baseline-ratio: '0.166'
+-
+    family: Federo
+    category: sans-serif
+    baseline-ratio: '0.171'
 -
     family: 'Slabo 13px'
     category: serif
     baseline-ratio: '0.193'
 -
-    family: Hanuman
+    family: Radley
     category: serif
-    baseline-ratio: '0.256'
+    baseline-ratio: '0.170'
+-
+    family: 'Arima Madurai'
+    category: display
+    baseline-ratio: '0.248'
 -
     family: 'Grand Hotel'
     category: handwriting
     baseline-ratio: '0.234'
 -
-    family: 'Nothing You Could Do'
+    family: 'Crafty Girls'
     category: handwriting
-    baseline-ratio: '0.231'
--
-    family: Adamina
-    category: serif
-    baseline-ratio: '0.110'
+    baseline-ratio: '0.238'
 -
     family: 'Goudy Bookletter 1911'
     category: serif
     baseline-ratio: '0.176'
--
-    family: 'Paytone One'
-    category: sans-serif
-    baseline-ratio: '0.086'
 -
     family: 'Petit Formal Script'
     category: handwriting
@@ -1027,17 +1207,9 @@
     category: serif
     baseline-ratio: '0.277'
 -
-    family: 'Homemade Apple'
-    category: handwriting
-    baseline-ratio: '0.276'
--
     family: Magra
     category: sans-serif
     baseline-ratio: '0.140'
--
-    family: 'Gentium Basic'
-    category: serif
-    baseline-ratio: '0.206'
 -
     family: Quantico
     category: sans-serif
@@ -1051,32 +1223,40 @@
     category: monospace
     baseline-ratio: '0.179'
 -
+    family: 'Poller One'
+    category: display
+    baseline-ratio: '0.159'
+-
     family: 'Carrois Gothic'
     category: sans-serif
     baseline-ratio: '0.176'
+-
+    family: 'Doppio One'
+    category: sans-serif
+    baseline-ratio: '0.119'
 -
     family: 'Leckerli One'
     category: handwriting
     baseline-ratio: '0.141'
 -
-    family: Scada
-    category: sans-serif
-    baseline-ratio: '0.168'
--
     family: 'Carter One'
     category: display
     baseline-ratio: '0.165'
 -
-    family: Rambla
-    category: sans-serif
-    baseline-ratio: '0.184'
+    family: Coustard
+    category: serif
+    baseline-ratio: '0.180'
+-
+    family: 'Walter Turncoat'
+    category: handwriting
+    baseline-ratio: '0.132'
+-
+    family: Merienda
+    category: handwriting
+    baseline-ratio: '0.121'
 -
     family: Aclonica
     category: sans-serif
-    baseline-ratio: '0.220'
--
-    family: Martel
-    category: serif
     baseline-ratio: '0.220'
 -
     family: Ranga
@@ -1099,6 +1279,10 @@
     category: handwriting
     baseline-ratio: '0.192'
 -
+    family: Puritan
+    category: sans-serif
+    baseline-ratio: '0.195'
+-
     family: Tauri
     category: sans-serif
     baseline-ratio: '0.133'
@@ -1115,17 +1299,13 @@
     category: serif
     baseline-ratio: '0.183'
 -
-    family: 'Squada One'
-    category: display
-    baseline-ratio: '0.169'
--
     family: 'Port Lligat Slab'
     category: serif
     baseline-ratio: '0.177'
 -
-    family: 'Alex Brush'
-    category: handwriting
-    baseline-ratio: '0.302'
+    family: 'Fredericka the Great'
+    category: display
+    baseline-ratio: '0.136'
 -
     family: Italianno
     category: handwriting
@@ -1135,17 +1315,33 @@
     category: sans-serif
     baseline-ratio: '0.130'
 -
-    family: Enriqueta
-    category: serif
-    baseline-ratio: '0.092'
--
     family: 'Love Ya Like A Sister'
     category: display
     baseline-ratio: '0.204'
 -
+    family: 'Mr Dafoe'
+    category: handwriting
+    baseline-ratio: '0.219'
+-
+    family: Lateef
+    category: handwriting
+    baseline-ratio: '0.276'
+-
+    family: Inder
+    category: sans-serif
+    baseline-ratio: '0.133'
+-
     family: Metrophobic
     category: sans-serif
     baseline-ratio: '0.109'
+-
+    family: 'Caveat Brush'
+    category: handwriting
+    baseline-ratio: '0.171'
+-
+    family: 'Six Caps'
+    category: sans-serif
+    baseline-ratio: '0.053'
 -
     family: 'Cinzel Decorative'
     category: display
@@ -1167,21 +1363,17 @@
     category: display
     baseline-ratio: '0.248'
 -
+    family: 'Cutive Mono'
+    category: monospace
+    baseline-ratio: '0.223'
+-
     family: Anaheim
     category: sans-serif
     baseline-ratio: '0.184'
 -
-    family: Prata
-    category: serif
-    baseline-ratio: '0.187'
--
     family: Karma
     category: serif
     baseline-ratio: '0.283'
--
-    family: Molengo
-    category: sans-serif
-    baseline-ratio: '0.158'
 -
     family: Andika
     category: sans-serif
@@ -1195,41 +1387,33 @@
     category: sans-serif
     baseline-ratio: '0.133'
 -
-    family: Kameron
-    category: serif
-    baseline-ratio: '0.204'
--
-    family: Electrolize
-    category: sans-serif
-    baseline-ratio: '0.183'
--
-    family: Ultra
-    category: serif
-    baseline-ratio: '0.133'
--
-    family: 'Just Another Hand'
-    category: handwriting
-    baseline-ratio: '0.293'
--
     family: 'Kelly Slab'
     category: display
     baseline-ratio: '0.144'
+-
+    family: Caudex
+    category: serif
+    baseline-ratio: '0.154'
 -
     family: Allan
     category: display
     baseline-ratio: '0.131'
 -
-    family: 'PT Serif Caption'
-    category: serif
-    baseline-ratio: '0.125'
--
     family: 'Martel Sans'
     category: sans-serif
     baseline-ratio: '0.263'
 -
+    family: 'Lilita One'
+    category: display
+    baseline-ratio: '0.150'
+-
     family: Slackey
     category: display
     baseline-ratio: '0.146'
+-
+    family: Gruppo
+    category: display
+    baseline-ratio: '0.183'
 -
     family: Oregano
     category: display
@@ -1239,45 +1423,49 @@
     category: handwriting
     baseline-ratio: '0.261'
 -
+    family: 'Tenor Sans'
+    category: sans-serif
+    baseline-ratio: '0.165'
+-
     family: 'Happy Monkey'
     category: display
     baseline-ratio: '0.153'
+-
+    family: Trocchi
+    category: serif
+    baseline-ratio: '0.133'
 -
     family: 'The Girl Next Door'
     category: handwriting
     baseline-ratio: '0.310'
 -
-    family: 'Pinyon Script'
-    category: handwriting
-    baseline-ratio: '0.261'
+    family: Belleza
+    category: sans-serif
+    baseline-ratio: '0.149'
 -
     family: 'Waiting for the Sunrise'
     category: handwriting
     baseline-ratio: '0.208'
 -
-    family: Cambay
-    category: sans-serif
-    baseline-ratio: '0.320'
--
     family: Quando
     category: serif
     baseline-ratio: '0.136'
--
-    family: Calligraffitti
-    category: handwriting
-    baseline-ratio: '0.316'
 -
     family: Mako
     category: sans-serif
     baseline-ratio: '0.110'
 -
-    family: Carme
-    category: sans-serif
-    baseline-ratio: '0.152'
--
     family: Zeyada
     category: handwriting
     baseline-ratio: '0.377'
+-
+    family: 'Chelsea Market'
+    category: display
+    baseline-ratio: '0.130'
+-
+    family: Capriola
+    category: sans-serif
+    baseline-ratio: '0.154'
 -
     family: 'Fira Sans Extra Condensed'
     category: sans-serif
@@ -1287,10 +1475,6 @@
     category: handwriting
     baseline-ratio: '0.121'
 -
-    family: 'Fugaz One'
-    category: display
-    baseline-ratio: '0.189'
--
     family: 'Wire One'
     category: sans-serif
     baseline-ratio: '0.162'
@@ -1298,10 +1482,6 @@
     family: Lekton
     category: sans-serif
     baseline-ratio: '0.248'
--
-    family: Average
-    category: serif
-    baseline-ratio: '0.156'
 -
     family: 'Averia Serif Libre'
     category: display
@@ -1311,25 +1491,29 @@
     category: display
     baseline-ratio: '0.147'
 -
-    family: 'Cherry Cream Soda'
-    category: display
-    baseline-ratio: '0.131'
--
     family: 'Duru Sans'
     category: sans-serif
     baseline-ratio: '0.141'
+-
+    family: Kranky
+    category: display
+    baseline-ratio: '0.168'
 -
     family: Brawler
     category: serif
     baseline-ratio: '0.139'
 -
-    family: Niconne
-    category: handwriting
-    baseline-ratio: '0.180'
+    family: Trirong
+    category: serif
+    baseline-ratio: '0.248'
 -
     family: Pompiere
     category: display
     baseline-ratio: '0.248'
+-
+    family: 'Prosto One'
+    category: display
+    baseline-ratio: '0.178'
 -
     family: 'Short Stack'
     category: handwriting
@@ -1339,13 +1523,21 @@
     category: handwriting
     baseline-ratio: '0.144'
 -
+    family: 'Mouse Memoirs'
+    category: sans-serif
+    baseline-ratio: '0.138'
+-
     family: Crushed
     category: display
     baseline-ratio: '0.175'
 -
-    family: Allerta
-    category: sans-serif
-    baseline-ratio: '0.108'
+    family: Judson
+    category: serif
+    baseline-ratio: '0.174'
+-
+    family: 'Diplomata SC'
+    category: display
+    baseline-ratio: '0.180'
 -
     family: 'Carrois Gothic SC'
     category: sans-serif
@@ -1355,10 +1547,6 @@
     category: serif
     baseline-ratio: '0.188'
 -
-    family: 'Marcellus SC'
-    category: serif
-    baseline-ratio: '0.154'
--
     family: Baumans
     category: display
     baseline-ratio: '0.150'
@@ -1367,25 +1555,29 @@
     category: serif
     baseline-ratio: '0.153'
 -
-    family: Michroma
-    category: sans-serif
-    baseline-ratio: '0.056'
--
     family: Alike
     category: serif
     baseline-ratio: '0.144'
+-
+    family: Belgrano
+    category: serif
+    baseline-ratio: '0.147'
 -
     family: 'Mr De Haviland'
     category: handwriting
     baseline-ratio: '0.285'
 -
-    family: Convergence
+    family: Strait
     category: sans-serif
-    baseline-ratio: '0.145'
+    baseline-ratio: '0.148'
 -
     family: Unkempt
     category: display
     baseline-ratio: '0.145'
+-
+    family: 'Herr Von Muellerhoff'
+    category: handwriting
+    baseline-ratio: '0.286'
 -
     family: 'Gravitas One'
     category: display
@@ -1395,17 +1587,13 @@
     category: display
     baseline-ratio: '0.186'
 -
-    family: Chivo
-    category: sans-serif
-    baseline-ratio: '0.155'
+    family: 'IM Fell English'
+    category: serif
+    baseline-ratio: '0.230'
 -
     family: 'Just Me Again Down Here'
     category: handwriting
     baseline-ratio: '0.182'
--
-    family: 'Advent Pro'
-    category: sans-serif
-    baseline-ratio: '0.135'
 -
     family: Itim
     category: handwriting
@@ -1415,37 +1603,41 @@
     category: serif
     baseline-ratio: '0.199'
 -
+    family: Lemon
+    category: display
+    baseline-ratio: '0.135'
+-
     family: Poly
     category: serif
     baseline-ratio: '0.131'
--
-    family: Alef
-    category: sans-serif
-    baseline-ratio: '0.172'
--
-    family: 'Fauna One'
-    category: serif
-    baseline-ratio: '0.130'
 -
     family: Orienta
     category: sans-serif
     baseline-ratio: '0.139'
 -
-    family: 'Bubblegum Sans'
+    family: 'Bungee Inline'
     category: display
-    baseline-ratio: '0.231'
+    baseline-ratio: '0.248'
 -
     family: 'Oxygen Mono'
     category: monospace
     baseline-ratio: '0.173'
 -
-    family: 'Palanquin Dark'
-    category: sans-serif
-    baseline-ratio: '0.087'
+    family: 'Bowlby One SC'
+    category: display
+    baseline-ratio: '0.166'
+-
+    family: 'Abhaya Libre'
+    category: serif
+    baseline-ratio: '0.251'
 -
     family: 'Yeseva One'
     category: display
     baseline-ratio: '0.164'
+-
+    family: Knewave
+    category: display
+    baseline-ratio: '0.109'
 -
     family: Arizonia
     category: handwriting
@@ -1459,13 +1651,17 @@
     category: serif
     baseline-ratio: '0.157'
 -
+    family: Andada
+    category: serif
+    baseline-ratio: '0.121'
+-
     family: Aladin
     category: handwriting
     baseline-ratio: '0.209'
 -
-    family: 'Allerta Stencil'
-    category: sans-serif
-    baseline-ratio: '0.108'
+    family: Megrim
+    category: display
+    baseline-ratio: '0.161'
 -
     family: 'Finger Paint'
     category: display
@@ -1479,10 +1675,6 @@
     category: serif
     baseline-ratio: '0.198'
 -
-    family: 'Fontdiner Swanky'
-    category: display
-    baseline-ratio: '0.237'
--
     family: Prociono
     category: serif
     baseline-ratio: '0.102'
@@ -1490,10 +1682,6 @@
     family: Qwigley
     category: handwriting
     baseline-ratio: '0.374'
--
-    family: 'Fanwood Text'
-    category: serif
-    baseline-ratio: '0.238'
 -
     family: 'Headland One'
     category: serif
@@ -1503,9 +1691,9 @@
     category: sans-serif
     baseline-ratio: '0.274'
 -
-    family: Oranienbaum
-    category: serif
-    baseline-ratio: '0.184'
+    family: 'Share Tech Mono'
+    category: monospace
+    baseline-ratio: '0.179'
 -
     family: Mallanna
     category: sans-serif
@@ -1518,10 +1706,6 @@
     family: 'La Belle Aurore'
     category: handwriting
     baseline-ratio: '0.350'
--
-    family: 'Arbutus Slab'
-    category: serif
-    baseline-ratio: '0.145'
 -
     family: 'Bowlby One'
     category: display
@@ -1539,61 +1723,85 @@
     category: display
     baseline-ratio: '0.196'
 -
+    family: Sansita
+    category: sans-serif
+    baseline-ratio: '0.081'
+-
     family: Shojumaru
     category: display
     baseline-ratio: '0.177'
+-
+    family: 'Chau Philomene One'
+    category: sans-serif
+    baseline-ratio: '0.153'
+-
+    family: UnifrakturMaguntia
+    category: display
+    baseline-ratio: '0.236'
 -
     family: Unna
     category: serif
     baseline-ratio: '0.194'
 -
-    family: Yesteryear
-    category: handwriting
-    baseline-ratio: '0.258'
--
     family: Frijole
     category: display
     baseline-ratio: '0.141'
 -
-    family: Prompt
-    category: sans-serif
-    baseline-ratio: '0.248'
+    family: 'Holtwood One SC'
+    category: serif
+    baseline-ratio: '0.116'
 -
     family: 'Bilbo Swash Caps'
     category: handwriting
     baseline-ratio: '0.275'
 -
-    family: 'Ruslan Display'
-    category: display
-    baseline-ratio: '0.356'
--
     family: Corben
     category: display
     baseline-ratio: '0.049'
+-
+    family: 'Nova Square'
+    category: display
+    baseline-ratio: '0.145'
 -
     family: Sail
     category: display
     baseline-ratio: '0.218'
 -
+    family: 'Loved by the King'
+    category: handwriting
+    baseline-ratio: '0.193'
+-
+    family: Kristi
+    category: handwriting
+    baseline-ratio: '0.230'
+-
     family: 'Patrick Hand SC'
     category: handwriting
     baseline-ratio: '0.136'
--
-    family: 'Fira Sans Condensed'
-    category: sans-serif
-    baseline-ratio: '0.166'
 -
     family: Imprima
     category: sans-serif
     baseline-ratio: '0.160'
 -
-    family: Federo
-    category: sans-serif
-    baseline-ratio: '0.171'
--
     family: 'Titan One'
     category: display
     baseline-ratio: '0.103'
+-
+    family: 'Seaweed Script'
+    category: display
+    baseline-ratio: '0.233'
+-
+    family: 'Mountains of Christmas'
+    category: display
+    baseline-ratio: '0.154'
+-
+    family: 'Euphoria Script'
+    category: handwriting
+    baseline-ratio: '0.272'
+-
+    family: Norican
+    category: handwriting
+    baseline-ratio: '0.182'
 -
     family: Kurale
     category: serif
@@ -1603,29 +1811,25 @@
     category: display
     baseline-ratio: '0.139'
 -
-    family: Radley
-    category: serif
-    baseline-ratio: '0.170'
--
-    family: 'Arima Madurai'
-    category: display
-    baseline-ratio: '0.248'
--
     family: 'IM Fell DW Pica'
     category: serif
     baseline-ratio: '0.215'
+-
+    family: Amethysta
+    category: serif
+    baseline-ratio: '0.146'
 -
     family: 'Stardos Stencil'
     category: display
     baseline-ratio: '0.216'
 -
-    family: 'Crafty Girls'
-    category: handwriting
-    baseline-ratio: '0.238'
--
     family: Ramabhadra
     category: sans-serif
     baseline-ratio: '0.123'
+-
+    family: 'Wendy One'
+    category: sans-serif
+    baseline-ratio: '0.210'
 -
     family: Scheherazade
     category: serif
@@ -1643,17 +1847,29 @@
     category: handwriting
     baseline-ratio: '0.185'
 -
+    family: Voces
+    category: display
+    baseline-ratio: '0.161'
+-
     family: 'Fira Mono'
     category: monospace
     baseline-ratio: '0.166'
 -
-    family: Khmer
+    family: Habibi
+    category: serif
+    baseline-ratio: '0.150'
+-
+    family: 'Expletus Sans'
     category: display
-    baseline-ratio: '0.233'
+    baseline-ratio: '0.251'
 -
     family: Stalemate
     category: handwriting
     baseline-ratio: '0.337'
+-
+    family: Simonetta
+    category: display
+    baseline-ratio: '0.164'
 -
     family: 'Vast Shadow'
     category: display
@@ -1667,10 +1883,6 @@
     category: serif
     baseline-ratio: '0.046'
 -
-    family: 'Poller One'
-    category: display
-    baseline-ratio: '0.159'
--
     family: Salsa
     category: display
     baseline-ratio: '0.141'
@@ -1678,10 +1890,6 @@
     family: 'Denk One'
     category: sans-serif
     baseline-ratio: '0.092'
--
-    family: 'Doppio One'
-    category: sans-serif
-    baseline-ratio: '0.119'
 -
     family: Meddon
     category: handwriting
@@ -1695,9 +1903,13 @@
     category: serif
     baseline-ratio: '0.230'
 -
-    family: Coustard
-    category: serif
-    baseline-ratio: '0.180'
+    family: 'Over the Rainbow'
+    category: handwriting
+    baseline-ratio: '0.142'
+-
+    family: Rationale
+    category: sans-serif
+    baseline-ratio: '0.173'
 -
     family: Suranna
     category: serif
@@ -1707,17 +1919,9 @@
     category: serif
     baseline-ratio: '0.161'
 -
-    family: 'Walter Turncoat'
-    category: handwriting
-    baseline-ratio: '0.132'
--
     family: 'Baloo Paaji'
     category: display
     baseline-ratio: '0.225'
--
-    family: Merienda
-    category: handwriting
-    baseline-ratio: '0.121'
 -
     family: 'Kotta One'
     category: serif
@@ -1735,6 +1939,10 @@
     category: serif
     baseline-ratio: '0.180'
 -
+    family: 'Nova Mono'
+    category: monospace
+    baseline-ratio: '0.248'
+-
     family: Julee
     category: handwriting
     baseline-ratio: '0.196'
@@ -1747,9 +1955,9 @@
     category: display
     baseline-ratio: '0.128'
 -
-    family: Puritan
-    category: sans-serif
-    baseline-ratio: '0.195'
+    family: Tienne
+    category: serif
+    baseline-ratio: '0.182'
 -
     family: Engagement
     category: handwriting
@@ -1767,13 +1975,17 @@
     category: display
     baseline-ratio: '0.138'
 -
+    family: Ledger
+    category: serif
+    baseline-ratio: '0.134'
+-
     family: 'Delius Swash Caps'
     category: handwriting
     baseline-ratio: '0.144'
 -
-    family: 'Fredericka the Great'
+    family: 'Raleway Dots'
     category: display
-    baseline-ratio: '0.136'
+    baseline-ratio: '0.248'
 -
     family: Macondo
     category: display
@@ -1795,13 +2007,9 @@
     category: handwriting
     baseline-ratio: '0.308'
 -
-    family: 'Mr Dafoe'
-    category: handwriting
-    baseline-ratio: '0.219'
--
-    family: Lateef
-    category: handwriting
-    baseline-ratio: '0.276'
+    family: Balthazar
+    category: serif
+    baseline-ratio: '0.214'
 -
     family: 'Suez One'
     category: serif
@@ -1811,29 +2019,25 @@
     category: display
     baseline-ratio: '0.150'
 -
-    family: Inder
-    category: sans-serif
-    baseline-ratio: '0.133'
--
     family: 'Cedarville Cursive'
     category: handwriting
     baseline-ratio: '0.201'
--
-    family: 'Caveat Brush'
-    category: handwriting
-    baseline-ratio: '0.171'
 -
     family: Esteban
     category: serif
     baseline-ratio: '0.155'
 -
+    family: 'New Rocker'
+    category: display
+    baseline-ratio: '0.170'
+-
+    family: Englebert
+    category: sans-serif
+    baseline-ratio: '0.344'
+-
     family: Mitr
     category: sans-serif
     baseline-ratio: '0.248'
--
-    family: 'Six Caps'
-    category: sans-serif
-    baseline-ratio: '0.053'
 -
     family: Sunshiney
     category: handwriting
@@ -1843,25 +2047,41 @@
     category: display
     baseline-ratio: '0.248'
 -
+    family: Mada
+    category: sans-serif
+    baseline-ratio: '0.248'
+-
+    family: McLaren
+    category: display
+    baseline-ratio: '0.137'
+-
+    family: Amarante
+    category: display
+    baseline-ratio: '0.141'
+-
     family: Harmattan
     category: sans-serif
     baseline-ratio: '0.248'
+-
+    family: Rye
+    category: display
+    baseline-ratio: '0.141'
 -
     family: Geo
     category: sans-serif
     baseline-ratio: '0.210'
 -
-    family: 'GFS Didot'
-    category: serif
-    baseline-ratio: '0.167'
--
-    family: 'Cutive Mono'
-    category: monospace
-    baseline-ratio: '0.223'
--
     family: Kadwa
     category: serif
     baseline-ratio: '0.191'
+-
+    family: Gurajada
+    category: serif
+    baseline-ratio: '0.274'
+-
+    family: 'Fjord One'
+    category: serif
+    baseline-ratio: '0.248'
 -
     family: Rasa
     category: serif
@@ -1895,6 +2115,14 @@
     category: display
     baseline-ratio: '0.313'
 -
+    family: 'Mystery Quest'
+    category: display
+    baseline-ratio: '0.217'
+-
+    family: Creepster
+    category: display
+    baseline-ratio: '0.134'
+-
     family: Rosarivo
     category: serif
     baseline-ratio: '0.224'
@@ -1907,6 +2135,18 @@
     category: handwriting
     baseline-ratio: '0.124'
 -
+    family: 'League Script'
+    category: handwriting
+    baseline-ratio: '0.338'
+-
+    family: 'Miriam Libre'
+    category: sans-serif
+    baseline-ratio: '0.248'
+-
+    family: Codystar
+    category: display
+    baseline-ratio: '0.160'
+-
     family: 'Aref Ruqaa'
     category: serif
     baseline-ratio: '0.248'
@@ -1915,17 +2155,29 @@
     category: display
     baseline-ratio: '0.218'
 -
-    family: Caudex
-    category: serif
-    baseline-ratio: '0.154'
+    family: 'Averia Libre'
+    category: display
+    baseline-ratio: '0.145'
 -
     family: Chicle
     category: display
     baseline-ratio: '0.191'
 -
+    family: Inika
+    category: serif
+    baseline-ratio: '0.145'
+-
     family: 'Donegal One'
     category: serif
     baseline-ratio: '0.150'
+-
+    family: Pavanam
+    category: sans-serif
+    baseline-ratio: '0.248'
+-
+    family: NTR
+    category: sans-serif
+    baseline-ratio: '0.297'
 -
     family: 'IM Fell DW Pica SC'
     category: serif
@@ -1935,21 +2187,21 @@
     category: handwriting
     baseline-ratio: '0.380'
 -
-    family: 'Lilita One'
-    category: display
-    baseline-ratio: '0.150'
--
     family: 'Montserrat Subrayada'
     category: sans-serif
     baseline-ratio: '0.144'
 -
-    family: Gruppo
-    category: display
-    baseline-ratio: '0.183'
+    family: 'Cantora One'
+    category: sans-serif
+    baseline-ratio: '0.248'
 -
     family: Metamorphous
     category: display
     baseline-ratio: '0.164'
+-
+    family: 'David Libre'
+    category: serif
+    baseline-ratio: '0.248'
 -
     family: 'Maiden Orange'
     category: display
@@ -1959,41 +2211,53 @@
     category: display
     baseline-ratio: '0.170'
 -
+    family: 'IM Fell French Canon'
+    category: serif
+    baseline-ratio: '0.173'
+-
     family: 'Secular One'
     category: sans-serif
     baseline-ratio: '0.248'
--
-    family: 'Tenor Sans'
-    category: sans-serif
-    baseline-ratio: '0.165'
 -
     family: Numans
     category: sans-serif
     baseline-ratio: '0.183'
 -
-    family: Nokora
-    category: serif
-    baseline-ratio: '0.231'
+    family: Timmana
+    category: sans-serif
+    baseline-ratio: '0.425'
 -
-    family: Trocchi
-    category: serif
-    baseline-ratio: '0.133'
+    family: Baloo
+    category: display
+    baseline-ratio: '0.238'
+-
+    family: 'Coda Caption'
+    category: sans-serif
+    baseline-ratio: '0.094'
 -
     family: 'Krona One'
     category: sans-serif
     baseline-ratio: '0.136'
 -
-    family: Belleza
-    category: sans-serif
-    baseline-ratio: '0.149'
--
     family: Yrsa
     category: serif
     baseline-ratio: '0.248'
 -
+    family: Milonga
+    category: display
+    baseline-ratio: '0.137'
+-
     family: 'Share Tech'
     category: sans-serif
     baseline-ratio: '0.179'
+-
+    family: Stoke
+    category: serif
+    baseline-ratio: '0.136'
+-
+    family: Vibur
+    category: handwriting
+    baseline-ratio: '0.215'
 -
     family: 'Mukta Vaani'
     category: sans-serif
@@ -2003,6 +2267,10 @@
     category: serif
     baseline-ratio: '0.217'
 -
+    family: Wallpoet
+    category: display
+    baseline-ratio: '0.192'
+-
     family: 'Text Me One'
     category: sans-serif
     baseline-ratio: '0.160'
@@ -2011,13 +2279,13 @@
     category: serif
     baseline-ratio: '0.141'
 -
-    family: 'Chelsea Market'
-    category: display
-    baseline-ratio: '0.130'
+    family: Junge
+    category: serif
+    baseline-ratio: '0.181'
 -
-    family: Capriola
-    category: sans-serif
-    baseline-ratio: '0.154'
+    family: 'Alike Angular'
+    category: serif
+    baseline-ratio: '0.144'
 -
     family: Paprika
     category: display
@@ -2035,9 +2303,17 @@
     category: display
     baseline-ratio: '0.167'
 -
+    family: 'Bungee Shade'
+    category: display
+    baseline-ratio: '0.248'
+-
     family: 'Amatica SC'
     category: display
     baseline-ratio: '0.248'
+-
+    family: Ruluko
+    category: sans-serif
+    baseline-ratio: '0.165'
 -
     family: Elsie
     category: display
@@ -2051,41 +2327,53 @@
     category: sans-serif
     baseline-ratio: '0.188'
 -
-    family: Kranky
-    category: display
-    baseline-ratio: '0.168'
--
     family: 'Tulpen One'
     category: display
     baseline-ratio: '0.183'
+-
+    family: 'IM Fell French Canon SC'
+    category: serif
+    baseline-ratio: '0.173'
 -
     family: Sarpanch
     category: sans-serif
     baseline-ratio: '0.151'
 -
+    family: Buda
+    category: display
+    baseline-ratio: '0.230'
+-
+    family: Pattaya
+    category: sans-serif
+    baseline-ratio: '0.248'
+-
+    family: 'IM Fell Great Primer'
+    category: serif
+    baseline-ratio: '0.164'
+-
     family: 'Antic Didone'
     category: serif
     baseline-ratio: '0.155'
--
-    family: Trirong
-    category: serif
-    baseline-ratio: '0.248'
 -
     family: 'Mrs Saint Delafield'
     category: handwriting
     baseline-ratio: '0.358'
 -
-    family: 'Prosto One'
-    category: display
-    baseline-ratio: '0.178'
--
     family: Sancreek
     category: display
     baseline-ratio: '0.168'
 -
+    family: Bilbo
+    category: handwriting
+    baseline-ratio: '0.275'
+-
     family: 'Baloo Chettan'
     category: display
     baseline-ratio: '0.171'
+-
+    family: Ribeye
+    category: display
+    baseline-ratio: '0.144'
 -
     family: 'Sonsie One'
     category: display
@@ -2095,29 +2383,29 @@
     category: display
     baseline-ratio: '0.141'
 -
-    family: Battambang
-    category: display
-    baseline-ratio: '0.184'
--
-    family: 'Mouse Memoirs'
+    family: Cagliostro
     category: sans-serif
-    baseline-ratio: '0.138'
+    baseline-ratio: '0.183'
+-
+    family: 'El Messiri'
+    category: sans-serif
+    baseline-ratio: '0.248'
 -
     family: Overpass
     category: sans-serif
     baseline-ratio: '0.248'
 -
-    family: Judson
+    family: 'Linden Hill'
     category: serif
-    baseline-ratio: '0.174'
+    baseline-ratio: '0.288'
 -
     family: 'Meie Script'
     category: handwriting
     baseline-ratio: '0.249'
 -
-    family: 'Diplomata SC'
-    category: display
-    baseline-ratio: '0.180'
+    family: 'Swanky and Moo Moo'
+    category: handwriting
+    baseline-ratio: '0.263'
 -
     family: Almendra
     category: serif
@@ -2135,14 +2423,6 @@
     category: handwriting
     baseline-ratio: '0.166'
 -
-    family: Angkor
-    category: display
-    baseline-ratio: '0.184'
--
-    family: Belgrano
-    category: serif
-    baseline-ratio: '0.147'
--
     family: Asul
     category: sans-serif
     baseline-ratio: '0.159'
@@ -2151,17 +2431,21 @@
     category: display
     baseline-ratio: '0.139'
 -
-    family: Strait
-    category: sans-serif
-    baseline-ratio: '0.148'
+    family: Sarina
+    category: display
+    baseline-ratio: '0.190'
 -
     family: 'Glass Antiqua'
     category: display
     baseline-ratio: '0.183'
 -
-    family: 'Herr Von Muellerhoff'
-    category: handwriting
-    baseline-ratio: '0.286'
+    family: 'Nova Oval'
+    category: display
+    baseline-ratio: '0.145'
+-
+    family: 'IM Fell Double Pica SC'
+    category: serif
+    baseline-ratio: '0.188'
 -
     family: Athiti
     category: sans-serif
@@ -2175,33 +2459,65 @@
     category: display
     baseline-ratio: '0.127'
 -
+    family: Nosifer
+    category: display
+    baseline-ratio: '0.279'
+-
     family: Dekko
     category: handwriting
     baseline-ratio: '0.306'
--
-    family: 'IM Fell English'
-    category: serif
-    baseline-ratio: '0.230'
 -
     family: 'Trade Winds'
     category: display
     baseline-ratio: '0.235'
 -
+    family: 'Port Lligat Sans'
+    category: sans-serif
+    baseline-ratio: '0.177'
+-
+    family: 'Croissant One'
+    category: display
+    baseline-ratio: '0.138'
+-
+    family: Arya
+    category: sans-serif
+    baseline-ratio: '0.141'
+-
     family: 'Hind Madurai'
     category: sans-serif
     baseline-ratio: '0.209'
+-
+    family: Miniver
+    category: display
+    baseline-ratio: '0.237'
+-
+    family: Akronim
+    category: display
+    baseline-ratio: '0.266'
+-
+    family: 'IM Fell Great Primer SC'
+    category: serif
+    baseline-ratio: '0.164'
 -
     family: 'Bigshot One'
     category: display
     baseline-ratio: '0.157'
 -
-    family: Lemon
-    category: display
-    baseline-ratio: '0.135'
+    family: 'Della Respira'
+    category: serif
+    baseline-ratio: '0.113'
 -
     family: UnifrakturCook
     category: display
     baseline-ratio: '0.125'
+-
+    family: 'Proza Libre'
+    category: sans-serif
+    baseline-ratio: '0.248'
+-
+    family: Ruthie
+    category: handwriting
+    baseline-ratio: '0.327'
 -
     family: 'Henny Penny'
     category: display
@@ -2215,13 +2531,17 @@
     category: serif
     baseline-ratio: '0.248'
 -
-    family: 'Bungee Inline'
+    family: Peralta
     category: display
-    baseline-ratio: '0.248'
+    baseline-ratio: '0.170'
 -
     family: Trochut
     category: display
     baseline-ratio: '0.122'
+-
+    family: Laila
+    category: serif
+    baseline-ratio: '0.178'
 -
     family: 'Emilys Candy'
     category: display
@@ -2231,33 +2551,21 @@
     category: display
     baseline-ratio: '0.145'
 -
-    family: 'Bowlby One SC'
-    category: display
-    baseline-ratio: '0.166'
+    family: 'Eagle Lake'
+    category: handwriting
+    baseline-ratio: '0.136'
 -
     family: Amiko
     category: sans-serif
     baseline-ratio: '0.248'
 -
-    family: 'Abhaya Libre'
-    category: serif
-    baseline-ratio: '0.251'
--
     family: 'Jolly Lodger'
     category: display
     baseline-ratio: '0.145'
 -
-    family: 'GFS Neohellenic'
-    category: sans-serif
-    baseline-ratio: '0.187'
--
     family: Galindo
     category: display
     baseline-ratio: '0.225'
--
-    family: Knewave
-    category: display
-    baseline-ratio: '0.109'
 -
     family: 'Monsieur La Doulaise'
     category: handwriting
@@ -2271,10 +2579,6 @@
     category: handwriting
     baseline-ratio: '0.156'
 -
-    family: Andada
-    category: serif
-    baseline-ratio: '0.121'
--
     family: 'Baloo Thambi'
     category: display
     baseline-ratio: '0.219'
@@ -2286,10 +2590,6 @@
     family: 'Bubbler One'
     category: sans-serif
     baseline-ratio: '0.183'
--
-    family: Megrim
-    category: display
-    baseline-ratio: '0.161'
 -
     family: Iceberg
     category: display
@@ -2303,6 +2603,10 @@
     category: handwriting
     baseline-ratio: '0.339'
 -
+    family: Wellfleet
+    category: display
+    baseline-ratio: '0.141'
+-
     family: Montaga
     category: serif
     baseline-ratio: '0.140'
@@ -2311,17 +2615,25 @@
     category: display
     baseline-ratio: '0.136'
 -
+    family: MedievalSharp
+    category: display
+    baseline-ratio: '0.201'
+-
+    family: Oldenburg
+    category: display
+    baseline-ratio: '0.141'
+-
     family: Plaster
     category: display
     baseline-ratio: '0.150'
 -
+    family: Jomhuria
+    category: display
+    baseline-ratio: '0.248'
+-
     family: Piedra
     category: display
     baseline-ratio: '0.178'
--
-    family: 'Share Tech Mono'
-    category: monospace
-    baseline-ratio: '0.179'
 -
     family: Snippet
     category: sans-serif
@@ -2343,10 +2655,6 @@
     category: handwriting
     baseline-ratio: '0.188'
 -
-    family: Bokor
-    category: display
-    baseline-ratio: '0.184'
--
     family: 'Londrina Outline'
     category: display
     baseline-ratio: '0.147'
@@ -2355,21 +2663,13 @@
     category: display
     baseline-ratio: '0.248'
 -
-    family: Sansita
-    category: sans-serif
-    baseline-ratio: '0.081'
--
-    family: 'Chau Philomene One'
-    category: sans-serif
-    baseline-ratio: '0.153'
--
     family: 'Modern Antiqua'
     category: display
     baseline-ratio: '0.182'
 -
-    family: UnifrakturMaguntia
+    family: 'Purple Purse'
     category: display
-    baseline-ratio: '0.236'
+    baseline-ratio: '0.213'
 -
     family: Griffy
     category: display
@@ -2379,9 +2679,13 @@
     category: serif
     baseline-ratio: '0.183'
 -
-    family: 'Holtwood One SC'
+    family: BioRhyme
     category: serif
-    baseline-ratio: '0.116'
+    baseline-ratio: '0.248'
+-
+    family: Petrona
+    category: serif
+    baseline-ratio: '0.206'
 -
     family: Lancelot
     category: display
@@ -2395,45 +2699,61 @@
     category: display
     baseline-ratio: '0.170'
 -
+    family: 'Spicy Rice'
+    category: display
+    baseline-ratio: '0.169'
+-
+    family: 'Nova Flat'
+    category: display
+    baseline-ratio: '0.145'
+-
+    family: Sura
+    category: serif
+    baseline-ratio: '0.139'
+-
     family: Galdeano
     category: sans-serif
     baseline-ratio: '0.206'
--
-    family: 'Nova Square'
-    category: display
-    baseline-ratio: '0.145'
 -
     family: Fresca
     category: sans-serif
     baseline-ratio: '0.209'
 -
-    family: 'Loved by the King'
-    category: handwriting
-    baseline-ratio: '0.193'
--
     family: Mirza
     category: display
     baseline-ratio: '0.248'
 -
-    family: Kristi
+    family: 'Rhodium Libre'
+    category: serif
+    baseline-ratio: '0.256'
+-
+    family: Amita
     category: handwriting
-    baseline-ratio: '0.230'
+    baseline-ratio: '0.179'
 -
     family: Ranchers
     category: display
     baseline-ratio: '0.082'
 -
-    family: Content
-    category: display
-    baseline-ratio: '0.184'
--
     family: 'Original Surfer'
     category: display
     baseline-ratio: '0.135'
 -
+    family: 'Snowburst One'
+    category: display
+    baseline-ratio: '0.090'
+-
     family: Sahitya
     category: serif
     baseline-ratio: '0.172'
+-
+    family: 'Passero One'
+    category: display
+    baseline-ratio: '0.208'
+-
+    family: 'Dr Sugiyama'
+    category: handwriting
+    baseline-ratio: '0.221'
 -
     family: Smythe
     category: display
@@ -2443,21 +2763,13 @@
     category: handwriting
     baseline-ratio: '0.221'
 -
-    family: 'Seaweed Script'
+    family: Margarine
     category: display
-    baseline-ratio: '0.233'
+    baseline-ratio: '0.159'
 -
     family: 'Almendra SC'
     category: serif
     baseline-ratio: '0.197'
--
-    family: 'Mountains of Christmas'
-    category: display
-    baseline-ratio: '0.154'
--
-    family: 'Euphoria Script'
-    category: handwriting
-    baseline-ratio: '0.272'
 -
     family: 'Keania One'
     category: display
@@ -2467,25 +2779,25 @@
     category: serif
     baseline-ratio: '0.138'
 -
-    family: Norican
-    category: handwriting
-    baseline-ratio: '0.182'
+    family: Ewert
+    category: display
+    baseline-ratio: '0.178'
+-
+    family: 'Rum Raisin'
+    category: sans-serif
+    baseline-ratio: '0.163'
 -
     family: 'Atomic Age'
     category: display
     baseline-ratio: '0.151'
 -
-    family: Koulen
-    category: display
-    baseline-ratio: '0.184'
--
     family: 'Miltonian Tattoo'
     category: display
     baseline-ratio: '0.180'
 -
-    family: Amethysta
-    category: serif
-    baseline-ratio: '0.146'
+    family: 'Mrs Sheppards'
+    category: handwriting
+    baseline-ratio: '0.210'
 -
     family: Astloch
     category: display
@@ -2495,9 +2807,17 @@
     category: display
     baseline-ratio: '0.145'
 -
+    family: 'Caesar Dressing'
+    category: display
+    baseline-ratio: '0.116'
+-
     family: Underdog
     category: display
     baseline-ratio: '0.171'
+-
+    family: 'Jim Nightshade'
+    category: handwriting
+    baseline-ratio: '0.305'
 -
     family: Chango
     category: display
@@ -2507,9 +2827,9 @@
     category: display
     baseline-ratio: '0.248'
 -
-    family: 'Wendy One'
-    category: sans-serif
-    baseline-ratio: '0.210'
+    family: Gorditas
+    category: display
+    baseline-ratio: '0.154'
 -
     family: Asset
     category: display
@@ -2531,9 +2851,9 @@
     category: display
     baseline-ratio: '0.144'
 -
-    family: Voces
+    family: Fascinate
     category: display
-    baseline-ratio: '0.161'
+    baseline-ratio: '0.127'
 -
     family: Chathura
     category: sans-serif
@@ -2543,17 +2863,9 @@
     category: display
     baseline-ratio: '0.173'
 -
-    family: Habibi
-    category: serif
-    baseline-ratio: '0.150'
--
     family: 'Princess Sofia'
     category: handwriting
     baseline-ratio: '0.288'
--
-    family: 'Expletus Sans'
-    category: display
-    baseline-ratio: '0.251'
 -
     family: Tillana
     category: handwriting
@@ -2563,14 +2875,6 @@
     category: display
     baseline-ratio: '0.199'
 -
-    family: Simonetta
-    category: display
-    baseline-ratio: '0.164'
--
-    family: Freehand
-    category: display
-    baseline-ratio: '0.184'
--
     family: 'Londrina Shadow'
     category: display
     baseline-ratio: '0.147'
@@ -2578,6 +2882,10 @@
     family: 'Seymour One'
     category: sans-serif
     baseline-ratio: '0.147'
+-
+    family: 'Cormorant Upright'
+    category: serif
+    baseline-ratio: '0.183'
 -
     family: 'Londrina Sketch'
     category: display
@@ -2595,17 +2903,9 @@
     category: display
     baseline-ratio: '0.188'
 -
-    family: 'Over the Rainbow'
+    family: Felipa
     category: handwriting
-    baseline-ratio: '0.142'
--
-    family: Moul
-    category: display
-    baseline-ratio: '0.184'
--
-    family: Rationale
-    category: sans-serif
-    baseline-ratio: '0.173'
+    baseline-ratio: '0.177'
 -
     family: Sevillana
     category: display
@@ -2614,6 +2914,22 @@
     family: 'Geostar Fill'
     category: display
     baseline-ratio: '0.153'
+-
+    family: Warnes
+    category: display
+    baseline-ratio: '0.161'
+-
+    family: Smokum
+    category: display
+    baseline-ratio: '0.140'
+-
+    family: Romanesco
+    category: handwriting
+    baseline-ratio: '0.164'
+-
+    family: 'Sofadi One'
+    category: display
+    baseline-ratio: '0.228'
 -
     family: 'Ravi Prakash'
     category: display
@@ -2627,23 +2943,39 @@
     category: handwriting
     baseline-ratio: '0.266'
 -
-    family: 'Kdam Thmor'
+    family: Devonshire
+    category: handwriting
+    baseline-ratio: '0.227'
+-
+    family: 'Metal Mania'
     category: display
-    baseline-ratio: '0.184'
+    baseline-ratio: '0.178'
 -
     family: Arbutus
     category: display
     baseline-ratio: '0.145'
 -
+    family: 'Baloo Bhai'
+    category: display
+    baseline-ratio: '0.249'
+-
     family: 'Macondo Swash Caps'
     category: display
     baseline-ratio: '0.203'
 -
-    family: 'Nova Mono'
-    category: monospace
+    family: 'Kumar One'
+    category: display
     baseline-ratio: '0.248'
 -
-    family: 'Kumar One'
+    family: Combo
+    category: display
+    baseline-ratio: '0.182'
+-
+    family: 'Marko One'
+    category: serif
+    baseline-ratio: '0.186'
+-
+    family: 'Sirin Stencil'
     category: display
     baseline-ratio: '0.248'
 -
@@ -2659,13 +2991,13 @@
     category: display
     baseline-ratio: '0.248'
 -
-    family: Tienne
-    category: serif
-    baseline-ratio: '0.182'
--
     family: 'Sree Krushnadevaraya'
     category: serif
     baseline-ratio: '-0.002'
+-
+    family: 'Erica One'
+    category: display
+    baseline-ratio: '0.094'
 -
     family: Mogra
     category: display
@@ -2687,21 +3019,17 @@
     category: handwriting
     baseline-ratio: '0.202'
 -
-    family: Ledger
-    category: serif
-    baseline-ratio: '0.134'
--
     family: Geostar
     category: display
     baseline-ratio: '0.153'
 -
+    family: Flavors
+    category: display
+    baseline-ratio: '0.149'
+-
     family: 'Almendra Display'
     category: display
     baseline-ratio: '0.197'
--
-    family: 'Raleway Dots'
-    category: display
-    baseline-ratio: '0.248'
 -
     family: Aubrey
     category: display
@@ -2710,6 +3038,14 @@
     family: 'Ruge Boogie'
     category: handwriting
     baseline-ratio: '0.251'
+-
+    family: Eater
+    category: display
+    baseline-ratio: '0.017'
+-
+    family: 'Stalinist One'
+    category: display
+    baseline-ratio: '0.202'
 -
     family: Coiny
     category: display
@@ -2723,13 +3059,13 @@
     category: display
     baseline-ratio: '0.175'
 -
-    family: Balthazar
-    category: serif
-    baseline-ratio: '0.214'
+    family: 'Tenali Ramakrishna'
+    category: sans-serif
+    baseline-ratio: '0.402'
 -
-    family: Chenla
+    family: 'Supermercado One'
     category: display
-    baseline-ratio: '0.184'
+    baseline-ratio: '0.248'
 -
     family: 'Bigelow Rules'
     category: display
@@ -2739,6 +3075,10 @@
     category: display
     baseline-ratio: '0.184'
 -
+    family: Unlock
+    category: display
+    baseline-ratio: '0.163'
+-
     family: Butcherman
     category: display
     baseline-ratio: '0.198'
@@ -2747,13 +3087,9 @@
     category: display
     baseline-ratio: '0.148'
 -
-    family: 'New Rocker'
+    family: Katibeh
     category: display
-    baseline-ratio: '0.170'
--
-    family: Englebert
-    category: sans-serif
-    baseline-ratio: '0.344'
+    baseline-ratio: '0.248'
 -
     family: 'Mr Bedfort'
     category: handwriting
@@ -2763,29 +3099,25 @@
     category: display
     baseline-ratio: '0.171'
 -
+    family: 'Lakki Reddy'
+    category: handwriting
+    baseline-ratio: '0.416'
+-
     family: 'Bungee Hairline'
     category: display
     baseline-ratio: '0.248'
 -
-    family: Mada
-    category: sans-serif
-    baseline-ratio: '0.248'
--
-    family: Preahvihear
-    category: display
+    family: 'Overpass Mono'
+    category: monospace
     baseline-ratio: '0.248'
 -
     family: 'Cormorant Unicase'
     category: serif
     baseline-ratio: '0.183'
 -
-    family: McLaren
-    category: display
-    baseline-ratio: '0.137'
--
-    family: Amarante
-    category: display
-    baseline-ratio: '0.141'
+    family: Padauk
+    category: sans-serif
+    baseline-ratio: '0.253'
 -
     family: 'Baloo Da'
     category: display
@@ -2795,14 +3127,6 @@
     category: display
     baseline-ratio: '0.141'
 -
-    family: Rye
-    category: display
-    baseline-ratio: '0.141'
--
-    family: Fasthand
-    category: serif
-    baseline-ratio: '0.184'
--
     family: 'Meera Inimai'
     category: sans-serif
     baseline-ratio: '0.248'
@@ -2811,10 +3135,6 @@
     category: display
     baseline-ratio: '0.115'
 -
-    family: Gurajada
-    category: serif
-    baseline-ratio: '0.274'
--
     family: Hanalei
     category: display
     baseline-ratio: '0.115'
@@ -2822,10 +3142,6 @@
     family: Bahiana
     category: display
     baseline-ratio: '0.175'
--
-    family: 'Fjord One'
-    category: serif
-    baseline-ratio: '0.248'
 -
     family: Dhurjati
     category: sans-serif
@@ -2843,427 +3159,11 @@
     category: serif
     baseline-ratio: '0.246'
 -
-    family: 'Mystery Quest'
+    family: 'Bungee Outline'
     category: display
-    baseline-ratio: '0.217'
--
-    family: Creepster
-    category: display
-    baseline-ratio: '0.134'
+    baseline-ratio: '0.248'
 -
     family: 'Kumar One Outline'
-    category: display
-    baseline-ratio: '0.248'
--
-    family: 'League Script'
-    category: handwriting
-    baseline-ratio: '0.338'
--
-    family: 'Miriam Libre'
-    category: sans-serif
-    baseline-ratio: '0.248'
--
-    family: Codystar
-    category: display
-    baseline-ratio: '0.160'
--
-    family: 'Averia Libre'
-    category: display
-    baseline-ratio: '0.145'
--
-    family: Inika
-    category: serif
-    baseline-ratio: '0.145'
--
-    family: Pavanam
-    category: sans-serif
-    baseline-ratio: '0.248'
--
-    family: NTR
-    category: sans-serif
-    baseline-ratio: '0.297'
--
-    family: 'Cantora One'
-    category: sans-serif
-    baseline-ratio: '0.248'
--
-    family: 'David Libre'
-    category: serif
-    baseline-ratio: '0.248'
--
-    family: 'IM Fell French Canon'
-    category: serif
-    baseline-ratio: '0.173'
--
-    family: Timmana
-    category: sans-serif
-    baseline-ratio: '0.425'
--
-    family: Baloo
-    category: display
-    baseline-ratio: '0.238'
--
-    family: 'Coda Caption'
-    category: sans-serif
-    baseline-ratio: '0.094'
--
-    family: Milonga
-    category: display
-    baseline-ratio: '0.137'
--
-    family: Stoke
-    category: serif
-    baseline-ratio: '0.136'
--
-    family: Vibur
-    category: handwriting
-    baseline-ratio: '0.215'
--
-    family: Wallpoet
-    category: display
-    baseline-ratio: '0.192'
--
-    family: Junge
-    category: serif
-    baseline-ratio: '0.181'
--
-    family: 'Alike Angular'
-    category: serif
-    baseline-ratio: '0.144'
--
-    family: 'Bungee Shade'
-    category: display
-    baseline-ratio: '0.248'
--
-    family: Ruluko
-    category: sans-serif
-    baseline-ratio: '0.165'
--
-    family: 'IM Fell French Canon SC'
-    category: serif
-    baseline-ratio: '0.173'
--
-    family: Buda
-    category: display
-    baseline-ratio: '0.230'
--
-    family: Pattaya
-    category: sans-serif
-    baseline-ratio: '0.248'
--
-    family: 'IM Fell Great Primer'
-    category: serif
-    baseline-ratio: '0.164'
--
-    family: Bilbo
-    category: handwriting
-    baseline-ratio: '0.275'
--
-    family: Ribeye
-    category: display
-    baseline-ratio: '0.144'
--
-    family: Cagliostro
-    category: sans-serif
-    baseline-ratio: '0.183'
--
-    family: 'El Messiri'
-    category: sans-serif
-    baseline-ratio: '0.248'
--
-    family: 'Linden Hill'
-    category: serif
-    baseline-ratio: '0.288'
--
-    family: 'Swanky and Moo Moo'
-    category: handwriting
-    baseline-ratio: '0.263'
--
-    family: Sarina
-    category: display
-    baseline-ratio: '0.190'
--
-    family: 'Nova Oval'
-    category: display
-    baseline-ratio: '0.145'
--
-    family: 'IM Fell Double Pica SC'
-    category: serif
-    baseline-ratio: '0.188'
--
-    family: Nosifer
-    category: display
-    baseline-ratio: '0.279'
--
-    family: 'Port Lligat Sans'
-    category: sans-serif
-    baseline-ratio: '0.177'
--
-    family: 'Croissant One'
-    category: display
-    baseline-ratio: '0.138'
--
-    family: Arya
-    category: sans-serif
-    baseline-ratio: '0.141'
--
-    family: Miniver
-    category: display
-    baseline-ratio: '0.237'
--
-    family: Akronim
-    category: display
-    baseline-ratio: '0.266'
--
-    family: 'IM Fell Great Primer SC'
-    category: serif
-    baseline-ratio: '0.164'
--
-    family: 'Della Respira'
-    category: serif
-    baseline-ratio: '0.113'
--
-    family: 'Proza Libre'
-    category: sans-serif
-    baseline-ratio: '0.248'
--
-    family: Ruthie
-    category: handwriting
-    baseline-ratio: '0.327'
--
-    family: Peralta
-    category: display
-    baseline-ratio: '0.170'
--
-    family: Laila
-    category: serif
-    baseline-ratio: '0.178'
--
-    family: 'Eagle Lake'
-    category: handwriting
-    baseline-ratio: '0.136'
--
-    family: Wellfleet
-    category: display
-    baseline-ratio: '0.141'
--
-    family: MedievalSharp
-    category: display
-    baseline-ratio: '0.201'
--
-    family: Oldenburg
-    category: display
-    baseline-ratio: '0.141'
--
-    family: Jomhuria
-    category: display
-    baseline-ratio: '0.248'
--
-    family: Suwannaphum
-    category: display
-    baseline-ratio: '0.248'
--
-    family: 'Purple Purse'
-    category: display
-    baseline-ratio: '0.213'
--
-    family: BioRhyme
-    category: serif
-    baseline-ratio: '0.248'
--
-    family: Petrona
-    category: serif
-    baseline-ratio: '0.206'
--
-    family: 'Spicy Rice'
-    category: display
-    baseline-ratio: '0.169'
--
-    family: 'Nova Flat'
-    category: display
-    baseline-ratio: '0.145'
--
-    family: Sura
-    category: serif
-    baseline-ratio: '0.139'
--
-    family: 'Odor Mean Chey'
-    category: display
-    baseline-ratio: '0.248'
--
-    family: 'Rhodium Libre'
-    category: serif
-    baseline-ratio: '0.256'
--
-    family: Amita
-    category: handwriting
-    baseline-ratio: '0.179'
--
-    family: 'Snowburst One'
-    category: display
-    baseline-ratio: '0.090'
--
-    family: 'Passero One'
-    category: display
-    baseline-ratio: '0.208'
--
-    family: 'Dr Sugiyama'
-    category: handwriting
-    baseline-ratio: '0.221'
--
-    family: Margarine
-    category: display
-    baseline-ratio: '0.159'
--
-    family: Ewert
-    category: display
-    baseline-ratio: '0.178'
--
-    family: 'Rum Raisin'
-    category: sans-serif
-    baseline-ratio: '0.163'
--
-    family: 'Mrs Sheppards'
-    category: handwriting
-    baseline-ratio: '0.210'
--
-    family: 'Caesar Dressing'
-    category: display
-    baseline-ratio: '0.116'
--
-    family: 'Jim Nightshade'
-    category: handwriting
-    baseline-ratio: '0.305'
--
-    family: Gorditas
-    category: display
-    baseline-ratio: '0.154'
--
-    family: Fascinate
-    category: display
-    baseline-ratio: '0.127'
--
-    family: Siemreap
-    category: display
-    baseline-ratio: '0.184'
--
-    family: 'Cormorant Upright'
-    category: serif
-    baseline-ratio: '0.183'
--
-    family: Felipa
-    category: handwriting
-    baseline-ratio: '0.177'
--
-    family: Warnes
-    category: display
-    baseline-ratio: '0.161'
--
-    family: Smokum
-    category: display
-    baseline-ratio: '0.140'
--
-    family: Romanesco
-    category: handwriting
-    baseline-ratio: '0.164'
--
-    family: 'Sofadi One'
-    category: display
-    baseline-ratio: '0.228'
--
-    family: Devonshire
-    category: handwriting
-    baseline-ratio: '0.227'
--
-    family: 'Metal Mania'
-    category: display
-    baseline-ratio: '0.178'
--
-    family: 'Baloo Bhai'
-    category: display
-    baseline-ratio: '0.249'
--
-    family: Bayon
-    category: display
-    baseline-ratio: '0.184'
--
-    family: Combo
-    category: display
-    baseline-ratio: '0.182'
--
-    family: 'Marko One'
-    category: serif
-    baseline-ratio: '0.186'
--
-    family: 'Sirin Stencil'
-    category: display
-    baseline-ratio: '0.248'
--
-    family: 'Erica One'
-    category: display
-    baseline-ratio: '0.094'
--
-    family: Metal
-    category: display
-    baseline-ratio: '0.257'
--
-    family: Flavors
-    category: display
-    baseline-ratio: '0.149'
--
-    family: Taprom
-    category: display
-    baseline-ratio: '0.184'
--
-    family: Eater
-    category: display
-    baseline-ratio: '0.017'
--
-    family: 'Stalinist One'
-    category: display
-    baseline-ratio: '0.202'
--
-    family: 'Tenali Ramakrishna'
-    category: sans-serif
-    baseline-ratio: '0.402'
--
-    family: 'Supermercado One'
-    category: display
-    baseline-ratio: '0.248'
--
-    family: Dangrek
-    category: display
-    baseline-ratio: '0.184'
--
-    family: Unlock
-    category: display
-    baseline-ratio: '0.163'
--
-    family: Katibeh
-    category: display
-    baseline-ratio: '0.248'
--
-    family: 'Lakki Reddy'
-    category: handwriting
-    baseline-ratio: '0.416'
--
-    family: 'Overpass Mono'
-    category: monospace
-    baseline-ratio: '0.248'
--
-    family: Kantumruy
-    category: sans-serif
-    baseline-ratio: '0.184'
--
-    family: Padauk
-    category: sans-serif
-    baseline-ratio: '0.253'
--
-    family: Moulpali
-    category: display
-    baseline-ratio: '0.248'
--
-    family: 'Bungee Outline'
     category: display
     baseline-ratio: '0.248'
 -

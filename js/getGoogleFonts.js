@@ -30,7 +30,9 @@ request.get({
       data = data.items;
 
       data.forEach(function (val) {
-        baseline[val.family] = ''
+        if (val.subsets.toString().indexOf('latin') > -1) {
+          baseline[val.family] = ''
+        }
       });
       fs.writeFile(dataBaselineOriginal, JSON.stringify(baseline, null, 2), 'utf8', function (err) {
         if(err) throw err;
