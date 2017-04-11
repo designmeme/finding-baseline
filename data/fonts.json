@@ -467,7 +467,7 @@
   {
     "family": "Libre Franklin",
     "category": "sans-serif",
-    "baseline-ratio": "0.248"
+    "baseline-ratio": "0.141"
   },
   {
     "family": "Old Standard TT",
@@ -517,7 +517,7 @@
   {
     "family": "Hammersmith One",
     "category": "sans-serif",
-    "baseline-ratio": "0.248"
+    "baseline-ratio": "0.226"
   },
   {
     "family": "Kaushan Script",
@@ -632,12 +632,12 @@
   {
     "family": "Khand",
     "category": "sans-serif",
-    "baseline-ratio": "0.208"
+    "baseline-ratio": "0.216"
   },
   {
     "family": "Shrikhand",
     "category": "display",
-    "baseline-ratio": "0.248"
+    "baseline-ratio": "0.204"
   },
   {
     "family": "Ruda",
@@ -727,7 +727,7 @@
   {
     "family": "Vidaloka",
     "category": "serif",
-    "baseline-ratio": "0.248"
+    "baseline-ratio": "0.168"
   },
   {
     "family": "Shadows Into Light Two",
@@ -882,7 +882,7 @@
   {
     "family": "Heebo",
     "category": "sans-serif",
-    "baseline-ratio": "0.248"
+    "baseline-ratio": "0.187"
   },
   {
     "family": "Bangers",
@@ -992,7 +992,7 @@
   {
     "family": "Frank Ruhl Libre",
     "category": "sans-serif",
-    "baseline-ratio": "0.248"
+    "baseline-ratio": "0.190"
   },
   {
     "family": "Clicker Script",
@@ -1062,7 +1062,7 @@
   {
     "family": "Cairo",
     "category": "sans-serif",
-    "baseline-ratio": "0.248"
+    "baseline-ratio": "0.135"
   },
   {
     "family": "PT Mono",
@@ -1412,7 +1412,7 @@
   {
     "family": "Sue Ellen Francisco",
     "category": "handwriting",
-    "baseline-ratio": "0.248"
+    "baseline-ratio": "0.146"
   },
   {
     "family": "Halant",
@@ -1427,7 +1427,7 @@
   {
     "family": "Prompt",
     "category": "sans-serif",
-    "baseline-ratio": "0.248"
+    "baseline-ratio": "0.167"
   },
   {
     "family": "Ruslan Display",
@@ -1472,7 +1472,7 @@
   {
     "family": "Arima Madurai",
     "category": "display",
-    "baseline-ratio": "0.248"
+    "baseline-ratio": "0.245"
   },
   {
     "family": "Grand Hotel",
@@ -1497,12 +1497,12 @@
   {
     "family": "Assistant",
     "category": "sans-serif",
-    "baseline-ratio": "0.248"
+    "baseline-ratio": "0.134"
   },
   {
     "family": "Reem Kufi",
     "category": "sans-serif",
-    "baseline-ratio": "0.248"
+    "baseline-ratio": "0.150"
   },
   {
     "family": "Cutive",
@@ -1702,7 +1702,7 @@
   {
     "family": "Lalezar",
     "category": "display",
-    "baseline-ratio": "0.248"
+    "baseline-ratio": "0.306"
   },
   {
     "family": "Cutive Mono",
@@ -1882,12 +1882,12 @@
   {
     "family": "Trirong",
     "category": "serif",
-    "baseline-ratio": "0.248"
+    "baseline-ratio": "0.169"
   },
   {
     "family": "Pompiere",
     "category": "display",
-    "baseline-ratio": "0.248"
+    "baseline-ratio": "0.166"
   },
   {
     "family": "Prosto One",
@@ -2022,7 +2022,7 @@
   {
     "family": "Bungee Inline",
     "category": "display",
-    "baseline-ratio": "0.248"
+    "baseline-ratio": "0.137"
   },
   {
     "family": "Oxygen Mono",
@@ -2057,7 +2057,7 @@
   {
     "family": "Space Mono",
     "category": "monospace",
-    "baseline-ratio": "0.248"
+    "baseline-ratio": "0.123"
   },
   {
     "family": "Gabriela",
@@ -2107,7 +2107,7 @@
   {
     "family": "Headland One",
     "category": "serif",
-    "baseline-ratio": "0.248"
+    "baseline-ratio": "0.134"
   },
   {
     "family": "Biryani",
@@ -2297,7 +2297,7 @@
   {
     "family": "Pridi",
     "category": "serif",
-    "baseline-ratio": "0.248"
+    "baseline-ratio": "0.176"
   },
   {
     "family": "Dorsa",
@@ -2427,7 +2427,7 @@
   {
     "family": "Nova Mono",
     "category": "monospace",
-    "baseline-ratio": "0.248"
+    "baseline-ratio": "0.116"
   },
   {
     "family": "Julee",
@@ -2482,7 +2482,7 @@
   {
     "family": "Raleway Dots",
     "category": "display",
-    "baseline-ratio": "0.248"
+    "baseline-ratio": "0.149"
   },
   {
     "family": "Macondo",
@@ -2492,7 +2492,7 @@
   {
     "family": "Taviraj",
     "category": "serif",
-    "baseline-ratio": "0.248"
+    "baseline-ratio": "0.182"
   },
   {
     "family": "Podkova",
@@ -2517,7 +2517,7 @@
   {
     "family": "Suez One",
     "category": "serif",
-    "baseline-ratio": "0.248"
+    "baseline-ratio": "0.168"
   },
   {
     "family": "Chonburi",
@@ -2547,7 +2547,7 @@
   {
     "family": "Mitr",
     "category": "sans-serif",
-    "baseline-ratio": "0.248"
+    "baseline-ratio": "0.136"
   },
   {
     "family": "Sunshiney",
@@ -2557,12 +2557,12 @@
   {
     "family": "Lemonada",
     "category": "display",
-    "baseline-ratio": "0.248"
+    "baseline-ratio": "0.156"
   },
   {
     "family": "Mada",
     "category": "sans-serif",
-    "baseline-ratio": "0.248"
+    "baseline-ratio": "0.200"
   },
   {
     "family": "McLaren",
@@ -2577,7 +2577,7 @@
   {
     "family": "Harmattan",
     "category": "sans-serif",
-    "baseline-ratio": "0.248"
+    "baseline-ratio": "0.304"
   },
   {
     "family": "Rye",
@@ -2602,12 +2602,12 @@
   {
     "family": "Fjord One",
     "category": "serif",
-    "baseline-ratio": "0.248"
+    "baseline-ratio": "0.179"
   },
   {
     "family": "Rasa",
     "category": "serif",
-    "baseline-ratio": "0.248"
+    "baseline-ratio": "0.270"
   },
   {
     "family": "Faster One",
@@ -2677,7 +2677,7 @@
   {
     "family": "Miriam Libre",
     "category": "sans-serif",
-    "baseline-ratio": "0.248"
+    "baseline-ratio": "0.188"
   },
   {
     "family": "Codystar",
@@ -2687,7 +2687,7 @@
   {
     "family": "Aref Ruqaa",
     "category": "serif",
-    "baseline-ratio": "0.248"
+    "baseline-ratio": "0.011"
   },
   {
     "family": "Flamenco",
@@ -2717,7 +2717,7 @@
   {
     "family": "Pavanam",
     "category": "sans-serif",
-    "baseline-ratio": "0.248"
+    "baseline-ratio": "0.194"
   },
   {
     "family": "NTR",
@@ -2742,7 +2742,7 @@
   {
     "family": "Cantora One",
     "category": "sans-serif",
-    "baseline-ratio": "0.248"
+    "baseline-ratio": "0.130"
   },
   {
     "family": "Metamorphous",
@@ -2752,7 +2752,7 @@
   {
     "family": "David Libre",
     "category": "serif",
-    "baseline-ratio": "0.248"
+    "baseline-ratio": "0.239"
   },
   {
     "family": "Maiden Orange",
@@ -2772,7 +2772,7 @@
   {
     "family": "Secular One",
     "category": "sans-serif",
-    "baseline-ratio": "0.248"
+    "baseline-ratio": "0.206"
   },
   {
     "family": "Numans",
@@ -2802,7 +2802,7 @@
   {
     "family": "Yrsa",
     "category": "serif",
-    "baseline-ratio": "0.248"
+    "baseline-ratio": "0.270"
   },
   {
     "family": "Milonga",
@@ -2872,7 +2872,7 @@
   {
     "family": "Maitree",
     "category": "serif",
-    "baseline-ratio": "0.248"
+    "baseline-ratio": "0.174"
   },
   {
     "family": "Stint Ultra Expanded",
@@ -2882,12 +2882,12 @@
   {
     "family": "Bungee Shade",
     "category": "display",
-    "baseline-ratio": "0.248"
+    "baseline-ratio": "0.137"
   },
   {
     "family": "Amatica SC",
     "category": "display",
-    "baseline-ratio": "0.248"
+    "baseline-ratio": "0.036"
   },
   {
     "family": "Ruluko",
@@ -2932,7 +2932,7 @@
   {
     "family": "Pattaya",
     "category": "sans-serif",
-    "baseline-ratio": "0.248"
+    "baseline-ratio": "0.186"
   },
   {
     "family": "IM Fell Great Primer",
@@ -2987,7 +2987,7 @@
   {
     "family": "El Messiri",
     "category": "sans-serif",
-    "baseline-ratio": "0.248"
+    "baseline-ratio": "0.263"
   },
   {
     "family": "Overpass",
@@ -3062,7 +3062,7 @@
   {
     "family": "Athiti",
     "category": "sans-serif",
-    "baseline-ratio": "0.248"
+    "baseline-ratio": "0.152"
   },
   {
     "family": "Overlock SC",
@@ -3142,7 +3142,7 @@
   {
     "family": "Proza Libre",
     "category": "sans-serif",
-    "baseline-ratio": "0.248"
+    "baseline-ratio": "0.209"
   },
   {
     "family": "Ruthie",
@@ -3157,12 +3157,12 @@
   {
     "family": "Bungee",
     "category": "display",
-    "baseline-ratio": "0.248"
+    "baseline-ratio": "0.137"
   },
   {
     "family": "Scope One",
     "category": "serif",
-    "baseline-ratio": "0.248"
+    "baseline-ratio": "0.265"
   },
   {
     "family": "Peralta",
@@ -3197,7 +3197,7 @@
   {
     "family": "Amiko",
     "category": "sans-serif",
-    "baseline-ratio": "0.248"
+    "baseline-ratio": "0.240"
   },
   {
     "family": "Jolly Lodger",
@@ -3287,7 +3287,7 @@
   {
     "family": "Jomhuria",
     "category": "display",
-    "baseline-ratio": "0.248"
+    "baseline-ratio": "0.383"
   },
   {
     "family": "Piedra",
@@ -3302,7 +3302,7 @@
   {
     "family": "Farsan",
     "category": "display",
-    "baseline-ratio": "0.248"
+    "baseline-ratio": "0.285"
   },
   {
     "family": "Irish Grover",
@@ -3352,7 +3352,7 @@
   {
     "family": "BioRhyme",
     "category": "serif",
-    "baseline-ratio": "0.248"
+    "baseline-ratio": "0.149"
   },
   {
     "family": "Petrona",
@@ -3402,7 +3402,7 @@
   {
     "family": "Mirza",
     "category": "display",
-    "baseline-ratio": "0.248"
+    "baseline-ratio": "0.450"
   },
   {
     "family": "Rhodium Libre",
@@ -3532,7 +3532,7 @@
   {
     "family": "Rakkas",
     "category": "display",
-    "baseline-ratio": "0.248"
+    "baseline-ratio": "0.201"
   },
   {
     "family": "Gorditas",
@@ -3572,7 +3572,7 @@
   {
     "family": "Chathura",
     "category": "sans-serif",
-    "baseline-ratio": "0.248"
+    "baseline-ratio": "0.292"
   },
   {
     "family": "Uncial Antiqua",
@@ -3707,7 +3707,7 @@
   {
     "family": "Kumar One",
     "category": "display",
-    "baseline-ratio": "0.248"
+    "baseline-ratio": "0.253"
   },
   {
     "family": "Combo",
@@ -3722,7 +3722,7 @@
   {
     "family": "Sirin Stencil",
     "category": "display",
-    "baseline-ratio": "0.248"
+    "baseline-ratio": "0.068"
   },
   {
     "family": "Federant",
@@ -3737,7 +3737,7 @@
   {
     "family": "Galada",
     "category": "display",
-    "baseline-ratio": "0.248"
+    "baseline-ratio": "0.280"
   },
   {
     "family": "Sree Krushnadevaraya",
@@ -3757,7 +3757,7 @@
   {
     "family": "Yatra One",
     "category": "display",
-    "baseline-ratio": "0.248"
+    "baseline-ratio": "0.250"
   },
   {
     "family": "Bonbon",
@@ -3767,7 +3767,7 @@
   {
     "family": "Atma",
     "category": "display",
-    "baseline-ratio": "0.248"
+    "baseline-ratio": "0.209"
   },
   {
     "family": "Butterfly Kids",
@@ -3812,7 +3812,7 @@
   {
     "family": "Coiny",
     "category": "display",
-    "baseline-ratio": "0.248"
+    "baseline-ratio": "0.119"
   },
   {
     "family": "Gidugu",
@@ -3832,7 +3832,7 @@
   {
     "family": "Supermercado One",
     "category": "display",
-    "baseline-ratio": "0.248"
+    "baseline-ratio": "0.160"
   },
   {
     "family": "Bigelow Rules",
@@ -3862,7 +3862,7 @@
   {
     "family": "Katibeh",
     "category": "display",
-    "baseline-ratio": "0.248"
+    "baseline-ratio": "0.506"
   },
   {
     "family": "Mr Bedfort",
@@ -3882,7 +3882,7 @@
   {
     "family": "Bungee Hairline",
     "category": "display",
-    "baseline-ratio": "0.248"
+    "baseline-ratio": "0.137"
   },
   {
     "family": "Overpass Mono",
@@ -3912,7 +3912,7 @@
   {
     "family": "Meera Inimai",
     "category": "sans-serif",
-    "baseline-ratio": "0.248"
+    "baseline-ratio": "0.198"
   },
   {
     "family": "Hanalei Fill",
@@ -3942,7 +3942,7 @@
   {
     "family": "Kavivanar",
     "category": "handwriting",
-    "baseline-ratio": "0.248"
+    "baseline-ratio": "0.177"
   },
   {
     "family": "Suravaram",
@@ -3952,16 +3952,16 @@
   {
     "family": "Bungee Outline",
     "category": "display",
-    "baseline-ratio": "0.248"
+    "baseline-ratio": "0.137"
   },
   {
     "family": "Kumar One Outline",
     "category": "display",
-    "baseline-ratio": "0.248"
+    "baseline-ratio": "0.253"
   },
   {
     "family": "BioRhyme Expanded",
     "category": "serif",
-    "baseline-ratio": "0.248"
+    "baseline-ratio": "0.149"
   }
 ]
