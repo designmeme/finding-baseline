@@ -7,16 +7,16 @@ description:  >
 baseurl:      /finding-baseline
 url:          https://designmeme.github.io
 author:       Jihye Lee
-logo:         https://designmeme.github.io/finding-baseline/assets/image/brand/symbole.jpg # og_image
-facebook:
-  app_id:     230206910787694
+email:        ghe.lee19@gmail.com
+logo:         /assets/image/brand/symbole.jpg # og_image
 
+# Front matter defaults
 defaults:
   - scope:
       path: ""
     values:
       layout: default
-      image: https://designmeme.github.io/finding-baseline/assets/image/brand/logo.jpg # og_image
+      image: /assets/image/brand/logo.jpg # og_image
 
 # Custom vars
 google_analytics: UA-93339811-1
@@ -28,7 +28,6 @@ paypal: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=AKTGBZD4YZ
 source:           ""
 destination:      _gh_pages
 permalink:        pretty
-encoding:         UTF-8
 timezone:         GMT
 exclude:
   - assets/scss
@@ -41,9 +40,4 @@ exclude:
   - node_modules
   - vendor
 gems:
- - jekyll-seo-tag
  - octopress-minify-html
-markdown:         kramdown
-highlighter:      rouge
-#kramdown:
-#  auto_ids: true

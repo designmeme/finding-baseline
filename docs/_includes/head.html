@@ -4,7 +4,31 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  {% seo %}
+  {% capture title %}{% if page.title %}{{ page.title | escape }}{% if page.subtitle %}({{ page.subtitle | escape }}){% endif %} – {% endif %}{{ site.title | escape }}{% endcapture %}
+  {% capture description %}{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}{% endcapture %}
+  <title>{{ title }}</title>
+  <meta name="description" content="{{ description }}">
+
+  <meta property="og:site_name" content="{{ site.title | escape }}">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ title }}">
+  <meta property="og:description" content="{{ description }}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:image" content="{{ page.image | absolute_url }}">
+  <script type="application/ld+json">
+    {
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "headline": "{{ title }}",
+    "description": "{{ description }}",
+    "url": ""{{ page.url | absolute_url }}"
+    "image": "{{ page.image | absolute_url }}",
+    "publisher": {
+      "@type": "Organization",
+      "logo": {"@type": "ImageObject", "url": "{{ site.logo | absolute_url }}"}
+      },
+    }
+  </script>
 
   <!--icons: http://realfavicongenerator.net/-->
   <link rel="apple-touch-icon" sizes="180x180" href="{{ "/assets/image/favicons/apple-touch-icon.png" | relative_url }}?v={{ site.favicon_version }}">
