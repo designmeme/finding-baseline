@@ -273,11 +273,6 @@
     math = this.getAttribute('data-math');
 
     newValue =  math === 'plus' ? value + unit : value - unit;
-
-    if (newValue < input.getAttribute('data-min') || newValue > input.getAttribute('data-max')) {
-      return false;
-    }
-
     newValue = newValue.toFixed(3).replace('0.', '.');
     input.textContent = newValue;
 
