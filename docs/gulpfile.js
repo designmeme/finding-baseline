@@ -49,15 +49,15 @@ gulp.task('css', function() {
 gulp.task('server', ['css'], function () {
   browserSync.init({
     server: {
-      baseDir: ['_gh_pages'],
+      baseDir: ['_site'],
       index: ''
     },
-    // files: ['_gh_pages/**/*.(js|min.css|html)'], // files injected, not reloaded
+    // files: ['_site/**/*.(js|min.css|html)'], // files injected, not reloaded
     port: 3000,
     open: false
   });
   gulp.watch(['assets/scss/*.s+(a|c)ss'], ['css']);
-  // gulp.watch("_gh_pages/*.*").on('change', browserSync.reload);
+  // gulp.watch("_site/*.*").on('change', browserSync.reload);
 });
 
 // The default task, build and serve
