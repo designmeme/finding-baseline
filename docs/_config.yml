@@ -39,5 +39,4 @@ exclude:
   - README.md
   - node_modules
   - vendor
-gems:
- - octopress-minify-html
+#gems:
