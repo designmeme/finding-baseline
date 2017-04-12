@@ -5,10 +5,10 @@
     "get google fonts data": "node js/getGoogleFonts",
     "process data": "node js/processData"
   },
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "fs": "0.0.1-security",
     "request": "^2.81.0",
     "yamljs": "^0.2.9"
-  },
-  "devDependencies": {}
+  }
 }
