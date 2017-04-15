@@ -38,20 +38,22 @@ $dashboard-height: 50px;
     font-size: $font-size-xs;
     white-space: nowrap;
   }
+  .name {
+    font-size: 30px;
+    line-height: $dashboard-height;
+    @include media-breakpoint-up(md) {
+      font-size: 32px;
+    }
+  }
 
   .dashboard-family {
     @include media-breakpoint-down(md) {
       min-width: calc(100% - 140px);
     }
     .name {
-      font-size: 30px;
-      line-height: $dashboard-height;
       white-space: nowrap;
       text-overflow: ellipsis;
       overflow: hidden;
-      @include media-breakpoint-up(md) {
-        font-size: 32px;
-      }
       a {
         color: inherit;
         &:hover {
@@ -160,6 +162,11 @@ $dashboard-height: 50px;
         }
       }
     }
+  }
 
+  .dashboard-subtitle {
+    @include media-breakpoint-down(md) {
+      display: none;
+    }
   }
 }

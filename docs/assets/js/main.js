@@ -4,6 +4,7 @@
   var baseline = 8;
   var selectedFont;
   var testText = 'L';
+  var isHome = document.body.classList.contains('home');
   var search = document.getElementById('search');
   var fontLink = document.querySelectorAll('#fontList li a');
   var baselineRatioInput = document.getElementById('baselineRatioInput');
@@ -16,7 +17,7 @@
   var donateLink = document.getElementById('donateLink');
   var headerOpener = document.getElementById('headerOpener');
   var headerCloser = document.getElementById('headerCloser');
-  var isMs = navigator.userAgent.match(/Edge\/\d+/) || navigator.userAgent.match(/(?:MSIE |Trident.+?; rv:)(\d+)/);
+  var btnRaw = document.getElementById('btnRaw');
 
   /*
    * Search font family
@@ -53,7 +54,7 @@
     if (ready !== null) {
       updateMetrics();
       // var t1 = performance.now();
-      // console.log("Call to setMainArea took " + (t1 - t0) + " milliseconds.");
+      // console.log("Call to updateMetrics took " + (t1 - t0) + " milliseconds.");
       return;
     }
 
@@ -84,7 +85,7 @@
       }
     }
     // var t1 = performance.now();
-    // console.log("Call to doSomething took " + (t1 - t0) + " milliseconds.");
+    // console.log("Call to setMainArea took " + (t1 - t0) + " milliseconds.");
   }
 
   /*
@@ -219,13 +220,13 @@
     } else if (selectedFont === 'Molle') {
       family = selectedFont + ':400i';
     } else {
-      family = selectedFont + ':400';
+      // family = selectedFont + ':400';
+      family = selectedFont;
     }
 
     WebFont.load({
       google: {
-        families: [family],
-        text: isMs ? '' : testText // not working in edge, ie11
+        families: [family]
       },
       inactive: function () {
         // console.log('inactive');
@@ -242,12 +243,20 @@
 
         name = document.getElementById('name');
         name.textContent = selectedFont;
-        newValue = selectedFontBaselineRatio || defaultFontBaselineRatio;
-        baselineRatioInput.textContent = newValue.replace('0.', '.');
+        if (isHome) {
+          newValue = selectedFontBaselineRatio || defaultFontBaselineRatio;
+          baselineRatioInput.textContent = newValue.replace('0.', '.');
 
-        setMainArea();
-        hideHeader();
-        document.body.scrollTop = 0;
+          var tt = getBaseline(selectedFont)['baseline-ratio'];
+          console.log(tt.toFixed(3), newValue, tt - newValue);
+
+          setMainArea();
+          hideHeader();
+          document.body.scrollTop = 0
+        } else {
+          // calculator page
+          createCalculator();
+        }
       }
     });
   }
@@ -258,7 +267,8 @@
 
   window.addEventListener('load', function () {
     // set default
-    setFontFamily(0);
+    var number = Math.floor(Math.random() * 793);
+    setFontFamily(number);
   });
 
   /*
@@ -279,9 +289,11 @@
     setMainArea();
   }
 
-  Array.prototype.forEach.call(btnBaselineRatio, function(el){
-    el.addEventListener('click', editBaselineRatio);
-  });
+  if (btnBaselineRatio.length) {
+    Array.prototype.forEach.call(btnBaselineRatio, function(el){
+      el.addEventListener('click', editBaselineRatio);
+    });
+  }
 
   /*
    * Set Baseline Value
@@ -312,11 +324,14 @@
 
     setMainArea();
   }
-  window.addEventListener('load', setBaseline);
 
-  Array.prototype.forEach.call(btnBaseline, function(el){
-    el.addEventListener('click', setBaseline);
-  });
+  if (btnBaseline.length) {
+    window.addEventListener('load', setBaseline);
+
+    Array.prototype.forEach.call(btnBaseline, function(el){
+      el.addEventListener('click', setBaseline);
+    });
+  }
 
   /*
    * Event: Toggle Baseline
@@ -329,7 +344,9 @@
     });
   }
 
-  btnBaselineToggle.addEventListener('click', toggleBaseline);
+  if (btnBaselineToggle) {
+    btnBaselineToggle.addEventListener('click', toggleBaseline);
+  }
 
   /*
    * Change type color
@@ -340,7 +357,9 @@
     el.classList.toggle('white-type')
   }
 
-  btnBaselineColor.addEventListener('click', changeColor);
+  if (btnBaselineColor) {
+    btnBaselineColor.addEventListener('click', changeColor);
+  }
 
   /*
    * Toggle header
@@ -359,6 +378,76 @@
   headerCloser.addEventListener('click', hideHeader);
 
   /*
+   * Baseline Calculator
+   */
+  function createCalculator () {
+    var raw = getBaseline(selectedFont);
+    var data = raw.data;
+    var html = '';
+    var currentSizeData, size, offset, height, ratio;
+    var calcOffset = document.getElementById('calcOffset');
+    var calcBaseline = document.getElementById('calcBaseline');
+    var calcText = document.getElementById('calcText');
+    var sizeRange = document.getElementById('sizeRange');
+    var resultSize = document.getElementById('resultSize');
+    var resultOffset = document.getElementById('resultOffset');
+    var resultHeight = document.getElementById('resultHeight');
+    var resultRatio = document.getElementById('resultRatio');
+    var briefFamily = document.getElementById('briefFamily');
+    var briefRatio = document.getElementById('briefRatio');
+    var dataTable = document.getElementById('dataTable');
+    var rawData = document.getElementById('rawData');
+
+    briefFamily.innerText = raw['font-family'];
+    briefRatio.innerText = raw['baseline-ratio'];
+    rawData.innerText = JSON.stringify(raw, null, 2);
+
+    for (var i = 0; i < data.length; i++) {
+      html += '<tr>';
+      html += '<td>' + data[i]['font-size'] + '</td>';
+      html += '<td>' + data[i]['baseline-offset'] + '</td>';
+      html += '<td>' + data[i]['baseline-height'] + '</td>';
+      html += '<td class="align-left">' + data[i]['baseline-ratio'] + '</td>';
+      html += '</tr>';
+    }
+
+    dataTable.innerHTML = html;
+
+    function drawCalcText () {
+      size = sizeRange.value;
+      currentSizeData = data[size - raw['font-size-range'][0]];
+      calcText.style.fontSize = size + 'px';
+      calcText.style.fontFamily = '"' + selectedFont + '"';
+      calcOffset.style.height = currentSizeData['baseline-offset'];
+      calcBaseline.style.height = currentSizeData['baseline-height'];
+      resultSize.innerText = size + 'px';
+      resultOffset.innerText = currentSizeData['baseline-offset'];
+      resultHeight.innerText = currentSizeData['baseline-height'];
+      resultRatio.innerText = currentSizeData['baseline-ratio'].toFixed(3);
+    }
+    sizeRange.addEventListener('change', drawCalcText); // for ie10
+    sizeRange.addEventListener('input', drawCalcText);
+    drawCalcText();
+  }
+
+  /*
+   * Toggle Raw Data Section
+   */
+  if (btnRaw) {
+    btnRaw.addEventListener('click', function (e) {
+      e.preventDefault();
+
+      var div = document.getElementById('rawData');
+      console.log(div.style.display);
+      if (window.getComputedStyle(div)['display'] == 'none') {
+        div.style.display = 'block';
+      } else {
+        div.style.display = 'none';
+      }
+    });
+  }
+
+  /*
    * Google analytics
    */
   if (typeof ga != 'undefined') {
@@ -373,45 +462,53 @@
       });
     });
 
-    Array.prototype.forEach.call(btnBaselineRatio, function(el){
-      el.addEventListener('click', function() {
-        ga('send', {
-          hitType: 'event',
-          eventCategory: 'Baseline Ratio',
-          eventAction: 'click',
-          eventLabel: (this.getAttribute('data-math') === 'plus' ? '+' : '-') + '' + this.getAttribute('data-unit')
+    if (btnBaselineRatio) {
+      Array.prototype.forEach.call(btnBaselineRatio, function(el){
+        el.addEventListener('click', function() {
+          ga('send', {
+            hitType: 'event',
+            eventCategory: 'Baseline Ratio',
+            eventAction: 'click',
+            eventLabel: (this.getAttribute('data-math') === 'plus' ? '+' : '-') + '' + this.getAttribute('data-unit')
+          });
         });
       });
-    });
+    }
 
-    Array.prototype.forEach.call(btnBaseline, function(el){
-      el.addEventListener('click', function() {
+    if (btnBaseline) {
+      Array.prototype.forEach.call(btnBaseline, function(el){
+        el.addEventListener('click', function() {
+          ga('send', {
+            hitType: 'event',
+            eventCategory: 'Baseline',
+            eventAction: 'click',
+            eventLabel: parseInt(this.textContent) + 'px'
+          });
+        });
+      });
+    }
+
+    if (btnBaselineToggle) {
+      btnBaselineToggle.addEventListener('click', function() {
         ga('send', {
           hitType: 'event',
           eventCategory: 'Baseline',
           eventAction: 'click',
-          eventLabel: parseInt(this.textContent) + 'px'
+          eventLabel: 'toggle'
         });
       });
-    });
+    }
 
-    btnBaselineToggle.addEventListener('click', function() {
-      ga('send', {
-        hitType: 'event',
-        eventCategory: 'Baseline',
-        eventAction: 'click',
-        eventLabel: 'toggle'
+    if (btnBaselineColor) {
+      btnBaselineColor.addEventListener('click', function() {
+        ga('send', {
+          hitType: 'event',
+          eventCategory: 'Baseline',
+          eventAction: 'click',
+          eventLabel: 'color'
+        });
       });
-    });
-
-    btnBaselineColor.addEventListener('click', function() {
-      ga('send', {
-        hitType: 'event',
-        eventCategory: 'Baseline',
-        eventAction: 'click',
-        eventLabel: 'color'
-      });
-    });
+    }
 
     labLink.addEventListener('click', function() {
       ga('send', {

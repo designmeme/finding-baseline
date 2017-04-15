@@ -15,6 +15,7 @@
 
     {% include webfont.html families="['Roboto:400,700', 'Roboto Mono:400', 'Material Icons']" %}
 
+    <script src="{{ "/assets/js/getBaseline.js" | relative_url }}?v={{ site.time | date: "%s" }}"></script>
     <script src="{{ "/assets/js/main.js" | relative_url }}?v={{ site.time | date: "%s" }}"></script>
 
   </body>
