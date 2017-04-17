@@ -614,16 +614,23 @@ textarea {
 
 .calculator-text {
   overflow: hidden;
-  -webkit-box-sizing: content-box;
-          box-sizing: content-box;
-  height: 110px;
-  padding: 30px 0 60px;
+  height: 200px;
   margin-top: -30px;
   margin-bottom: -30px;
 }
 
-.calculator-text .text-wrapper {
+.calculator-text .inner {
   position: relative;
+  height: 100%;
+}
+
+.calculator-text .text-wrapper {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  height: 110px;
+  padding: 30px 0 85px;
 }
 
 .calculator-text .offset,
@@ -631,15 +638,14 @@ textarea {
   position: absolute;
   left: 0;
   right: 0;
+  top: 30px;
 }
 
 .calculator-text .offset {
-  top: 0;
   background-color: rgba(0, 0, 0, 0.08);
 }
 
 .calculator-text .baseline {
-  bottom: 0;
   background-color: #F50057;
 }
 
@@ -708,26 +714,20 @@ textarea {
 .size-controller input::-ms-track {
   width: 100%;
   height: 2px;
-  background-color: #2962FF;
   cursor: pointer;
   background: transparent;
   border-color: transparent;
-  border-width: 16px 0;
+  border-width: 10px 0;
   color: transparent;
 }
 
 .size-controller input::-ms-fill-lower {
-  background: #2a6495;
-  border: 0.2px solid #010101;
-  border-radius: 2.6px;
-  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  background: #2962FF;
+  border: 0;
 }
 
 .size-controller input::-ms-fill-upper {
-  background: #3071a9;
-  border: 0.2px solid #010101;
-  border-radius: 2.6px;
-  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  background: #2962FF;
 }
 
 .size-controller input::-ms-thumb {
@@ -737,14 +737,15 @@ textarea {
   border-radius: 50%;
   background-color: #2962FF;
   cursor: pointer;
+  margin-top: 0;
 }
 
 .size-controller input:focus::-ms-fill-lower {
-  background: #3071a9;
+  background: #2962FF;
 }
 
 .size-controller input:focus::-ms-fill-upper {
-  background: #367ebd;
+  background: #2962FF;
 }
 
 .calculator-result {
@@ -803,6 +804,17 @@ textarea {
 
 .calculator-all-data .brief {
   list-style: none;
+}
+
+.calculator-all-data .calculator-chart {
+  width: 100%;
+  height: 250px;
+  margin: 20px 0;
+}
+
+.calculator-all-data .responsive-table {
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 .calculator-all-data .baseline-data-table {

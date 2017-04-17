@@ -247,16 +247,13 @@
           newValue = selectedFontBaselineRatio || defaultFontBaselineRatio;
           baselineRatioInput.textContent = newValue.replace('0.', '.');
 
-          var tt = getBaseline(selectedFont)['baseline-ratio'];
-          console.log(tt.toFixed(3), newValue, tt - newValue);
-
           setMainArea();
-          hideHeader();
-          document.body.scrollTop = 0
         } else {
           // calculator page
           createCalculator();
         }
+        hideHeader();
+        document.body.scrollTop = 0;
       }
     });
   }
@@ -382,8 +379,8 @@
    */
   function createCalculator () {
     var raw = getBaseline(selectedFont);
-    var data = raw.data;
     var html = '';
+    var chartData = [];
     var currentSizeData, size, offset, height, ratio;
     var calcOffset = document.getElementById('calcOffset');
     var calcBaseline = document.getElementById('calcBaseline');
@@ -402,12 +399,12 @@
     briefRatio.innerText = raw['baseline-ratio'];
     rawData.innerText = JSON.stringify(raw, null, 2);
 
-    for (var i = 0; i < data.length; i++) {
+    for (var i = 0; i < raw.data.length; i++) {
       html += '<tr>';
-      html += '<td>' + data[i]['font-size'] + '</td>';
-      html += '<td>' + data[i]['baseline-offset'] + '</td>';
-      html += '<td>' + data[i]['baseline-height'] + '</td>';
-      html += '<td class="align-left">' + data[i]['baseline-ratio'] + '</td>';
+      html += '<td>' + raw.data[i]['font-size'] + '</td>';
+      html += '<td>' + raw.data[i]['baseline-offset'] + '</td>';
+      html += '<td>' + raw.data[i]['baseline-height'] + '</td>';
+      html += '<td class="align-left">' + raw.data[i]['baseline-ratio'] + '</td>';
       html += '</tr>';
     }
 
@@ -415,11 +412,12 @@
 
     function drawCalcText () {
       size = sizeRange.value;
-      currentSizeData = data[size - raw['font-size-range'][0]];
+      currentSizeData = raw.data[size - raw['font-size-range'][0]];
       calcText.style.fontSize = size + 'px';
       calcText.style.fontFamily = '"' + selectedFont + '"';
       calcOffset.style.height = currentSizeData['baseline-offset'];
       calcBaseline.style.height = currentSizeData['baseline-height'];
+      calcBaseline.style.marginTop = currentSizeData['baseline-offset'];
       resultSize.innerText = size + 'px';
       resultOffset.innerText = currentSizeData['baseline-offset'];
       resultHeight.innerText = currentSizeData['baseline-height'];
@@ -428,6 +426,39 @@
     sizeRange.addEventListener('change', drawCalcText); // for ie10
     sizeRange.addEventListener('input', drawCalcText);
     drawCalcText();
+
+    google.charts.load("current", {packages:["corechart"]});
+    google.charts.setOnLoadCallback(drawChart);
+    function drawChart() {
+      chartData.push(['Font Size', 'Baseline Ratio']);
+      for (var i = 0; i < raw.data.length; i++) {
+        chartData.push([raw.data[i]['font-size'], raw.data[i]['baseline-ratio']]);
+      }
+
+      var data = google.visualization.arrayToDataTable(chartData);
+      var chartDiv = document.getElementById('chart_div');
+
+      var options = {
+        title: 'Histogram of Baseline Ratio',
+        legend: { position: 'none' },
+        colors: ['#2962ff'],
+        chartArea:{left:30,right:0,top:40,bottom: 20},
+        // chartArea: { width: chartDiv.offsetWidth },
+        hAxis: {
+          ticks: [-0.1, 0, 0.1, 0.2, 0.3, 0.4, 0.5]
+        },
+        vAxis: { ticks: [0, 10, 20, 30, 40] },
+        bar: { gap: 0 },
+        histogram: {
+          maxNumBuckets: 300,
+          minValue: -0.12,
+          maxValue: 0.52
+        }
+      };
+
+      var chart = new google.visualization.Histogram(chartDiv);
+      chart.draw(data, options);
+    }
   }
 
   /*
@@ -438,7 +469,6 @@
       e.preventDefault();
 
       var div = document.getElementById('rawData');
-      console.log(div.style.display);
       if (window.getComputedStyle(div)['display'] == 'none') {
         div.style.display = 'block';
       } else {

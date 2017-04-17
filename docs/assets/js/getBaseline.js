@@ -1,5 +1,5 @@
 /*!
- * getBaseline.js v0.1.0
+ * getBaseline.js v0.1.1
  *
  * Released under the MIT Licence
  * https://github.com/designmeme/getBaseline.js/blob/master/LICENSE

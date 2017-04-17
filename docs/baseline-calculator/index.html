@@ -18,10 +18,12 @@ description: Baseline Calculator of google fonts. Check baseline offset, baselin
 </div>
 
 <div class="calculator-text">
-  <div class="text-wrapper">
+  <div class="inner">
     <div id="calcOffset" class="offset"></div>
     <div id="calcBaseline" class="baseline"></div>
-    <p id="calcText" class="text">The quick brown fox jumps over the lazy dog</p>
+    <div class="text-wrapper">
+      <p id="calcText" class="text">The quick brown fox jumps over the lazy dog</p>
+    </div>
   </div>
 </div>
 
@@ -53,19 +55,22 @@ description: Baseline Calculator of google fonts. Check baseline offset, baselin
     <li>Font Family: <span id="briefFamily"></span></li>
     <li>Font Size Range: 11px ~ 110px</li>
     <li>Baseline Ratio: <strong id="briefRatio"></strong></li>
-    <li>Data:</li>
   </ul>
-  <table class="baseline-data-table">
-    <thead>
-    <tr>
-      <th scope="col">Font Size</th>
-      <th scope="col">Baseline Offset</th>
-      <th scope="col">Baseline Height</th>
-      <th scope="col" class="align-left">Baseline Ratio</th>
-    </tr>
-    </thead>
-    <tbody id="dataTable"><tr><td colspan="4">loading...</td></tr></tbody>
-  </table>
+  <div id="chart_div" class="calculator-chart"></div>
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <div class="responsive-table">
+    <table class="baseline-data-table">
+      <thead>
+      <tr>
+        <th scope="col">Font Size</th>
+        <th scope="col">Baseline Offset</th>
+        <th scope="col">Baseline Height</th>
+        <th scope="col" class="align-left">Baseline Ratio</th>
+      </tr>
+      </thead>
+      <tbody id="dataTable"><tr><td colspan="4">loading...</td></tr></tbody>
+    </table>
+  </div>
   <p class="link-raw-data"><a href="#" id="btnRaw" role="button">View raw data</a></p>
   <pre id="rawData" class="raw-data"></pre>
 </div>
