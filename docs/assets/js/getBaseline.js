@@ -1,5 +1,5 @@
 /*!
- * getBaseline.js v0.1.1
+ * getBaseline.js v0.1.2
  *
  * Released under the MIT Licence
  * https://github.com/designmeme/getBaseline.js/blob/master/LICENSE
@@ -65,17 +65,10 @@
       return sum / array.length;
     }
 
-    function meanAbsoluteDeviation(array) {
-      var average = mean(array);
-      return mean(array.map(function(num) {
-        return Math.abs(num - average);
-      }));
-    }
-
     return {
       'font-family': font,
       'font-size-range': sizeRange,
-      'baseline-ratio': mean(ratioList) + meanAbsoluteDeviation(ratioList),
+      'baseline-ratio': mean(ratioList),
       'data': data
     };
   };
