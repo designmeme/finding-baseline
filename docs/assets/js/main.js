@@ -451,8 +451,7 @@
           ticks: [-0.1, 0, 0.1, 0.2, 0.3, 0.4, 0.5],
           title: 'Baseline Ratio',
           baseline: raw['baseline-ratio'],
-          baselineColor: '#F50057',
-          gridlines: {color: '#ccc'}
+          baselineColor: '#F50057'
         },
         vAxis: {
           ticks: [0, 10, 20, 30, 40],
@@ -493,7 +492,7 @@
           title: 'Baseline Ratio',
           baseline: raw['baseline-ratio'],
           baselineColor: '#F50057',
-          gridlines: {color: '#ccc'}
+          gridlines: {color: '#fff'}
         },
         vAxis: {
           ticks: [10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110],
