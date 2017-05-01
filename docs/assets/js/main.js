@@ -381,7 +381,7 @@
   function createCalculator () {
     var raw = getBaseline(selectedFont);
     var html = '';
-    var currentSizeData, size, offset, height, ratio;
+    var ratioList = [];
     var calcOffset = document.getElementById('calcOffset');
     var calcBaseline = document.getElementById('calcBaseline');
     var calcText = document.getElementById('calcText');
@@ -390,13 +390,16 @@
     var resultOffset = document.getElementById('resultOffset');
     var resultHeight = document.getElementById('resultHeight');
     var resultRatio = document.getElementById('resultRatio');
-    var briefFamily = document.getElementById('briefFamily');
-    var briefRatio = document.getElementById('briefRatio');
+    var brief = document.getElementById('brief');
     var dataTable = document.getElementById('dataTable');
     var rawData = document.getElementById('rawData');
 
-    briefFamily.innerText = raw['font-family'];
-    briefRatio.innerText = raw['baseline-ratio'];
+    for (var i = 0; i < raw.data.length; i++) {
+      ratioList.push(raw.data[i]['baseline-ratio']);
+    }
+    brief.innerHTML = '<li>Font Family:' + raw['font-family'] + '</li>' +
+      '<li>Font Size Range: 11px ~ 110px</li>' +
+      '<li>Baseline Ratio(average): ' + raw['baseline-ratio'] + '</li>';
     rawData.innerText = JSON.stringify(raw, null, 2);
 
     for (var i = 0; i < raw.data.length; i++) {
@@ -411,8 +414,8 @@
     dataTable.innerHTML = html;
 
     function drawCalcText () {
-      size = sizeRange.value;
-      currentSizeData = raw.data[size - raw['font-size-range'][0]];
+      var size = sizeRange.value;
+      var currentSizeData = raw.data[size - raw['font-size-range'][0]];
       calcText.style.fontSize = size + 'px';
       calcText.style.fontFamily = '"' + selectedFont + '"';
       calcOffset.style.height = currentSizeData['baseline-offset'];
