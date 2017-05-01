@@ -612,6 +612,12 @@ textarea {
   background-image: linear-gradient(to bottom, #F50057 0, rgba(255, 255, 255, 0) 1px);
 }
 
+.calculator-wrapper, .size-controller, .calculator-result {
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .calculator-text {
   overflow: hidden;
   height: 200px;
@@ -660,8 +666,7 @@ textarea {
 
 .size-controller {
   position: relative;
-  max-width: 640px;
-  margin: 0 auto 20px;
+  margin-bottom: 20px;
 }
 
 .size-controller input {
@@ -749,8 +754,6 @@ textarea {
 }
 
 .calculator-result {
-  max-width: 640px;
-  margin: 0 auto;
   list-style: none;
   text-align: center;
 }
@@ -797,8 +800,7 @@ textarea {
 }
 
 .calculator-all-data {
-  max-width: 640px;
-  margin: 50px auto 0;
+  margin-top: 50px;
   font-size: 0.875rem;
 }
 
@@ -807,9 +809,8 @@ textarea {
 }
 
 .calculator-all-data .calculator-chart {
-  width: 100%;
-  height: 250px;
-  margin: 20px 0;
+  max-width: 1200px;
+  margin: 20px auto;
 }
 
 .calculator-all-data .responsive-table {

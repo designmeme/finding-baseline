@@ -250,6 +250,7 @@
           setMainArea();
         } else {
           // calculator page
+          hideHeader(); // fix chart width issue
           createCalculator();
         }
         hideHeader();
@@ -380,7 +381,6 @@
   function createCalculator () {
     var raw = getBaseline(selectedFont);
     var html = '';
-    var chartData = [];
     var currentSizeData, size, offset, height, ratio;
     var calcOffset = document.getElementById('calcOffset');
     var calcBaseline = document.getElementById('calcBaseline');
@@ -430,6 +430,7 @@
     google.charts.load("current", {packages:["corechart"]});
     google.charts.setOnLoadCallback(drawChart);
     function drawChart() {
+      var chartData = [];
       chartData.push(['Font Size', 'Baseline Ratio']);
       for (var i = 0; i < raw.data.length; i++) {
         chartData.push([raw.data[i]['font-size'], raw.data[i]['baseline-ratio']]);
@@ -442,12 +443,18 @@
         title: 'Histogram of Baseline Ratio',
         legend: { position: 'none' },
         colors: ['#2962ff'],
-        chartArea:{left:30,right:0,top:40,bottom: 20},
-        // chartArea: { width: chartDiv.offsetWidth },
+        chartArea:{left:50,right:0,top:40,bottom: 40},
         hAxis: {
-          ticks: [-0.1, 0, 0.1, 0.2, 0.3, 0.4, 0.5]
+          ticks: [-0.1, 0, 0.1, 0.2, 0.3, 0.4, 0.5],
+          title: 'Baseline Ratio',
+          baseline: raw['baseline-ratio'],
+          baselineColor: '#F50057',
+          gridlines: {color: '#ccc'}
         },
-        vAxis: { ticks: [0, 10, 20, 30, 40] },
+        vAxis: {
+          ticks: [0, 10, 20, 30, 40],
+          title: 'Frequency'
+        },
         bar: { gap: 0 },
         histogram: {
           maxNumBuckets: 300,
@@ -457,6 +464,43 @@
       };
 
       var chart = new google.visualization.Histogram(chartDiv);
+      chart.draw(data, options);
+    }
+
+    google.charts.load('current', {packages: ['corechart', 'line']});
+    google.charts.setOnLoadCallback(drawCurveTypes);
+
+    function drawCurveTypes() {
+      var chartData = [];
+      chartData.push(['Font Size', 'Baseline Ratio']);
+      for (var i = 0; i < raw.data.length; i++) {
+        chartData.push([parseInt(raw.data[i]['font-size']), raw.data[i]['baseline-ratio']]);
+      }
+
+      var data = google.visualization.arrayToDataTable(chartData);
+
+      var options = {
+        title: 'Baseline Ratio to Font Size',
+        legend: { position: 'none' },
+        colors: ['#2962ff'],
+        chartArea:{left:50,right:0,top:40,bottom: 40},
+        orientation: 'vertical',
+        hAxis: {
+          ticks: [-0.1, 0, 0.1, 0.2, 0.3, 0.4, 0.5],
+          title: 'Baseline Ratio',
+          baseline: raw['baseline-ratio'],
+          baselineColor: '#F50057',
+          gridlines: {color: '#ccc'}
+        },
+        vAxis: {
+          ticks: [10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110],
+          title: 'Font Size'
+        },
+        lineWidth: 1,
+        pointSize: 2
+      };
+
+      var chart = new google.visualization.LineChart(document.getElementById('chart_div2'));
       chart.draw(data, options);
     }
   }

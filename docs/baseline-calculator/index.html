@@ -51,26 +51,33 @@ description: Baseline Calculator of google fonts. Check baseline offset, baselin
 </ul>
 
 <div class="calculator-all-data">
-  <ul class="brief">
-    <li>Font Family: <span id="briefFamily"></span></li>
-    <li>Font Size Range: 11px ~ 110px</li>
-    <li>Baseline Ratio: <strong id="briefRatio"></strong></li>
-  </ul>
-  <div id="chart_div" class="calculator-chart"></div>
-  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-  <div class="responsive-table">
-    <table class="baseline-data-table">
-      <thead>
-      <tr>
-        <th scope="col">Font Size</th>
-        <th scope="col">Baseline Offset</th>
-        <th scope="col">Baseline Height</th>
-        <th scope="col" class="align-left">Baseline Ratio</th>
-      </tr>
-      </thead>
-      <tbody id="dataTable"><tr><td colspan="4">loading...</td></tr></tbody>
-    </table>
+  <div class="calculator-wrapper">
+    <ul class="brief">
+      <li>Font Family: <span id="briefFamily"></span></li>
+      <li>Font Size Range: 11px ~ 110px</li>
+      <li>Baseline Ratio(average): <strong id="briefRatio"></strong></li>
+    </ul>
   </div>
-  <p class="link-raw-data"><a href="#" id="btnRaw" role="button">View raw data</a></p>
-  <pre id="rawData" class="raw-data"></pre>
+
+  <div id="chart_div" class="calculator-chart" style="width: 100%; height: 250px;"></div>
+  <div id="chart_div2" class="calculator-chart calculator-chart2" style="width: 100%; height: 350px;"></div>
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+  <div class="calculator-wrapper">
+    <div class="responsive-table">
+      <table class="baseline-data-table">
+        <thead>
+        <tr>
+          <th scope="col">Font Size</th>
+          <th scope="col">Baseline Offset</th>
+          <th scope="col">Baseline Height</th>
+          <th scope="col" class="align-left">Baseline Ratio</th>
+        </tr>
+        </thead>
+        <tbody id="dataTable"><tr><td colspan="4">loading...</td></tr></tbody>
+      </table>
+    </div>
+    <p class="link-raw-data"><a href="#" id="btnRaw" role="button">View raw data</a></p>
+    <pre id="rawData" class="raw-data"></pre>
+  </div>
 </div>
