@@ -36,4 +36,5 @@ exclude:
   - README.md
   - node_modules
   - vendor
-#gems:
+gems:
+  - jekyll-sitemap
