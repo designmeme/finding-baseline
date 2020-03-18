@@ -21,7 +21,7 @@ defaults:
 # Custom vars
 google_analytics: UA-93339811-1
 favicon_version: 1.1.1
-paypal: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=AKTGBZD4YZWGG&lc=GA&item_name=designmeme&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted
+paypal: https://paypal.me/jihyelee1219
 
 # Build settings
 permalink:        pretty

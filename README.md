@@ -44,4 +44,4 @@ Code and documentation copyright Lee Jihye. Code released under the [MIT License
 [jekyll]: http://jekyllrb.com/
 [install]: https://jekyllrb.com/docs/installation/
 [documentation]: https://jekyllrb.com/docs/home/
-[paypal]: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=AKTGBZD4YZWGG&lc=GA&item_name=designmeme&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted
+[paypal]: https://paypal.me/jihyelee1219
