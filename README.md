@@ -39,7 +39,7 @@ If it is helpful for you, [Please support us!][paypal]
 
 ## Copyright and license
 
-Code and documentation copyright 2017 designmeme. Code released under the [MIT License](LICENSE).
+Code and documentation copyright Lee Jihye. Code released under the [MIT License](LICENSE).
 
 [jekyll]: http://jekyllrb.com/
 [install]: https://jekyllrb.com/docs/installation/
