@@ -6,7 +6,8 @@
     "jekyll serve": "bundle exec jekyll serve --baseurl ''",
     "gulp": "gulp",
     "gulp css": "gulp css",
-    "Update Github Pages gem": "gem update github-pages"
+    "Update Github Pages gem": "gem update github-pages",
+    "update bundle": "bundle update"
   },
   "dependencies": {},
   "devDependencies": {
